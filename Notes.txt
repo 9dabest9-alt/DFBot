@@ -1,0 +1,45 @@
+1-
+2-
+3-
+4-
+5-
+6-
+7-
+8-
+9-
+10-
+11-
+12-
+13-
+14-
+15-
+16-
+17-
+18-
+19-
+20-
+
+//Further Development
+Build autocomplete engine
+
+Build search engine
+
+Build autocomplete engine
+
+Add modifier logic
+
+
+
+
+//✔ Ready for expansion
+You can add:
+
+category filters
+
+collapsible result blocks
+
+icons
+
+color coding
+
+keyboard navigation

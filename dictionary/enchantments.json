@@ -1,0 +1,217 @@
+{
+  "notes": {
+    "1": "Cost is for a suit of armor. Piecewise armor can have Deflect or Fortify that adds Defense Bonus or Damage Resistance only vs. attacks on that location, or Lighten for just the weight of that piece. Use 10% of cost for head, 35% for body, 15% for arms, 5% for hands, 25% for legs, or 10% for feet. Further halve the cost for a breastplate or just one limb or extremity.",
+    "2": "Defense Bonus adds to that of any mundane shield. If both shield and armor have Deflect, only the highest magical DB applies. See Defense Bonus (Exploits, p. 47).",
+    "3": "Follow-up. Adds injury of listed type if attack pierces DR. Doesn’t add basic damage.",
+    "4": "Halves target’s DR. See Armor Divisors (Exploits, pp. 52-53)."
+  },
+  "enchantments": [
+    {
+      "spell": "Accuracy",
+      "effects": "+1 to hit",
+      "base_item": "weapon",
+      "cost": "$5000",
+      "prefix": "accurate",
+      "suffix": "Of seeking",
+      "notes": []
+    },
+    {
+      "spell": "Accuracy",
+      "effects": "+1 to hit",
+      "base_item": "projectile",
+      "cost": "25",
+      "prefix": "true",
+      "suffix": "Of true flight",
+      "notes": []
+    },
+    {
+      "spell": "Continual Light",
+      "effects": "Light equal to torch",
+      "base_item": "any",
+      "cost": "8000",
+      "prefix": "glowing",
+      "suffix": "Of light",
+      "notes": []
+    },
+    {
+      "spell": "Defending Weapon/Shield",
+      "effects": "+1 to Parry/Block",
+      "base_item": "Melee Weapon/Shield",
+      "cost": "$10,000",
+      "prefix": "Defending",
+      "suffix": "of Defense",
+      "notes": []
+    },
+    {
+      "spell": "Deflect",
+      "effects": "+1 Defense Bonus",
+      "base_item": "Armor/Shield",
+      "cost": "$2,000",
+      "prefix": "Warding",
+      "suffix": "of Warding",
+      "notes": ["1", "2"]
+    },
+    {
+      "spell": "Deflect",
+      "effects": "+2 Defense Bonus",
+      "base_item": "Armor/Shield",
+      "cost": "$10,000",
+      "prefix": "Deflecting",
+      "suffix": "of Deflection",
+      "notes": ["1", "2"]
+    },
+    {
+      "spell": "Flaming Weapon",
+      "effects": "+2 fire",
+      "base_item": "Melee Weapon",
+      "cost": "$15,400",
+      "prefix": "Flaming",
+      "suffix": "of Flame",
+      "notes": ["3"]
+    },
+    {
+      "spell": "Flaming Weapon",
+      "effects": "+2 fire",
+      "base_item": "Projectile",
+      "cost": "$75",
+      "prefix": "Fire",
+      "suffix": "of Burning",
+      "notes": ["3"]
+    },
+    {
+      "spell": "Fortify",
+      "effects": "+1 Damage Resistance",
+      "base_item": "Armor",
+      "cost": "$1,000",
+      "prefix": "Unyielding",
+      "suffix": "of Solidity",
+      "notes": ["1"]
+    },
+    {
+      "spell": "Fortify",
+      "effects": "+2 Damage Resistance",
+      "base_item": "Armor",
+      "cost": "$4,000",
+      "prefix": "Impenetrable",
+      "suffix": "of Invulnerability",
+      "notes": ["1"]
+    },
+    {
+      "spell": "Icy Weapon",
+      "effects": "+2 cold",
+      "base_item": "Melee Weapon",
+      "cost": "$17,000",
+      "prefix": "Icy",
+      "suffix": "of Ice",
+      "notes": ["3"]
+    },
+    {
+      "spell": "Icy Weapon",
+      "effects": "+2 cold",
+      "base_item": "Projectile",
+      "cost": "$75",
+      "prefix": "Cold",
+      "suffix": "of Freezing",
+      "notes": ["3"]
+    },
+    {
+      "spell": "Lighten",
+      "effects": "-25% from weight",
+      "base_item": "Armor/Shield",
+      "cost": "$2,000",
+      "prefix": "Light",
+      "suffix": "of Lightness",
+      "notes": ["1"]
+    },
+    {
+      "spell": "Lighten",
+      "effects": "-50% from weight",
+      "base_item": "Armor/Shield",
+      "cost": "$10,000",
+      "prefix": "Weightless",
+      "suffix": "of Weightlessness",
+      "notes": ["1"]
+    },
+    {
+      "spell": "Lightning Weapon",
+      "effects": "+2 electrical",
+      "base_item": "Melee Weapon",
+      "cost": "$15,300",
+      "prefix": "Crackling",
+      "suffix": "of Shocking",
+      "notes": ["3"]
+    },
+    {
+      "spell": "Lightning Weapon",
+      "effects": "+2 electrical",
+      "base_item": "Projectile",
+      "cost": "$75",
+      "prefix": "Lightning",
+      "suffix": "of Lightning",
+      "notes": ["3"]
+    },
+    {
+      "spell": "Penetrating Weapon",
+      "effects": "armor divisor (2)",
+      "base_item": "Melee Weapon",
+      "cost": "$5,000",
+      "prefix": "Penetrating",
+      "suffix": "of Penetration",
+      "notes": ["4"]
+    },
+    {
+      "spell": "Penetrating Weapon",
+      "effects": "armor divisor (2)",
+      "base_item": "Missile Weapon",
+      "cost": "$10,000",
+      "prefix": "Penetrating",
+      "suffix": "of Penetration",
+      "notes": ["4"]
+    },
+    {
+      "spell": "Penetrating Weapon",
+      "effects": "armor divisor (2)",
+      "base_item": "Projectile",
+      "cost": "$25",
+      "prefix": "Burrowing",
+      "suffix": "of Piercing",
+      "notes": ["4"]
+    },
+    {
+      "spell": "Puissance",
+      "effects": "+1 damage",
+      "base_item": "Melee Weapon",
+      "cost": "$5,000",
+      "prefix": "Mighty",
+      "suffix": "of Smiting",
+      "notes": []
+    },
+    {
+      "spell": "Puissance",
+      "effects": "+1 damage",
+      "base_item": "Missile Weapon",
+      "cost": "$10,000",
+      "prefix": "Strongarm",
+      "suffix": "of Striking",
+      "notes": []
+    },
+    {
+      "spell": "Puissance",
+      "effects": "+1 damage",
+      "base_item": "Projectile",
+      "cost": "$25",
+      "prefix": "Swift",
+      "suffix": "of Impact",
+      "notes": []
+    },
+    {
+      "spell": "Shatterproof",
+      "effects": "unbreakable",
+      "base_item": "Weapon",
+      "cost": "$8,000",
+      "prefix": "Eternal",
+      "suffix": "Of Durability",
+      "notes": []
+    }
+  ]
+}
