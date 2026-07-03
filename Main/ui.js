@@ -41,6 +41,7 @@ searchBox.addEventListener("input", () => {
 
   if (!term) return;
 
+  
   const modifierMatches = findModifierMatches(term);
   const normalMatches = findNormalMatches(term);
 
@@ -74,6 +75,7 @@ function runSearch() {
 
   let finalResults = [];
 
+  //NOTE DONT ERASE
   //Temporary for Unifying dictionary structure
   /* if (term.startsWith("export ")) {
     const fileName = term.replace("export ", "").trim();
@@ -173,7 +175,6 @@ function buildNoteBlock(noteIds, noteSource) {
   `;
 }
 
-//Shortcut buttons
 
 function getNoteSource(entry) {
   
@@ -182,4 +183,34 @@ function getNoteSource(entry) {
 
 
 
+function handleShortcutClear(e) {
+  if (e.ctrlKey && e.key === "Backspace") {
+    e.preventDefault();
+    const box = document.getElementById("searchBox");
+    const auto = document.getElementById("autocompleteList");
+    const results = document.getElementById("results");
+    
+    if (box) box.value = "";
+    if (auto) auto.innerHTML = "";
+    if (results) results.innerHTML = "";
+    
+    return true;
+  }
+  return false;
+}
+
+
+/* if (e.ctrlKey && e.key === "Delete") {
+  e.preventDefault();
+  searchBox.value = "";
+  return true;
+} */
+
 searchBtn.onclick = runSearch;
+
+//Shortcut buttons
+window.addEventListener("keydown", (e) => {
+  if (handleShortcutClear(e)) return;
+  // ... your other shortcuts
+});
+

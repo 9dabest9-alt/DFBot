@@ -23,21 +23,6 @@ function normalizeEntry(entry, category, sourceFile) {
 }
 
 
-// Loader for .json files
-/* function loadFile(json) {
-  const out = [];
-
-  /* json.notes.forEach(entry =>
-    out.push(normalizeEntry(entry, "notes", "gear.json"))
-  ); */
-
- /*  json.items.forEach(entry =>
-    out.push(normalizeEntry(entry, "items", "gear.json"))
-  ); 
-
-  return out;
-} */
-
 function loadFile(json) {
   const notes = json.notes || {};
   const items = json.items || [];
@@ -47,9 +32,6 @@ function loadFile(json) {
     return entry;
   });
 }
-
-
-
 
 // Main loader: accepts an object containing all JSON files
 export function loadDictionary(files) {
