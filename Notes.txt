@@ -16,8 +16,15 @@
 16-
 17-
 18-
-19-Clear last search with escape key
+19-
 20-make commands such as list - spells, armour ect
+
+****************************************
+//Shortcuts 
+ctrl + backspace -- clears screen
+ctrl + L -- focuses textbox and selects all
+**********************************************
+
 
 ⭐ What this enables next (the fun part)
 Now that the dictionary is unified, you can add:

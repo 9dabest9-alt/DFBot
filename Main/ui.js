@@ -184,15 +184,29 @@ function getNoteSource(entry) {
 
 
 function handleShortcutClear(e) {
-  if (e.ctrlKey && e.key === "Backspace") {
+  if (e.ctrlKey && e.key === "Backspace")  {
     e.preventDefault();
     const box = document.getElementById("searchBox");
     const auto = document.getElementById("autocompleteList");
     const results = document.getElementById("results");
-    
+
     if (box) box.value = "";
     if (auto) auto.innerHTML = "";
     if (results) results.innerHTML = "";
+
+    return true;
+  }
+  return false;
+}
+
+function handleShortcutFocusSearch(e) {
+  if (e.ctrlKey && e.key.toLowerCase() === "l") {
+    e.preventDefault();
+    const box = document.getElementById("searchBox");
+    if (box) {
+      box.focus();
+      box.select();
+    }
     
     return true;
   }
@@ -200,17 +214,13 @@ function handleShortcutClear(e) {
 }
 
 
-/* if (e.ctrlKey && e.key === "Delete") {
-  e.preventDefault();
-  searchBox.value = "";
-  return true;
-} */
 
 searchBtn.onclick = runSearch;
 
 //Shortcut buttons
 window.addEventListener("keydown", (e) => {
   if (handleShortcutClear(e)) return;
+  if (handleShortcutFocusSearch(e)) return;
   // ... your other shortcuts
 });
 
