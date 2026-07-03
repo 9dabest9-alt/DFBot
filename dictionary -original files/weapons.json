@@ -1,5 +1,5 @@
 {
-  "notes": {
+  "weapon_notes": {
     "1": "Usually poisoned (Poisons, pp. 115-116), but must penetrate DR to deliver poison.",
     "2": "Requires two hands to ready, but only one hand to attack.",
     "3": "May entangle or ensnare target; see Special Rules for Thrown Weapons (Exploits, pp. 43-45).",
@@ -7,35 +7,19 @@
     "5": "An atlatl hurls standard throwing darts or javelins; a woomera hurls standard spears. Compare the Thrown Weapon (Dart) and Thrown Weapon (Spear) listings.",
     "6": "Dedicated throwing axes and hatchets that lack proper handles cost $10 less, but give -2 to skill as melee weapons (and thus -1 to Parry).",
     "7": "Tethered. See Harpoons (Exploits, p. 44).",
-    "8": "In melee combat, small and large throwing knives work, respectively, as small and large knives, but give -2 to skill (and thus -1 to Parry on top of the usual -1 to Parry for knives).",
-  
-    "101": "Usually poisoned. Add the cost of one dose of poison per dart.",
-    "102": "Ordinary rocks and stones can be found almost anywhere (in combat, make a Scrounging roll), but are less accurate: -1 to hit.",
-    "103": "Lead bullets give +1 damage and double range.",
-
-    "201": "Can be thrown. See the Ranged Weapons Table (pp. 103-105).",
-    "202": "May get stuck; see Picks (Exploits, p. 39).",
-    "203": "Specifically designed to target chinks in armor (Exploits, p. 37). Reduce the penalty for this by -2.",
-    "204": "Armed or unarmed, this attack receives damage bonuses for whichever of Boxing (p. 93), Brawling (pp. 93-94), or Karate (p. 94) is used to deliver it. Claws, like those of cat folk, don’t affect damage with blows assisted by gauntlets, boots, or weapons.",
-    "205": "Gives the hand (only) DR 4. A cestus is a glove, mutually exclusive with other gloves. In all other cases, this is a metal hilt; DR is cumulative with that of gloves, but the hilt is too cramped to accommodate metal gauntlets.",
-    "206": "If you miss with a kick, roll vs. DX to avoid falling.",
-    "207": "Attempts to parry flails and kusaris are at -4; knives and fencing weapons (“F” parry) can’t parry at all! Attempts to block such weapons are at -2.",
-    "208": "A rope garrote; a wire one costs $10. See Garrotes (Exploits, p. 39).",
-    "209": "Gets +2 to disarm when wielded with this skill; see Attacking Weapons (Exploits, p. 37).",
-    "210": "Improved disarm on your turn after a parry; see Swords (p. 81).",
-    "211": "Use Boxing, Brawling, or Karate parry if better than weapon parry.",
-    "212": "Tridents are awkward and always have -2 to hit, but there’s no additional -2 for attacking to disarm; see Attacking Weapons (Exploits, p. 37). The many points give the target -1 to Dodge, +1 to Block or Parry.",
-    "213": "The butt of a dueling glaive, dueling halberd, naginata, or pollaxe used as a staff. Cost, weight, and ST are as listed for the weapon under the Polearm skill.",
-    "214": "Fully functional as a digging shovel. Used by grave- digging undead-slayers.",
-    "215": "Specify maximum reach (1-7 yards) when bought. Cost and weight are per yard. The bullwhip requires ST 3, +1 per yard. The spiked whip requires ST 5, +1 per yard. Many special rules apply; see Whips (Exploits, p. 39).",
-    "_comment": "Weapon Notes start at 1, Amunition Notes start at 101, Melee Weapon Notes start at 201"
+    "8": "In melee combat, small and large throwing knives work, respectively, as small and large knives, but give -2 to skill (and thus -1 to Parry on top of the usual -1 to Parry for knives)."
   },
-  "items": [
+  "ammunition_notes": {
+    "1": "Usually poisoned. Add the cost of one dose of poison per dart.",
+    "2": "Ordinary rocks and stones can be found almost anywhere (in combat, make a Scrounging roll), but are less accurate: -1 to hit.",
+    "3": "Lead bullets give +1 damage and double range."
+  },
+  "weapons": [
     {
       "category": "ranged_weapon",
       "group": "BLOWPIPE (DX-6)",
       "name": "Blowpipe",
-      "search_name": "blowpipe ranged weapon",
+      "search_name": "blowpipe",
       "damage": "1d-3 pi-",
       "accuracy": "1",
       "range": "¥4",
@@ -47,14 +31,13 @@
       "notes": [
         "1",
         "2"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "BOLAS (No default)",
       "name": "Bolas",
-      "search_name": "bolas ranged weapon",
+      "search_name": "bolas",
       "damage": "thr-1 cr",
       "accuracy": "0",
       "range": "¥3",
@@ -65,14 +48,13 @@
       "bulk": "-2",
       "notes": [
         "3"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "BOW (DX-5)",
       "name": "Composite Bow",
-      "search_name": "composite bow ranged weapon",
+      "search_name": "composite bow",
       "damage": "thr+3 imp",
       "accuracy": "3",
       "range": "¥20/¥25",
@@ -81,14 +63,13 @@
       "cost": "$900",
       "st": "10†",
       "bulk": "-7",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "BOW (DX-5)",
       "name": "Longbow",
-      "search_name": "longbow ranged weapon",
+      "search_name": "longbow",
       "damage": "thr+2 imp",
       "accuracy": "3",
       "range": "¥15/¥20",
@@ -97,14 +78,13 @@
       "cost": "$200",
       "st": "11†",
       "bulk": "-8",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "BOW (DX-5)",
       "name": "Regular Bow",
-      "search_name": "regular bow ranged weapon",
+      "search_name": "regular bow",
       "damage": "thr+1 imp",
       "accuracy": "2",
       "range": "¥15/¥20",
@@ -113,14 +93,13 @@
       "cost": "$100",
       "st": "10†",
       "bulk": "-7",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "BOW (DX-5)",
       "name": "Short Bow",
-      "search_name": "short bow ranged weapon",
+      "search_name": "short bow",
       "damage": "thr imp",
       "accuracy": "1",
       "range": "¥10/¥15",
@@ -129,14 +108,13 @@
       "cost": "$50",
       "st": "7†",
       "bulk": "-6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "CROSSBOW (DX-4)",
       "name": "Composite Crossbow",
-      "search_name": "composite crossbow ranged weapon",
+      "search_name": "composite crossbow",
       "damage": "thr+5 imp",
       "accuracy": "4",
       "range": "¥25/¥30",
@@ -145,14 +123,13 @@
       "cost": "$950",
       "st": "8†",
       "bulk": "-6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "CROSSBOW (DX-4)",
       "name": "Crossbow",
-      "search_name": "crossbow ranged weapon",
+      "search_name": "crossbow",
       "damage": "thr+4 imp",
       "accuracy": "4",
       "range": "¥20/¥25",
@@ -161,14 +138,13 @@
       "cost": "$150",
       "st": "7†",
       "bulk": "-6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "CROSSBOW (DX-4)",
       "name": "Pistol Crossbow",
-      "search_name": "pistol crossbow ranged weapon",
+      "search_name": "pistol crossbow",
       "damage": "thr+2 imp",
       "accuracy": "1",
       "range": "¥15/¥20",
@@ -179,14 +155,13 @@
       "bulk": "-4",
       "notes": [
         "2"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "CROSSBOW (DX-4)",
       "name": "Prodd",
-      "search_name": "prodd ranged weapon",
+      "search_name": "prodd",
       "damage": "thr+4 pi",
       "accuracy": "2",
       "range": "¥20/¥25",
@@ -195,14 +170,13 @@
       "cost": "$150",
       "st": "7†",
       "bulk": "-6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "LASSO (No default)",
       "name": "Lariat",
-      "search_name": "lariat ranged weapon",
+      "search_name": "lariat",
       "damage": "spec.",
       "accuracy": "0",
       "range": "10",
@@ -213,14 +187,13 @@
       "bulk": "-2",
       "notes": [
         "3"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "NET (Cloak-5)",
       "name": "Large Net",
-      "search_name": "large net ranged weapon",
+      "search_name": "large net",
       "damage": "spec.",
       "accuracy": "1",
       "range": "spec.",
@@ -233,14 +206,13 @@
         "2",
         "3",
         "4"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "NET (Cloak-5)",
       "name": "Melee Net",
-      "search_name": "melee net ranged weapon",
+      "search_name": "melee net",
       "damage": "spec.",
       "accuracy": "1",
       "range": "spec.",
@@ -252,14 +224,13 @@
       "notes": [
         "3",
         "4"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "SLING (DX-6)",
       "name": "Heavy Sling",
-      "search_name": "heavy sling ranged weapon",
+      "search_name": "heavy sling",
       "damage": "sw+2 cr",
       "accuracy": "1",
       "range": "¥3/¥6",
@@ -268,14 +239,13 @@
       "cost": "$20",
       "st": "8†",
       "bulk": "-5",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "SLING (DX-6)",
       "name": "Sling",
-      "search_name": "sling ranged weapon",
+      "search_name": "sling",
       "damage": "sw pi",
       "accuracy": "0",
       "range": "¥6/¥10",
@@ -286,14 +256,13 @@
       "bulk": "-4",
       "notes": [
         "2"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "SLING (DX-6)",
       "name": "Staff Sling",
-      "search_name": "staff sling ranged weapon",
+      "search_name": "staff sling",
       "damage": "sw+1 pi",
       "accuracy": "1",
       "range": "¥10/¥15",
@@ -302,14 +271,13 @@
       "cost": "$20",
       "st": "7†",
       "bulk": "-6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "SPEAR THROWER (DX-5 or Thrown Weapon (Spear)-4)",
       "name": "Atlatl",
-      "search_name": "atlatl ranged weapon",
+      "search_name": "atlatl",
       "damage": "–",
       "accuracy": "–",
       "range": "–",
@@ -320,14 +288,13 @@
       "bulk": "–",
       "notes": [
         "2"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "SPEAR THROWER (DX-5 or Thrown Weapon (Spear)-4)",
       "name": "Atlatl with Dart",
-      "search_name": "atlatl with dart ranged weapon",
+      "search_name": "atlatl with dart",
       "damage": "sw-1 imp",
       "accuracy": "1",
       "range": "¥3/¥4",
@@ -338,14 +305,13 @@
       "bulk": "-3",
       "notes": [
         "5"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "SPEAR THROWER (DX-5 or Thrown Weapon (Spear)-4)",
       "name": "Atlatl with Javelin",
-      "search_name": "atlatl with javelin ranged weapon",
+      "search_name": "atlatl with javelin",
       "damage": "sw+1 imp",
       "accuracy": "3",
       "range": "¥2/¥3",
@@ -356,14 +322,13 @@
       "bulk": "-4",
       "notes": [
         "5"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "SPEAR THROWER (DX-5 or Thrown Weapon (Spear)-4)",
       "name": "Woomera",
-      "search_name": "woomera ranged weapon",
+      "search_name": "woomera",
       "damage": "–",
       "accuracy": "–",
       "range": "–",
@@ -374,14 +339,13 @@
       "bulk": "–",
       "notes": [
         "2"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "SPEAR THROWER (DX-5 or Thrown Weapon (Spear)-4)",
       "name": "Woomera with Spear",
-      "search_name": "woomera with spear ranged weapon",
+      "search_name": "woomera with spear",
       "damage": "sw+3 imp",
       "accuracy": "2",
       "range": "¥1.5/¥2",
@@ -392,14 +356,13 @@
       "bulk": "-6",
       "notes": [
         "5"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (AXE/MACE) (DX-4)",
       "name": "Hatchet",
-      "search_name": "hatchet ranged weapon",
+      "search_name": "hatchet",
       "damage": "sw cut",
       "accuracy": "1",
       "range": "¥1.5/¥2.5",
@@ -410,14 +373,13 @@
       "bulk": "-2",
       "notes": [
         "6"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (AXE/MACE) (DX-4)",
       "name": "Mace",
-      "search_name": "mace ranged weapon",
+      "search_name": "mace",
       "damage": "sw+3 cr",
       "accuracy": "1",
       "range": "¥0.5/¥1",
@@ -426,14 +388,13 @@
       "cost": "$50",
       "st": "12",
       "bulk": "-4",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (AXE/MACE) (DX-4)",
       "name": "Small Mace",
-      "search_name": "small mace ranged weapon",
+      "search_name": "small mace",
       "damage": "sw+2 cr",
       "accuracy": "1",
       "range": "¥1/¥1.5",
@@ -442,14 +403,13 @@
       "cost": "$35",
       "st": "10",
       "bulk": "-3",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (AXE/MACE) (DX-4)",
       "name": "Small Throwing Axe",
-      "search_name": "small throwing axe ranged weapon",
+      "search_name": "small throwing axe",
       "damage": "sw+1 cut",
       "accuracy": "1",
       "range": "¥1/¥1.5",
@@ -460,14 +420,13 @@
       "bulk": "-3",
       "notes": [
         "6"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (AXE/MACE) (DX-4)",
       "name": "Throwing Axe",
-      "search_name": "throwing axe ranged weapon",
+      "search_name": "throwing axe",
       "damage": "sw+2 cut",
       "accuracy": "2",
       "range": "¥1/¥1.5",
@@ -478,14 +437,13 @@
       "bulk": "-3",
       "notes": [
         "6"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (DART) (DX-4 or Throwing-2)",
       "name": "Throwing Dart",
-      "search_name": "throwing dart ranged weapon",
+      "search_name": "throwing dart",
       "damage": "thr imp",
       "accuracy": "1",
       "range": "¥2.5/¥3.5",
@@ -494,14 +452,13 @@
       "cost": "$20",
       "st": "6",
       "bulk": "-2",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (HARPOON) (DX-4 or Thrown Weapon (Spear)-2)",
       "name": "Harpoon",
-      "search_name": "harpoon ranged weapon",
+      "search_name": "harpoon",
       "damage": "thr+5 imp",
       "accuracy": "2",
       "range": "¥1/¥1.5",
@@ -512,14 +469,13 @@
       "bulk": "-6",
       "notes": [
         "7"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (KNIFE) (DX-4)",
       "name": "Dagger",
-      "search_name": "dagger ranged weapon",
+      "search_name": "dagger",
       "damage": "thr-1 imp",
       "accuracy": "0",
       "range": "¥0.5/¥1",
@@ -528,14 +484,13 @@
       "cost": "$20",
       "st": "5",
       "bulk": "-1",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (KNIFE) (DX-4)",
       "name": "Large Knife",
-      "search_name": "large knife ranged weapon",
+      "search_name": "large knife",
       "damage": "thr imp",
       "accuracy": "0",
       "range": "¥0.8/¥1.5",
@@ -544,14 +499,13 @@
       "cost": "$40",
       "st": "6",
       "bulk": "-2",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (KNIFE) (DX-4)",
       "name": "Large Throwing Knife",
-      "search_name": "large throwing knife ranged weapon",
+      "search_name": "large throwing knife",
       "damage": "thr imp",
       "accuracy": "1",
       "range": "¥1/¥2",
@@ -562,14 +516,13 @@
       "bulk": "-1",
       "notes": [
         "8"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (KNIFE) (DX-4)",
       "name": "Sai",
-      "search_name": "sai ranged weapon",
+      "search_name": "sai",
       "damage": "thr imp",
       "accuracy": "0",
       "range": "¥0.8/¥1.5",
@@ -578,14 +531,13 @@
       "cost": "$60",
       "st": "7",
       "bulk": "-3",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (KNIFE) (DX-4)",
       "name": "Small Knife",
-      "search_name": "small knife ranged weapon",
+      "search_name": "small knife",
       "damage": "thr-1 imp",
       "accuracy": "0",
       "range": "¥0.5/¥1",
@@ -594,14 +546,13 @@
       "cost": "$30",
       "st": "5",
       "bulk": "-1",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (KNIFE) (DX-4)",
       "name": "Small Throwing Knife",
-      "search_name": "small throwing knife ranged weapon",
+      "search_name": "small throwing knife",
       "damage": "thr-1 imp",
       "accuracy": "1",
       "range": "¥0.8/¥1.5",
@@ -612,14 +563,13 @@
       "bulk": "0",
       "notes": [
         "8"
-      ],
-      "full_text": ""
+      ]
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (KNIFE) (DX-4)",
       "name": "Wooden Stake",
-      "search_name": "wooden stake ranged weapon",
+      "search_name": "wooden stake",
       "damage": "thr(0.5) imp",
       "accuracy": "0",
       "range": "¥0.5/¥1",
@@ -628,14 +578,13 @@
       "cost": "$4",
       "st": "5",
       "bulk": "-2",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (SHURIKEN) (DX-4 or Throwing-2)",
       "name": "Spike Shuriken",
-      "search_name": "spike shuriken ranged weapon",
+      "search_name": "spike shuriken",
       "damage": "thr-2 imp",
       "accuracy": "1",
       "range": "¥0.5/¥1",
@@ -644,14 +593,13 @@
       "cost": "$3",
       "st": "5",
       "bulk": "0",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (SHURIKEN) (DX-4 or Throwing-2)",
       "name": "Star Shuriken",
-      "search_name": "star shuriken ranged weapon",
+      "search_name": "star shuriken",
       "damage": "thr-1 cut",
       "accuracy": "1",
       "range": "¥0.5/¥1",
@@ -660,14 +608,13 @@
       "cost": "$3",
       "st": "5",
       "bulk": "0",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (SPEAR) (DX-4, Spear Thrower-4, or Thrown Weapon (Harpoon)-2)",
       "name": "Javelin",
-      "search_name": "javelin ranged weapon",
+      "search_name": "javelin",
       "damage": "thr+1 imp",
       "accuracy": "3",
       "range": "¥1.5/¥2.5",
@@ -676,14 +623,13 @@
       "cost": "$30",
       "st": "6",
       "bulk": "-4",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (SPEAR) (DX-4, Spear Thrower-4, or Thrown Weapon (Harpoon)-2)",
       "name": "Spear",
-      "search_name": "spear ranged weapon",
+      "search_name": "spear",
       "damage": "thr+3 imp",
       "accuracy": "2",
       "range": "¥1/¥1.5",
@@ -692,14 +638,13 @@
       "cost": "$40",
       "st": "9",
       "bulk": "-6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "ranged_weapon",
       "group": "THROWN WEAPON (STICK) (DX-4)",
       "name": "Boomerang",
-      "search_name": "boomerang ranged weapon",
+      "search_name": "boomerang",
       "damage": "sw cr",
       "accuracy": "2",
       "range": "¥6/¥10",
@@ -708,15 +653,14 @@
       "cost": "$20",
       "st": "6",
       "bulk": "-2",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Axe",
-      "search_name": "axe melee weapon",
+      "search_name": "axe",
       "attacks": [
         {
           "type": "swing",
@@ -729,15 +673,14 @@
       "cost": "$50",
       "weight": "4",
       "st": "11",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Hatchet",
-      "search_name": "hatchet melee weapon",
+      "search_name": "hatchet melee",
       "attacks": [
         {
           "type": "swing",
@@ -751,16 +694,15 @@
       "weight": "2",
       "st": "8",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Knobbed Club",
-      "search_name": "knobbed club melee weapon",
+      "search_name": "knobbed club",
       "attacks": [
         {
           "type": "swing",
@@ -773,15 +715,14 @@
       "cost": "$20",
       "weight": "2",
       "st": "8",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Mace",
-      "search_name": "mace melee weapon",
+      "search_name": "mace melee",
       "attacks": [
         {
           "type": "swing",
@@ -795,16 +736,15 @@
       "weight": "5",
       "st": "12",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Pick",
-      "search_name": "pick melee weapon",
+      "search_name": "pick",
       "attacks": [
         {
           "type": "swing",
@@ -818,17 +758,16 @@
       "weight": "3",
       "st": "10",
       "notes": [
-        "202",
-        "203"
-      ],
-      "full_text": ""
+        "2",
+        "3"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Sickle or Kama",
-      "search_name": "sickle or kama melee weapon",
+      "search_name": "sickle or kama",
       "attacks": [
         {
           "type": "swing",
@@ -849,16 +788,15 @@
       "weight": "2",
       "st": "8",
       "notes": [
-        "202"
-      ],
-      "full_text": ""
+        "2"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Small Axe",
-      "search_name": "small axe melee weapon",
+      "search_name": "small axe",
       "attacks": [
         {
           "type": "swing",
@@ -871,15 +809,14 @@
       "cost": "$45",
       "weight": "3",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Small Mace",
-      "search_name": "small mace melee weapon",
+      "search_name": "small mace melee",
       "attacks": [
         {
           "type": "swing",
@@ -893,16 +830,15 @@
       "weight": "3",
       "st": "10",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Small Throwing Axe",
-      "search_name": "small throwing axe melee weapon",
+      "search_name": "small throwing axe melee",
       "attacks": [
         {
           "type": "swing",
@@ -916,16 +852,15 @@
       "weight": "3",
       "st": "10",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Axe/Mace",
       "skill_defaults": "DX-5, Flail-4, or Two-Handed Axe/Mace-3",
       "name": "Throwing Axe",
-      "search_name": "throwing axe melee weapon",
+      "search_name": "throwing axe melee",
       "attacks": [
         {
           "type": "swing",
@@ -939,16 +874,15 @@
       "weight": "4",
       "st": "11",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Boxing, Brawling, Karate, or DX",
       "name": "Barehanded Punch",
-      "search_name": "barehanded punch melee weapon",
+      "search_name": "barehanded punch",
       "attacks": [
         {
           "type": "thrust",
@@ -962,16 +896,15 @@
       "weight": "–",
       "st": "–",
       "notes": [
-        "204"
-      ],
-      "full_text": ""
+        "4"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Boxing, Brawling, Karate, or DX",
       "name": "Brass Knuckles",
-      "search_name": "brass knuckles melee weapon",
+      "search_name": "brass knuckles",
       "attacks": [
         {
           "type": "thrust",
@@ -985,16 +918,15 @@
       "weight": "0.25",
       "st": "–",
       "notes": [
-        "204"
-      ],
-      "full_text": ""
+        "4"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Boxing, Brawling, Karate, or DX",
       "name": "Cestus",
-      "search_name": "cestus melee weapon",
+      "search_name": "cestus",
       "attacks": [
         {
           "type": "thrust",
@@ -1008,17 +940,16 @@
       "weight": "1",
       "st": "–",
       "notes": [
-        "204",
-        "205"
-      ],
-      "full_text": ""
+        "4",
+        "5"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Boxing, Brawling, Karate, or DX",
       "name": "Punch w. Gauntlets",
-      "search_name": "punch w gauntlets melee weapon",
+      "search_name": "punch with gauntlets",
       "attacks": [
         {
           "type": "thrust",
@@ -1032,16 +963,15 @@
       "weight": "–",
       "st": "–",
       "notes": [
-        "204"
-      ],
-      "full_text": ""
+        "4"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Boxing, Brawling, Karate, or DX",
       "name": "Tonfa (Punch)",
-      "search_name": "tonfa punch melee weapon",
+      "search_name": "tonfa punch",
       "attacks": [
         {
           "type": "thrust",
@@ -1055,16 +985,15 @@
       "weight": "1.5",
       "st": "–",
       "notes": [
-        "204"
-      ],
-      "full_text": ""
+        "4"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Boxing, Brawling, or DX",
       "name": "Cutlass Hilt Punch",
-      "search_name": "cutlass hilt punch melee weapon",
+      "search_name": "cutlass hilt punch",
       "attacks": [
         {
           "type": "thrust",
@@ -1078,17 +1007,16 @@
       "weight": "2",
       "st": "–",
       "notes": [
-        "204",
-        "205"
-      ],
-      "full_text": ""
+        "4",
+        "5"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Brawling or DX",
       "name": "Bite",
-      "search_name": "bite melee weapon",
+      "search_name": "bite",
       "attacks": [
         {
           "type": "thrust",
@@ -1102,16 +1030,15 @@
       "weight": "–",
       "st": "–",
       "notes": [
-        "204"
-      ],
-      "full_text": ""
+        "4"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Brawling or DX",
       "name": "Blackjack",
-      "search_name": "blackjack melee weapon",
+      "search_name": "blackjack",
       "attacks": [
         {
           "type": "thrust",
@@ -1125,16 +1052,15 @@
       "weight": "1",
       "st": "7",
       "notes": [
-        "204"
-      ],
-      "full_text": ""
+        "4"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Brawling-2, Karate-2, or DX-2",
       "name": "Kick",
-      "search_name": "kick melee weapon",
+      "search_name": "kick",
       "attacks": [
         {
           "type": "thrust",
@@ -1148,17 +1074,16 @@
       "weight": "–",
       "st": "–",
       "notes": [
-        "204",
-        "206"
-      ],
-      "full_text": ""
+        "4",
+        "6"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Unarmed",
       "skill_defaults": "Brawling-2, Karate-2, or DX-2",
       "name": "Kick w. Boots",
-      "search_name": "kick w boots melee weapon",
+      "search_name": "kick with boots",
       "attacks": [
         {
           "type": "thrust",
@@ -1172,17 +1097,16 @@
       "weight": "–",
       "st": "–",
       "notes": [
-        "204",
-        "206"
-      ],
-      "full_text": ""
+        "4",
+        "6"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Bastard Sword",
-      "search_name": "bastard sword melee weapon",
+      "search_name": "bastard sword",
       "attacks": [
         {
           "type": "swing",
@@ -1202,15 +1126,14 @@
       "cost": "$750",
       "weight": "5",
       "st": "11",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Broadsword",
-      "search_name": "broadsword melee weapon",
+      "search_name": "broadsword",
       "attacks": [
         {
           "type": "swing",
@@ -1230,15 +1153,14 @@
       "cost": "$600",
       "weight": "3",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Cavalry Saber",
-      "search_name": "cavalry saber melee weapon",
+      "search_name": "cavalry saber",
       "attacks": [
         {
           "type": "swing",
@@ -1258,15 +1180,14 @@
       "cost": "$500",
       "weight": "3",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Club",
-      "search_name": "club melee weapon",
+      "search_name": "club",
       "attacks": [
         {
           "type": "swing",
@@ -1286,15 +1207,14 @@
       "cost": "$10",
       "weight": "3",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Edged Rapier",
-      "search_name": "edged rapier melee weapon",
+      "search_name": "edged rapier",
       "attacks": [
         {
           "type": "swing",
@@ -1314,15 +1234,14 @@
       "cost": "$1,000",
       "weight": "3",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Estoc or Tuck",
-      "search_name": "estoc or tuck melee weapon",
+      "search_name": "estoc or tuck",
       "attacks": [
         {
           "type": "thrust",
@@ -1343,16 +1262,15 @@
       "weight": "3",
       "st": "10",
       "notes": [
-        "203"
-      ],
-      "full_text": ""
+        "3"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Jo",
-      "search_name": "jo melee weapon",
+      "search_name": "jo",
       "attacks": [
         {
           "type": "swing",
@@ -1372,15 +1290,14 @@
       "cost": "$10",
       "weight": "2",
       "st": "9",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Katana",
-      "search_name": "katana melee weapon",
+      "search_name": "katana",
       "attacks": [
         {
           "type": "swing",
@@ -1400,15 +1317,14 @@
       "cost": "$650",
       "weight": "5",
       "st": "11",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Large Falchion",
-      "search_name": "large falchion melee weapon",
+      "search_name": "large falchion",
       "attacks": [
         {
           "type": "swing",
@@ -1428,15 +1344,14 @@
       "cost": "$625",
       "weight": "4.5",
       "st": "11",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Broadsword",
       "skill_defaults": "DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4",
       "name": "Longsword",
-      "search_name": "longsword melee weapon",
+      "search_name": "longsword",
       "attacks": [
         {
           "type": "swing",
@@ -1456,15 +1371,14 @@
       "cost": "$700",
       "weight": "4",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Flail",
       "skill_defaults": "DX-6, Axe/Mace-4, or Two-Handed Flail-3",
       "name": "Bolas",
-      "search_name": "bolas melee weapon",
+      "search_name": "bolas melee",
       "attacks": [
         {
           "type": "swing",
@@ -1478,17 +1392,16 @@
       "weight": "2",
       "st": "7",
       "notes": [
-        "201",
-        "207"
-      ],
-      "full_text": ""
+        "1",
+        "7"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Flail",
       "skill_defaults": "DX-6, Axe/Mace-4, or Two-Handed Flail-3",
       "name": "Morningstar",
-      "search_name": "morningstar melee weapon",
+      "search_name": "morningstar melee",
       "attacks": [
         {
           "type": "swing",
@@ -1502,16 +1415,15 @@
       "weight": "6",
       "st": "12",
       "notes": [
-        "207"
-      ],
-      "full_text": ""
+        "7"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Flail",
       "skill_defaults": "DX-6, Axe/Mace-4, or Two-Handed Flail-3",
       "name": "Nunchaku",
-      "search_name": "nunchaku melee weapon",
+      "search_name": "nunchaku melee",
       "attacks": [
         {
           "type": "swing",
@@ -1525,16 +1437,15 @@
       "weight": "2",
       "st": "7",
       "notes": [
-        "207"
-      ],
-      "full_text": ""
+        "7"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Garrote",
       "skill_defaults": "DX-4",
       "name": "Garrote",
-      "search_name": "garrote melee weapon",
+      "search_name": "garrote",
       "attacks": [
         {
           "type": "special",
@@ -1548,16 +1459,15 @@
       "weight": "neg.",
       "st": "–",
       "notes": [
-        "208"
-      ],
-      "full_text": ""
+        "8"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Jitte/Sai",
       "skill_defaults": "DX-5, Main-Gauche-4, or Shortsword-3",
       "name": "Jutte",
-      "search_name": "jutte melee weapon",
+      "search_name": "jutte melee",
       "attacks": [
         {
           "type": "swing",
@@ -1578,17 +1488,16 @@
       "weight": "1",
       "st": "6",
       "notes": [
-        "209",
-        "210"
-      ],
-      "full_text": ""
+        "9",
+        "10"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Jitte/Sai",
       "skill_defaults": "DX-5, Main-Gauche-4, or Shortsword-3",
       "name": "Sai",
-      "search_name": "sai melee weapon",
+      "search_name": "sai melee",
       "attacks": [
         {
           "type": "swing",
@@ -1609,18 +1518,17 @@
       "weight": "1.5",
       "st": "7",
       "notes": [
-        "201",
-        "209",
-        "210"
-      ],
-      "full_text": ""
+        "1",
+        "9",
+        "10"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Kusari",
       "skill_defaults": "DX-6, Two-Handed Flail-4, or Whip-3",
       "name": "Kusari",
-      "search_name": "kusari melee weapon",
+      "search_name": "kusari",
       "attacks": [
         {
           "type": "swing",
@@ -1641,17 +1549,16 @@
       "weight": "5",
       "st": "11",
       "notes": [
-        "207",
-        "209"
-      ],
-      "full_text": ""
+        "7",
+        "9"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Dagger",
-      "search_name": "dagger melee weapon",
+      "search_name": "dagger melee",
       "attacks": [
         {
           "type": "thrust",
@@ -1665,16 +1572,15 @@
       "weight": "0.25",
       "st": "5",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Katar",
-      "search_name": "katar melee weapon",
+      "search_name": "katar",
       "attacks": [
         {
           "type": "swing",
@@ -1695,18 +1601,17 @@
       "weight": "1",
       "st": "6",
       "notes": [
-        "203",
-        "205",
-        "211"
-      ],
-      "full_text": ""
+        "3",
+        "5",
+        "11"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Kukri",
-      "search_name": "kukri melee weapon",
+      "search_name": "kukri",
       "attacks": [
         {
           "type": "swing",
@@ -1726,15 +1631,14 @@
       "cost": "$50",
       "weight": "1.5",
       "st": "7",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Large Knife",
-      "search_name": "large knife melee weapon",
+      "search_name": "large knife melee",
       "attacks": [
         {
           "type": "swing",
@@ -1755,16 +1659,15 @@
       "weight": "1",
       "st": "6",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Long Knife",
-      "search_name": "long knife melee weapon",
+      "search_name": "long knife",
       "attacks": [
         {
           "type": "swing",
@@ -1784,15 +1687,14 @@
       "cost": "$120",
       "weight": "1.5",
       "st": "7",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Main-Gauche",
-      "search_name": "main gauche melee weapon",
+      "search_name": "main-gauche knife",
       "attacks": [
         {
           "type": "swing",
@@ -1813,16 +1715,15 @@
       "weight": "1.25",
       "st": "6",
       "notes": [
-        "205"
-      ],
-      "full_text": ""
+        "5"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Short Baton",
-      "search_name": "short baton melee weapon",
+      "search_name": "short baton",
       "attacks": [
         {
           "type": "swing",
@@ -1842,15 +1743,14 @@
       "cost": "$10",
       "weight": "0.5",
       "st": "5",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Small Knife",
-      "search_name": "small knife melee weapon",
+      "search_name": "small knife melee",
       "attacks": [
         {
           "type": "swing",
@@ -1871,16 +1771,15 @@
       "weight": "0.5",
       "st": "5",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Stiletto",
-      "search_name": "stiletto melee weapon",
+      "search_name": "stiletto",
       "attacks": [
         {
           "type": "thrust",
@@ -1894,16 +1793,15 @@
       "weight": "0.25",
       "st": "5",
       "notes": [
-        "203"
-      ],
-      "full_text": ""
+        "3"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Knife",
       "skill_defaults": "DX-4, Main-Gauche-3, or Shortsword-3",
       "name": "Wooden Stake",
-      "search_name": "wooden stake melee weapon",
+      "search_name": "wooden stake melee",
       "attacks": [
         {
           "type": "thrust",
@@ -1917,16 +1815,15 @@
       "weight": "0.5",
       "st": "5",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Dagger",
-      "search_name": "dagger melee weapon",
+      "search_name": "dagger main-gauche",
       "attacks": [
         {
           "type": "thrust",
@@ -1940,16 +1837,15 @@
       "weight": "0.25",
       "st": "5",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Jutte",
-      "search_name": "jutte melee weapon",
+      "search_name": "jutte main-gauche",
       "attacks": [
         {
           "type": "swing",
@@ -1969,15 +1865,14 @@
       "cost": "$40",
       "weight": "1",
       "st": "6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Large Knife",
-      "search_name": "large knife melee weapon",
+      "search_name": "large knife main-gauche",
       "attacks": [
         {
           "type": "swing",
@@ -1998,16 +1893,15 @@
       "weight": "1",
       "st": "6",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Long Knife",
-      "search_name": "long knife melee weapon",
+      "search_name": "long knife main-gauche",
       "attacks": [
         {
           "type": "swing",
@@ -2027,15 +1921,14 @@
       "cost": "$120",
       "weight": "1.5",
       "st": "7",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Main-Gauche",
-      "search_name": "main gauche melee weapon",
+      "search_name": "main-gauche",
       "attacks": [
         {
           "type": "swing",
@@ -2056,16 +1949,15 @@
       "weight": "1.25",
       "st": "6",
       "notes": [
-        "205"
-      ],
-      "full_text": ""
+        "5"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Sai",
-      "search_name": "sai melee weapon",
+      "search_name": "sai main-gauche",
       "attacks": [
         {
           "type": "swing",
@@ -2086,16 +1978,15 @@
       "weight": "1.5",
       "st": "7",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Small Knife",
-      "search_name": "small knife melee weapon",
+      "search_name": "small knife main-gauche",
       "attacks": [
         {
           "type": "swing",
@@ -2116,16 +2007,15 @@
       "weight": "0.5",
       "st": "5",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
       "name": "Stiletto",
-      "search_name": "stiletto melee weapon",
+      "search_name": "stiletto main-gauche",
       "attacks": [
         {
           "type": "thrust",
@@ -2139,16 +2029,15 @@
       "weight": "0.25",
       "st": "5",
       "notes": [
-        "203"
-      ],
-      "full_text": ""
+        "3"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Shield",
       "skill_defaults": "DX-4 or other Shield at -2",
       "name": "Shield Bash",
-      "search_name": "shield bash melee weapon",
+      "search_name": "shield bash",
       "attacks": [
         {
           "type": "thrust",
@@ -2161,15 +2050,14 @@
       "cost": "var.",
       "weight": "var.",
       "st": "–",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shield",
       "skill_defaults": "DX-4 or other Shield at -2",
       "name": "Shield Bash w. Spike",
-      "search_name": "shield bash w spike melee weapon",
+      "search_name": "shield bash w. spike",
       "attacks": [
         {
           "type": "thrust",
@@ -2182,15 +2070,14 @@
       "cost": "+$20",
       "weight": "+5",
       "st": "–",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Polearm",
       "skill_defaults": "DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4",
       "name": "Dueling Glaive",
-      "search_name": "dueling glaive melee weapon",
+      "search_name": "dueling glaive",
       "attacks": [
         {
           "type": "swing",
@@ -2210,15 +2097,14 @@
       "cost": "$80",
       "weight": "6",
       "st": "9†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Polearm",
       "skill_defaults": "DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4",
       "name": "Dueling Halberd",
-      "search_name": "dueling halberd melee weapon",
+      "search_name": "dueling halberd",
       "attacks": [
         {
           "type": "swing",
@@ -2246,16 +2132,15 @@
       "weight": "10",
       "st": "12†",
       "notes": [
-        "202"
-      ],
-      "full_text": ""
+        "2"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Polearm",
       "skill_defaults": "DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4",
       "name": "Glaive",
-      "search_name": "glaive melee weapon",
+      "search_name": "glaive",
       "attacks": [
         {
           "type": "swing",
@@ -2275,15 +2160,14 @@
       "cost": "$100",
       "weight": "8",
       "st": "11‡",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Polearm",
       "skill_defaults": "DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4",
       "name": "Halberd",
-      "search_name": "halberd melee weapon",
+      "search_name": "halberd",
       "attacks": [
         {
           "type": "swing",
@@ -2311,16 +2195,15 @@
       "weight": "12",
       "st": "13‡",
       "notes": [
-        "202"
-      ],
-      "full_text": ""
+        "2"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Polearm",
       "skill_defaults": "DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4",
       "name": "Monk’s Spade",
-      "search_name": "monk s spade melee weapon",
+      "search_name": "monk’s spade",
       "attacks": [
         {
           "type": "swing",
@@ -2347,15 +2230,14 @@
       "cost": "$100",
       "weight": "6",
       "st": "9†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Polearm",
       "skill_defaults": "DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4",
       "name": "Naginata",
-      "search_name": "naginata melee weapon",
+      "search_name": "naginata",
       "attacks": [
         {
           "type": "swing",
@@ -2375,15 +2257,14 @@
       "cost": "$100",
       "weight": "6",
       "st": "9†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Polearm",
       "skill_defaults": "DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4",
       "name": "Pollaxe",
-      "search_name": "pollaxe melee weapon",
+      "search_name": "pollaxe",
       "attacks": [
         {
           "type": "swing",
@@ -2411,16 +2292,15 @@
       "weight": "10",
       "st": "12†",
       "notes": [
-        "202"
-      ],
-      "full_text": ""
+        "2"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Saber",
       "skill_defaults": "DX-5, Broadsword-4, Main-Gauche-3, Rapier-3, Shortsword-4, or Smallsword-3",
       "name": "Saber",
-      "search_name": "saber melee weapon",
+      "search_name": "saber",
       "attacks": [
         {
           "type": "swing",
@@ -2440,15 +2320,14 @@
       "cost": "$700",
       "weight": "2",
       "st": "8",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Rapier",
       "skill_defaults": "DX-5, Broadsword-4, Main-Gauche-3, Saber-3, or Smallsword-3",
       "name": "Edged Rapier",
-      "search_name": "edged rapier melee weapon",
+      "search_name": "edged rapier rapier",
       "attacks": [
         {
           "type": "swing",
@@ -2468,15 +2347,14 @@
       "cost": "$1,000",
       "weight": "3",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Rapier",
       "skill_defaults": "DX-5, Broadsword-4, Main-Gauche-3, Saber-3, or Smallsword-3",
       "name": "Light Edged Rapier",
-      "search_name": "light edged rapier melee weapon",
+      "search_name": "light edged rapier",
       "attacks": [
         {
           "type": "swing",
@@ -2496,15 +2374,14 @@
       "cost": "$700",
       "weight": "2.25",
       "st": "8",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Rapier",
       "skill_defaults": "DX-5, Broadsword-4, Main-Gauche-3, Saber-3, or Smallsword-3",
       "name": "Light Rapier",
-      "search_name": "light rapier melee weapon",
+      "search_name": "light rapier",
       "attacks": [
         {
           "type": "thrust",
@@ -2517,15 +2394,14 @@
       "cost": "$400",
       "weight": "2",
       "st": "8",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Rapier",
       "skill_defaults": "DX-5, Broadsword-4, Main-Gauche-3, Saber-3, or Smallsword-3",
       "name": "Rapier",
-      "search_name": "rapier melee weapon",
+      "search_name": "rapier",
       "attacks": [
         {
           "type": "thrust",
@@ -2538,15 +2414,14 @@
       "cost": "$500",
       "weight": "2.75",
       "st": "9",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Baton",
-      "search_name": "baton melee weapon",
+      "search_name": "baton",
       "attacks": [
         {
           "type": "swing",
@@ -2566,15 +2441,14 @@
       "cost": "$20",
       "weight": "1",
       "st": "6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Cutlass",
-      "search_name": "cutlass melee weapon",
+      "search_name": "cutlass shortsword",
       "attacks": [
         {
           "type": "swing",
@@ -2595,16 +2469,15 @@
       "weight": "2",
       "st": "8",
       "notes": [
-        "205"
-      ],
-      "full_text": ""
+        "5"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Falchion",
-      "search_name": "falchion melee weapon",
+      "search_name": "falchion",
       "attacks": [
         {
           "type": "swing",
@@ -2624,15 +2497,14 @@
       "cost": "$400",
       "weight": "3",
       "st": "10",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Large Katar",
-      "search_name": "large katar melee weapon",
+      "search_name": "large katar",
       "attacks": [
         {
           "type": "swing",
@@ -2653,18 +2525,17 @@
       "weight": "2",
       "st": "8",
       "notes": [
-        "203",
-        "205",
-        "211"
-      ],
-      "full_text": ""
+        "3",
+        "5",
+        "11"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Long Knife",
-      "search_name": "long knife melee weapon",
+      "search_name": "long knife shortsword",
       "attacks": [
         {
           "type": "swing",
@@ -2684,15 +2555,14 @@
       "cost": "$120",
       "weight": "1.5",
       "st": "7",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Short Baton",
-      "search_name": "short baton melee weapon",
+      "search_name": "short baton shortsword",
       "attacks": [
         {
           "type": "swing",
@@ -2712,15 +2582,14 @@
       "cost": "$10",
       "weight": "0.5",
       "st": "5",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Shortsword",
-      "search_name": "shortsword melee weapon",
+      "search_name": "shortsword",
       "attacks": [
         {
           "type": "swing",
@@ -2740,15 +2609,14 @@
       "cost": "$400",
       "weight": "2",
       "st": "8",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Small Falchion",
-      "search_name": "small falchion melee weapon",
+      "search_name": "small falchion",
       "attacks": [
         {
           "type": "swing",
@@ -2768,15 +2636,14 @@
       "cost": "$200",
       "weight": "2",
       "st": "8",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Dress Smallsword",
-      "search_name": "dress smallsword melee weapon",
+      "search_name": "dress smallsword shortsword",
       "attacks": [
         {
           "type": "thrust",
@@ -2789,15 +2656,14 @@
       "cost": "$300",
       "weight": "1",
       "st": "5",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Short Staff",
-      "search_name": "short staff melee weapon",
+      "search_name": "short staff shortsword",
       "attacks": [
         {
           "type": "swing",
@@ -2817,15 +2683,14 @@
       "cost": "$20",
       "weight": "1",
       "st": "6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Shortsword",
       "skill_defaults": "DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3",
       "name": "Smallsword",
-      "search_name": "smallsword melee weapon",
+      "search_name": "smallsword shortsword",
       "attacks": [
         {
           "type": "thrust",
@@ -2838,15 +2703,14 @@
       "cost": "$400",
       "weight": "1.5",
       "st": "5",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Spear",
       "skill_defaults": "DX-5, Polearm-4, or Staff-2",
       "name": "Heavy Spear",
-      "search_name": "heavy spear melee weapon",
+      "search_name": "heavy spear",
       "attacks": [
         {
           "type": "thrust",
@@ -2866,15 +2730,14 @@
       "cost": "$90",
       "weight": "6",
       "st": "11†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Spear",
       "skill_defaults": "DX-5, Polearm-4, or Staff-2",
       "name": "Javelin",
-      "search_name": "javelin melee weapon",
+      "search_name": "javelin melee",
       "attacks": [
         {
           "type": "thrust",
@@ -2888,16 +2751,15 @@
       "weight": "2",
       "st": "6",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Spear",
       "skill_defaults": "DX-5, Polearm-4, or Staff-2",
       "name": "Long Spear",
-      "search_name": "long spear melee weapon",
+      "search_name": "long spear",
       "attacks": [
         {
           "type": "thrust",
@@ -2917,15 +2779,14 @@
       "cost": "$60",
       "weight": "5",
       "st": "11",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Spear",
       "skill_defaults": "DX-5, Polearm-4, or Staff-2",
       "name": "Pike",
-      "search_name": "pike melee weapon",
+      "search_name": "pike",
       "attacks": [
         {
           "type": "thrust",
@@ -2938,15 +2799,14 @@
       "cost": "$80",
       "weight": "13",
       "st": "12†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Spear",
       "skill_defaults": "DX-5, Polearm-4, or Staff-2",
       "name": "Short Spear",
-      "search_name": "short spear melee weapon",
+      "search_name": "short spear",
       "attacks": [
         {
           "type": "thrust",
@@ -2966,15 +2826,14 @@
       "cost": "$30",
       "weight": "2",
       "st": "6",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Spear",
       "skill_defaults": "DX-5, Polearm-4, or Staff-2",
       "name": "Spear",
-      "search_name": "spear melee weapon",
+      "search_name": "spear melee",
       "attacks": [
         {
           "type": "thrust",
@@ -2995,16 +2854,15 @@
       "weight": "4",
       "st": "10",
       "notes": [
-        "201"
-      ],
-      "full_text": ""
+        "1"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Spear",
       "skill_defaults": "DX-5, Polearm-4, or Staff-2",
       "name": "Trident",
-      "search_name": "trident melee weapon",
+      "search_name": "trident",
       "attacks": [
         {
           "type": "thrust",
@@ -3025,16 +2883,15 @@
       "weight": "5",
       "st": "11",
       "notes": [
-        "212"
-      ],
-      "full_text": ""
+        "12"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Staff",
       "skill_defaults": "DX-5, Polearm-4, or Spear-2",
       "name": "Jo",
-      "search_name": "jo melee weapon",
+      "search_name": "jo staff",
       "attacks": [
         {
           "type": "swing",
@@ -3054,15 +2911,14 @@
       "cost": "$10",
       "weight": "2",
       "st": "6†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Staff",
       "skill_defaults": "DX-5, Polearm-4, or Spear-2",
       "name": "Long Staff",
-      "search_name": "long staff melee weapon",
+      "search_name": "long staff",
       "attacks": [
         {
           "type": "swing",
@@ -3082,15 +2938,14 @@
       "cost": "$15",
       "weight": "5",
       "st": "10†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Staff",
       "skill_defaults": "DX-5, Polearm-4, or Spear-2",
       "name": "Polearm (Blunt)",
-      "search_name": "polearm blunt melee weapon",
+      "search_name": "polearm blunt",
       "attacks": [
         {
           "type": "swing",
@@ -3111,16 +2966,15 @@
       "weight": "var.",
       "st": "var.†",
       "notes": [
-        "213"
-      ],
-      "full_text": ""
+        "13"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Staff",
       "skill_defaults": "DX-5, Polearm-4, or Spear-2",
       "name": "Quarterstaff or Bo",
-      "search_name": "quarterstaff or bo melee weapon",
+      "search_name": "quarterstaff bo staff",
       "attacks": [
         {
           "type": "swing",
@@ -3140,15 +2994,14 @@
       "cost": "$10",
       "weight": "4",
       "st": "7†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Tonfa",
       "skill_defaults": "DX-5 or Shortsword-3",
       "name": "Tonfa",
-      "search_name": "tonfa melee weapon",
+      "search_name": "tonfa melee",
       "attacks": [
         {
           "type": "swing",
@@ -3169,16 +3022,15 @@
       "weight": "1.5",
       "st": "7",
       "notes": [
-        "211"
-      ],
-      "full_text": ""
+        "11"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Axe/Mace",
       "skill_defaults": "DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4",
       "name": "Combat Shovel",
-      "search_name": "combat shovel melee weapon",
+      "search_name": "combat shovel",
       "attacks": [
         {
           "type": "swing",
@@ -3199,16 +3051,15 @@
       "weight": "5",
       "st": "11†",
       "notes": [
-        "214"
-      ],
-      "full_text": ""
+        "14"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Axe/Mace",
       "skill_defaults": "DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4",
       "name": "Great Axe",
-      "search_name": "great axe melee weapon",
+      "search_name": "great axe",
       "attacks": [
         {
           "type": "swing",
@@ -3221,15 +3072,14 @@
       "cost": "$100",
       "weight": "8",
       "st": "12‡",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Axe/Mace",
       "skill_defaults": "DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4",
       "name": "Humongous Club",
-      "search_name": "humongous club melee weapon",
+      "search_name": "humongous club",
       "attacks": [
         {
           "type": "swing",
@@ -3242,15 +3092,14 @@
       "cost": "$100",
       "weight": "15",
       "st": "16‡",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Axe/Mace",
       "skill_defaults": "DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4",
       "name": "Long Axe",
-      "search_name": "long axe melee weapon",
+      "search_name": "long axe",
       "attacks": [
         {
           "type": "swing",
@@ -3263,15 +3112,14 @@
       "cost": "$75",
       "weight": "6",
       "st": "11‡",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Axe/Mace",
       "skill_defaults": "DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4",
       "name": "Maul",
-      "search_name": "maul melee weapon",
+      "search_name": "maul",
       "attacks": [
         {
           "type": "swing",
@@ -3284,15 +3132,14 @@
       "cost": "$80",
       "weight": "12",
       "st": "13‡",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Axe/Mace",
       "skill_defaults": "DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4",
       "name": "Scythe",
-      "search_name": "scythe melee weapon",
+      "search_name": "scythe",
       "attacks": [
         {
           "type": "swing",
@@ -3313,16 +3160,15 @@
       "weight": "5",
       "st": "11‡",
       "notes": [
-        "202"
-      ],
-      "full_text": ""
+        "2"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Axe/Mace",
       "skill_defaults": "DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4",
       "name": "Warhammer",
-      "search_name": "warhammer melee weapon",
+      "search_name": "warhammer 2h",
       "attacks": [
         {
           "type": "swing",
@@ -3336,17 +3182,16 @@
       "weight": "7",
       "st": "12‡",
       "notes": [
-        "202",
-        "203"
-      ],
-      "full_text": ""
+        "2",
+        "3"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Flail",
       "skill_defaults": "DX-6, Flail-3, Kusari-4, or Two-Handed Axe/Mace-4",
       "name": "Flail",
-      "search_name": "flail melee weapon",
+      "search_name": "flail 2h",
       "attacks": [
         {
           "type": "swing",
@@ -3360,16 +3205,15 @@
       "weight": "8",
       "st": "13†",
       "notes": [
-        "207"
-      ],
-      "full_text": ""
+        "7"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Sword",
       "skill_defaults": "DX-5 or Broadsword-4",
       "name": "Bastard Sword",
-      "search_name": "bastard sword melee weapon",
+      "search_name": "bastard sword two-handed",
       "attacks": [
         {
           "type": "swing",
@@ -3389,15 +3233,14 @@
       "cost": "$750",
       "weight": "5",
       "st": "10†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Sword",
       "skill_defaults": "DX-5 or Broadsword-4",
       "name": "Greatsword",
-      "search_name": "greatsword melee weapon",
+      "search_name": "greatsword",
       "attacks": [
         {
           "type": "swing",
@@ -3417,15 +3260,14 @@
       "cost": "$900",
       "weight": "7",
       "st": "12†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Sword",
       "skill_defaults": "DX-5 or Broadsword-4",
       "name": "Jo",
-      "search_name": "jo melee weapon",
+      "search_name": "jo two-handed sword",
       "attacks": [
         {
           "type": "swing",
@@ -3445,15 +3287,14 @@
       "cost": "$10",
       "weight": "2",
       "st": "8†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Sword",
       "skill_defaults": "DX-5 or Broadsword-4",
       "name": "Katana",
-      "search_name": "katana melee weapon",
+      "search_name": "katana two-handed",
       "attacks": [
         {
           "type": "swing",
@@ -3473,15 +3314,14 @@
       "cost": "$650",
       "weight": "5",
       "st": "10†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Sword",
       "skill_defaults": "DX-5 or Broadsword-4",
       "name": "Longsword",
-      "search_name": "longsword melee weapon",
+      "search_name": "longsword two-handed",
       "attacks": [
         {
           "type": "swing",
@@ -3501,15 +3341,14 @@
       "cost": "$700",
       "weight": "4",
       "st": "9†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Sword",
       "skill_defaults": "DX-5 or Broadsword-4",
       "name": "Naginata",
-      "search_name": "naginata melee weapon",
+      "search_name": "naginata two-handed",
       "attacks": [
         {
           "type": "swing",
@@ -3529,15 +3368,14 @@
       "cost": "$100",
       "weight": "6",
       "st": "9†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Two-Handed Sword",
       "skill_defaults": "DX-5 or Broadsword-4",
       "name": "Quarterstaff or Bo",
-      "search_name": "quarterstaff or bo melee weapon",
+      "search_name": "quarterstaff bo two-handed",
       "attacks": [
         {
           "type": "swing",
@@ -3557,15 +3395,14 @@
       "cost": "$10",
       "weight": "4",
       "st": "9†",
-      "notes": [],
-      "full_text": ""
+      "notes": []
     },
     {
       "category": "melee_weapon",
       "group": "Whip",
       "skill_defaults": "DX-5 or Kusari-3",
       "name": "Bullwhip",
-      "search_name": "bullwhip melee weapon",
+      "search_name": "bullwhip melee",
       "attacks": [
         {
           "type": "swing",
@@ -3579,17 +3416,16 @@
       "weight": "0.5/yd.",
       "st": "var.",
       "notes": [
-        "209",
-        "215"
-      ],
-      "full_text": ""
+        "9",
+        "15"
+      ]
     },
     {
       "category": "melee_weapon",
       "group": "Whip",
       "skill_defaults": "DX-5 or Kusari-3",
       "name": "Spiked Whip",
-      "search_name": "spiked whip melee weapon",
+      "search_name": "spiked whip melee",
       "attacks": [
         {
           "type": "swing",
@@ -3603,11 +3439,12 @@
       "weight": "2/yd.",
       "st": "var.",
       "notes": [
-        "209",
-        "215"
-      ],
-      "full_text": ""
-    },
+        "9",
+        "15"
+      ]
+    }
+  ],
+  "ammunition": [
     {
       "category": "ammunition",
       "weapon": "Blowpipe",
@@ -3616,10 +3453,8 @@
       "weight": "0.05",
       "per_pound": "20 ($2)",
       "notes": [
-        "101"
-      ],
-      "full_text": "",
-      "search_name": "ammunition"
+        "1"
+      ]
     },
     {
       "category": "ammunition",
@@ -3628,9 +3463,7 @@
       "cost": "$2",
       "weight": "0.1",
       "per_pound": "10 ($20)",
-      "notes": [],
-      "full_text": "",
-      "search_name": "ammunition"
+      "notes": []
     },
     {
       "category": "ammunition",
@@ -3639,9 +3472,7 @@
       "cost": "$2",
       "weight": "0.06",
       "per_pound": "16 ($32)",
-      "notes": [],
-      "full_text": "",
-      "search_name": "ammunition"
+      "notes": []
     },
     {
       "category": "ammunition",
@@ -3650,9 +3481,7 @@
       "cost": "$1",
       "weight": "1",
       "per_pound": "1 ($1)",
-      "notes": [],
-      "full_text": "",
-      "search_name": "ammunition"
+      "notes": []
     },
     {
       "category": "ammunition",
@@ -3662,10 +3491,8 @@
       "weight": "1",
       "per_pound": "1 ($0)",
       "notes": [
-        "102"
-      ],
-      "full_text": "",
-      "search_name": "ammunition"
+        "2"
+      ]
     },
     {
       "category": "ammunition",
@@ -3674,9 +3501,7 @@
       "cost": "$0.10",
       "weight": "0.06",
       "per_pound": "16 ($1.60)",
-      "notes": [],
-      "full_text": "",
-      "search_name": "ammunition"
+      "notes": []
     },
     {
       "category": "ammunition",
@@ -3686,10 +3511,8 @@
       "weight": "0.06",
       "per_pound": "16 ($1.60)",
       "notes": [
-        "103"
-      ],
-      "full_text": "",
-      "search_name": "ammunition"
+        "3"
+      ]
     },
     {
       "category": "ammunition",
@@ -3698,9 +3521,7 @@
       "cost": "$0.05",
       "weight": "0.05",
       "per_pound": "20 ($1)",
-      "notes": [],
-      "full_text": "",
-      "search_name": "ammunition"
+      "notes": []
     },
     {
       "category": "ammunition",
@@ -3710,10 +3531,25 @@
       "weight": "0.05",
       "per_pound": "20 ($0)",
       "notes": [
-        "102"
-      ],
-      "full_text": "",
-      "search_name": "ammunition"
+        "2"
+      ]
     }
-  ]
+  ],
+  "melee_weapon_notes": {
+    "1": "Can be thrown. See the Ranged Weapons Table (pp. 103-105).",
+    "2": "May get stuck; see Picks (Exploits, p. 39).",
+    "3": "Specifically designed to target chinks in armor (Exploits, p. 37). Reduce the penalty for this by -2.",
+    "4": "Armed or unarmed, this attack receives damage bonuses for whichever of Boxing (p. 93), Brawling (pp. 93-94), or Karate (p. 94) is used to deliver it. Claws, like those of cat folk, don’t affect damage with blows assisted by gauntlets, boots, or weapons.",
+    "5": "Gives the hand (only) DR 4. A cestus is a glove, mutually exclusive with other gloves. In all other cases, this is a metal hilt; DR is cumulative with that of gloves, but the hilt is too cramped to accommodate metal gauntlets.",
+    "6": "If you miss with a kick, roll vs. DX to avoid falling.",
+    "7": "Attempts to parry flails and kusaris are at -4; knives and fencing weapons (“F” parry) can’t parry at all! Attempts to block such weapons are at -2.",
+    "8": "A rope garrote; a wire one costs $10. See Garrotes (Exploits, p. 39).",
+    "9": "Gets +2 to disarm when wielded with this skill; see Attacking Weapons (Exploits, p. 37).",
+    "10": "Improved disarm on your turn after a parry; see Swords (p. 81).",
+    "11": "Use Boxing, Brawling, or Karate parry if better than weapon parry.",
+    "12": "Tridents are awkward and always have -2 to hit, but there’s no additional -2 for attacking to disarm; see Attacking Weapons (Exploits, p. 37). The many points give the target -1 to Dodge, +1 to Block or Parry.",
+    "13": "The butt of a dueling glaive, dueling halberd, naginata, or pollaxe used as a staff. Cost, weight, and ST are as listed for the weapon under the Polearm skill.",
+    "14": "Fully functional as a digging shovel. Used by grave- digging undead-slayers.",
+    "15": "Specify maximum reach (1-7 yards) when bought. Cost and weight are per yard. The bullwhip requires ST 3, +1 per yard. The spiked whip requires ST 5, +1 per yard. Many special rules apply; see Whips (Exploits, p. 39)."
+  }
 }

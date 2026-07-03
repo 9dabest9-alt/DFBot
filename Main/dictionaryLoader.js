@@ -22,107 +22,49 @@ function normalizeEntry(entry, category, sourceFile) {
   };
 }
 
-// Loader for simple array files (skills, advantages_starter, miscgear, rules)
-function loadSimpleArray(jsonArray, category, sourceFile) {
-  return jsonArray.map(entry =>
-    normalizeEntry(entry, category, sourceFile)
-  );
-}
 
-// Loader for enchantments.json
-function loadEnchantments(json) {
-  return json.enchantments.map(entry =>
-    normalizeEntry(entry, "enchantment", "enchantments.json")
-  );
-}
-
-// Loader for gear.json (armor + shields)
-function loadGear(json) {
+// Loader for .json files
+/* function loadFile(json) {
   const out = [];
 
-  json.armor.forEach(entry =>
-    out.push(normalizeEntry(entry, "armor", "gear.json"))
-  );
+  /* json.notes.forEach(entry =>
+    out.push(normalizeEntry(entry, "notes", "gear.json"))
+  ); */
 
-  json.shield.forEach(entry =>
-    out.push(normalizeEntry(entry, "shield", "gear.json"))
-  );
-
-  return out;
-}
-
-// Loader for modifiers.json (weapons, shields, armor)
-function loadModifiers(json) {
-  const out = [];
-
-  json.weapons.forEach(entry =>
-    out.push(normalizeEntry(entry, "modifier_weapon", "modifiers.json"))
-  );
-
-  json.shields.forEach(entry =>
-    out.push(normalizeEntry(entry, "modifier_shield", "modifiers.json"))
-  );
-
-  json.armor.forEach(entry =>
-    out.push(normalizeEntry(entry, "modifier_armor", "modifiers.json"))
-  );
+ /*  json.items.forEach(entry =>
+    out.push(normalizeEntry(entry, "items", "gear.json"))
+  ); 
 
   return out;
+} */
+
+function loadFile(json) {
+  const notes = json.notes || {};
+  const items = json.items || [];
+
+  return items.map(entry => {
+    entry._notes = notes;   
+    return entry;
+  });
 }
 
-// Loader for spells_master.json
-function loadSpells(json) {
-  return json.spells.map(entry =>
-    normalizeEntry(entry, "spell", "spells_master.json")
-  );
-}
 
-// Loader for weapons.json (ranged + melee)
-function loadWeapons(json) {
-  const out = [];
 
-  json.weapons.forEach(entry =>
-    out.push(normalizeEntry(entry, entry.category || "weapon", "weapons.json"))
-  );
-
-  return out;
-}
-
-// Loader for disadvantages_master.json
-function loadDisadvantagesMaster(json) {
-  return json[0].disadvantages.map(entry =>
-    normalizeEntry(entry, "disadvantage", "disadvantages_master.json")
-  );
-}
-
-// Loader for advantages_starter.json
-function loadAdvantagesStarter(jsonArray) {
-  return jsonArray.map(entry =>
-    normalizeEntry(entry, "advantage", "advantages_starter.json")
-  );
-}
-
-// Loader for skill_starter.json
-function loadSkills(jsonArray) {
-  return jsonArray.map(entry =>
-    normalizeEntry(entry, "skill", "skill_starter.json")
-  );
-}
 
 // Main loader: accepts an object containing all JSON files
 export function loadDictionary(files) {
   const dictionary = [];
 
-  dictionary.push(...loadEnchantments(files.enchantments));
-  dictionary.push(...loadGear(files.gear));
-  dictionary.push(...loadModifiers(files.modifiers));
-  dictionary.push(...loadSpells(files.spells));
-  dictionary.push(...loadWeapons(files.weapons));
-  dictionary.push(...loadDisadvantagesMaster(files.disadvantages_master));
-  dictionary.push(...loadAdvantagesStarter(files.advantages_starter));
-  dictionary.push(...loadSkills(files.skill_starter));
-  dictionary.push(...loadSimpleArray(files.miscgear, "equipment", "miscgear.json"));
-  dictionary.push(...loadSimpleArray(files.rules_exploits, "rule", "rules_exploits.json"));
+  dictionary.push(...loadFile(files.enchantments)); 
+  dictionary.push(...loadFile(files.gear));
+  dictionary.push(...loadFile(files.modifiers)); 
+  dictionary.push(...loadFile(files.spells)); 
+  dictionary.push(...loadFile(files.weapons));
+  dictionary.push(...loadFile(files.disadvantages_master));
+  dictionary.push(...loadFile(files.advantages_starter));
+  dictionary.push(...loadFile(files.skill_starter)); 
+  dictionary.push(...loadFile(files.miscgear, "equipment", "miscgear.json"), );
+  dictionary.push(...loadFile(files.rules_exploits, "rule", "rules_exploits.json"), );
 
   return dictionary;
 }

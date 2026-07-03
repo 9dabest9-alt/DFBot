@@ -1,601 +1,536 @@
+[
 {
-  "notes": {
-    "_comment": "No Notes"
-  },
-  "items": [
+  "version": "df-disadvantages-master-1",
+  "total_disadvantages": 66,
+  "disadvantages": [
     {
       "name": "Absent-Mindedness",
       "category": "disadvantage",
-      "search_name": "absent mindedness disadvantage",
+      "search_name": "absent mindedness",
       "points": "-15 points",
       "full_text": "You have trouble focusing on any noncombat activity that isn’t of immediate personal interest. You have -5 on all IQ and IQ-based skill rolls except those for the task you’re currently concentrating on. If you’re assigned or obliged to undertake a boring or repetitive task (e.g., guard duty or counting money), roll vs. Will at -5 every five minutes. Failure means you get lost in thought: That -5 to IQ-based rolls affects whatever you’re supposed to be doing, and you must make a Perception roll at -5 to notice any event short of personal physical injury! Finally, you tend to forget trivial tasks and items. Whenever it’s important that you perform such a task or bring such an item – e.g., “Did the last one in bar the door?” or “Did you bring a spare torch?” – the GM will call for an IQ roll at -2. Failure means the detail slipped your attention.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Appearance",
       "category": "disadvantage",
-      "search_name": "appearance disadvantage",
+      "search_name": "appearance",
       "points": "-4 or -8 points",
       "full_text": "Your looks are unappealing, penalizing reaction rolls and Sex Appeal skill. Two levels of unfavorable Appearance are available to delvers (monsters can be uglier!): Unattractive: -1 on reactions and -2 to Sex Appeal. -4 points. Ugly: -2 on reactions and -4 to Sex Appeal. -8 points. These reaction penalties affect only those who can see you. They’re usually limited to humans and the races in Chapter 3, but the GM is free to extend them to beings that take humanoid forms. If you’re good-looking, Appearance is an advantage; see p. 47. Most delvers have “Average” Appearance, which costs no points and has no special effect.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Bad Temper",
       "category": "disadvantage",
-      "search_name": "bad temper disadvantage",
+      "search_name": "bad temper",
       "points": "-10 points*",
       "full_text": "You aren’t in full control of your emotions. Make a self-control roll in any stressful situation. If you fail, you lose your temper and must insult, attack, or otherwise act against the cause of the stress.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Berserk",
       "category": "disadvantage",
-      "search_name": "berserk disadvantage",
+      "search_name": "berserk",
       "points": "-10 points*",
       "full_text": "You tend to rampage out of control! Make a self-control roll whenever you suffer injury over HP/4 in the space of one second or fail a self-control roll for Bad Temper. Failure means you go berserk. You may deliberately go berserk by taking a Concentrate maneuver and making a successful Will roll. Once you’re berserk, the following rules apply: • If armed with a melee weapon, you must make an All Out Attack each turn a foe is in range. If no foe is in range, you must use a Move maneuver to get as close as possible to a foe – and if you can Move and Attack, you will. • If the enemy is more than 20 yards away and you have a ranged weapon ready when you go berserk, you may use it with an All-Out Attack (Determined) maneuver – no Aim maneuver allowed! – before you charge into melee combat. • If for any reason you end up in a posture other than standing, you must use the Change Posture maneuver to stand as soon as possible. • You’re immune to shock, knockdown, and stun, and your injuries cause no penalty to your Move score. You make all rolls to remain conscious or alive at +4 to HT. If you fail no rolls, you remain alive and madly attacking until you reach -5¥HP. Then you fall – dead! • When you down a foe, you may (if you wish) attempt another self-control roll to see if you snap out of the berserk state. If you fail or don’t roll, you remain berserk and attack the next foe. You’ll treat any friend who attempts to restrain you as a foe! You get to roll again each time you down a foe, and you get one extra roll when no more foes remain. If you’re still berserk, you’ll start to attack your friends . . . Once you snap out of the berserk state, all your wounds affect you immediately. Any remaining HT rolls required – for crippling, consciousness, etc. – are not at +4.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Blindness",
       "category": "disadvantage",
-      "search_name": "blindness disadvantage",
+      "search_name": "blindness",
       "points": "-50 points",
       "full_text": "You cannot see at all. On adventures, you must travel slowly and carefully, or have a companion lead you. Many actions are impossible for you – the GM should use common sense. You have -6 to all combat skills. You can use melee weapons but you cannot target a particular hit location. With a ranged weapon, you can only attack randomly, or engage targets so close you can hear them. All this assumes you’re accustomed to blindness. If you suddenly lose your eyesight, you fight at -10, as though in total darkness. In either case, you suffer no extra penalties for operating in the dark. Blindness is incompatible with vision abilities. If you have such traits when blinded in play, they do nothing until your Blindness is cured.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Bloodlust",
       "category": "disadvantage",
-      "search_name": "bloodlust disadvantage",
+      "search_name": "bloodlust",
       "points": "-10 points*",
       "full_text": "You want your enemies dead. In battle, you must go for killing blows, and put in an extra shot to make sure of a downed foe. You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc. Failure compels you to try to kill your foe instead – even if that means compromising stealth, straying from a plan, or (in town) breaking the law. Out of combat, you never forget that a foe is a foe. This applies only to “legitimate” enemies: bandits, monsters, etc. In a tavern brawl or a scuffle over treasure with your allies, you’re free to fight less lethally.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Bully",
       "category": "disadvantage",
-      "search_name": "bully disadvantage",
+      "search_name": "bully",
       "points": "-10 points*",
       "full_text": "You like to push people around whenever you can get away with it. This might mean physical attacks or intellectual or social harassment. Make a self-control roll to avoid gross bullying when you know you shouldn’t – but to roleplay your character properly, you should bully anybody you can. Since nobody likes a bully, others react to you at -2.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Callous",
       "category": "disadvantage",
-      "search_name": "callous disadvantage",
+      "search_name": "callous",
       "points": "-5 points",
       "full_text": "You don’t care about others’ feelings or pain; if you take note of their emotions, it’s only to manipulate them. When you interact socially with anybody who has previously experienced your callousness – or who possesses the Empathy advantage – you have -1 to reaction rolls and -3 to skill rolls. You also get a permanent -3 to the Teaching skill. Ruthlessness has its perks! Add a permanent +1 to the Interrogation and Intimidation skills. However, merely seeing you use either skill (or hearing the screams . . .) counts as experiencing your callousness; you’ll have permanent social penalties with all witnesses. Callous is incompatible with Charitable (p. 58) and Self less (p. 65).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Charitable",
       "category": "disadvantage",
-      "search_name": "charitable disadvantage",
+      "search_name": "charitable",
       "points": "-15 points*",
       "full_text": "You’re acutely aware of others’ emotions, and feel compelled to help those around you – even legitimate enemies. Make a self-control roll in any situation where you could render aid or are specifically asked for help, but should resist the urge. If you fail, you must offer assistance, even if that means violating orders or walking into a potential trap. Charitable is incompatible with Callous (p. 57).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Chummy or Gregarious",
       "category": "disadvantage",
-      "search_name": "chummy or gregarious disadvantage",
+      "search_name": "chummy or gregarious",
       "points": "-5 or -10 points",
       "full_text": "You work well with others and seek out company. This trait comes in two levels, neither of which is compatible with Loner (p. 63): Chummy: When alone, you’re unhappy and distracted, and suffer -1 to IQ-based skills. -5 points. Gregarious: You’re miserable when alone, and use IQ-based skills at -2 – or at -1 if in a group of four or less. -10 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Clueless",
       "category": "disadvantage",
-      "search_name": "clueless disadvantage",
+      "search_name": "clueless",
       "points": "-10 points",
       "full_text": "Sophisticated manners, clever wit, and many everyday social graces are beyond you. Most people find you annoying and react to you at -2. You also get -4 to the Savoir-Faire skill. Realizing that your cluelessness is causing problems – or that you’re the butt of a joke – takes an IQ roll at -4. Unless you have Gullibility (p. 61), you’re no easier to take advantage of or influence with Fast-Talk – except when someone is trying to convince you that an attractive person is interested in you. Then you resist at -4. As an upside, you’re oblivious to actual attempts to seduce you, and resist Sex Appeal at +4.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Code of honor",
       "category": "disadvantage",
-      "search_name": "code of honor disadvantage",
+      "search_name": "code of honor",
       "points": "-5, -10, or -15 points",
       "full_text": "You take pride in a set of principles that you live up to at all times. You must do more than pay lip service to this Code of Honor to claim points for it – you have to be a true follower! This will often require dangerous, even reckless behavior, and foes who know you’re honorable may force you into unfair situations. The point value of a Code depends on how much trouble it’s liable to get you into and how arbitrary and irrational its requirements are: Code of Honor (Outlaw’s): You live by the rules (really guidelines) of the Thieves’ Guild, a pirate crew, or a gang: Always avenge an insult, regardless of the danger; your buddy’s foe is your own; never attack a buddy except in a fair, open duel. Anything else goes! -5 points. Code of Honor (Gentleman’s): Never break your word. Never ignore an insult, which may be wiped out only by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal. This holds only among civilized folk – merchants and authorities, elves and dwarves, lords and ladies (even Evil ones), etc. Treat outlaws and monsters as horribly as you wish. -10 points. Code of Honor (Soldier’s): If you lead, do so from the front and look out for your troops; if you follow, obey orders and look out for your buddies; either way, be willing to fight and die for your unit’s honor. This normally applies toward your adventuring party – but if the adventure involves actual armies and warfare, you must obey the “rules of war,” treat an honorable enemy with respect, and take care of any gear you’re issued. -10 points. Code of Honor (Bushido): As Code of Honor (Gentleman’s) – but in addition, you cannot turn down a challenge from an honorable foe (anyone who follows a Code worth -10 or -15 points) and would risk suicidal danger before accepting defeat. -15 points. Code of Honor (Chivalry): As Code of Honor (Gentleman’s) – but in addition, you must protect anyone weaker than yourself and never refuse to defend civilization against Evil, however hopeless the battle. -15 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Combat Paralysis",
       "category": "disadvantage",
-      "search_name": "combat paralysis disadvantage",
+      "search_name": "combat paralysis",
       "points": "-15 points",
       "full_text": "You tend to “freeze up” in combat situations, and receive -2 to Fright Checks. This has nothing to do with Cowardice (p. 58) – you may be brave, but your body betrays you! Whenever personal harm seems imminent, make a HT roll. Don’t roll until the instant you need to fight, run, etc. Regardless of HT, any roll of 14+ is a failure. Success lets you act normally. Failure means you’re mentally stunned (Exploits, p. 27). To break the freeze, make another HT (not IQ) roll every second, at a cumulative +1 per turn after the first; if a friend uses up a turn to give you a quick slap, add +1 to your cumulative roll. Once you succeed, you won’t freeze again until the current danger is over. Combat Paralysis is mutually exclusive with Combat Reflexes (p. 48).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Compulsive Behavior",
       "category": "disadvantage",
-      "search_name": "compulsive behavior disadvantage",
+      "search_name": "compulsive behavior",
       "points": "-5 or -15 points*",
       "full_text": "You have a habit that clouds your judgment. You’ll indulge whenever you have the opportunity, unless you can make a self-control roll. If you cannot indulge for more than a day (common on an adventure!), you’ll suffer from Bad Temper (p. 57) with the same self-control roll as your Compulsive Behavior until you can scratch your itch. In addition, most forms of Compulsive Behavior raise the $150/week cost of living in town (p. 96) and penalize certain rolls. Varieties that raise cost of living are incompatible with Miserliness (p. 63) – and cost of living increases from multiple types add! These effects are tied to self-control number: Self-Control Number Cost of Living Increase Penalty 6 9 +$120/week -4 +$90/week 12 15 Specific varieties are: +$60/week +$30/week -3-2-1 Compulsive Carousing: You love to party! Make a self-control roll to avoid trying a mind-altering substance, accepting a drink, dancing with satyrs, etc. In town, feasting and partying raise the cost of living. You receive +1 to reactions from fellow partiers, but puritanical folk (GM’s decision) react to you at the penalty on the table. -5 points.* Compulsive Gambling: You live to gamble. Make a self-control roll to avoid playing a game of chance, accepting a bet, etc. In town, constant wagering raises the cost of living – though if you know the Gambling skill, Scoring Extra Cash (Exploits, p. 14) may offset this. You’re widely viewed as a credit risk; apply the penalty on the table to Finding a Sponsor (Exploits, pp. 14-15). -5 points.* Compulsive Generosity: You’re too open-handed. Make a self-control roll whenever a hard-luck case asks for cash; failure means donating at least $5 times your margin of failure (more is good roleplaying!). In town, such charity raises the cost of living. You get +1 to reactions from temples and beggars, but suffer the penalty on the table when you must resist calls for monetary aid via Fast-Talk, mind control, etc. -5 points*. Compulsive Lying: You lie constantly. Make a self-control roll to tell the truth even to your friends (roll out of sight of the other players!). Failure means you lie – regardless of the consequences. There’s no cost of living increase, but the penalty on the table applies to reactions from any NPC who catches (or has ever caught) you lying. As this trait can endanger the whole party, the GM may wish to forbid it. -15 points.* Compulsive Spending: You live large! Make a self-control roll anytime you’re given a chance to buy something that matches your quirks or interests and you have more than twice the asking price on hand. Failure means you buy. Upgrades to essential delving gear count – but you can sell off old stuff to keep costs down. In town, your tastes raise the cost of living. Apply the penalty on the table to Merchant or Streetwise rolls for Getting Stuff Cheap (Exploits, pp. 13-14). -5 points.* Compulsive Vowing: You never simply decide to do something; you must make it an oath. There’s no penalty or cost of living increase – but at all times you must have and adhere to the equivalent of Vows (p. 67) equal in point value to this trait. -5 points.*",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Cowardice",
       "category": "disadvantage",
-      "search_name": "cowardice disadvantage",
+      "search_name": "cowardice",
       "points": "-10 points*",
       "full_text": "You’re extremely careful about your physical well-being. Make a self-control roll whenever you’re called on to risk physical danger – at -5 if you must risk death. Failure means you must refuse to endanger yourself unless threatened with greater danger! Cowardice also penalizes Fright Checks whenever physical danger is involved: Self-Control Number: Fright Check Penalty: 6 -4 9 12 15-3 -2 -1",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Curious",
       "category": "disadvantage",
-      "search_name": "curious disadvantage",
+      "search_name": "curious",
       "points": "-1, -5 points*",
       "full_text": "You’re naturally very inquisitive. This isn’t the curiosity that affects all adventurers (“What’s in the dungeon?”), but the rash kind (“What happens if I drink this potion?”). Make a self-control roll when presented with an interesting or unfamiliar item or situation. Failure means you must examine it – push buttons, pull levers, open doors, etc. – even if you know it will be dangerous. Faced with a genuine mystery, failure compels you to investigate further; you simply cannot turn your back on it.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Disciplines of Faith",
       "category": "disadvantage",
-      "search_name": "disciplines of faith disadvantage",
+      "search_name": "disciplines of faith",
       "points": "-5 or -10 points",
       "full_text": "You live by a strict set of rules in order to achieve a greater understanding of your faith – whether as a personal decision or as a requirement of your religion. Point value reflects the inconvenience: Disciplines of Faith (Chi Rituals): See Chi Abilities (pp. 30-31) for requirements and effects. -10 points. Disciplines of Faith (Mysticism): You engage in trance like contemplation when you can, and chant and fuss with prayer beads the rest of the time. The GM will give you -2 to notice danger in the first case, and give danger +2 to notice you in the second (most monsters detest incense and mantras). Speaking in riddles causes everyone but devout coreligionists to react to you at -2. -10 points. Disciplines of Faith (Ritualism): You have an elaborate ritual for every aspect of life – waking, eating, everything – but aren’t quite as annoying as a mystic. Effects are half as severe as for Mysticism. -5 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Easy to Read",
       "category": "disadvantage",
-      "search_name": "easy to read disadvantage",
+      "search_name": "easy to read",
       "points": "-10 points",
       "full_text": "Your body language betrays your true intentions. Others get +4 on all rolls to discern your motives or the truth of your words: Detect Lies skill, Gambling skill when you’re bluffing, IQ rolls for Empathy, and even Communication and Empathy spells to divine your emotions or whether you’re lying. This isn’t the same as Truthfulness (p. 67). You have no moral problem with lying, but your face or stance gives the game away.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Fanaticism",
       "category": "disadvantage",
-      "search_name": "fanaticism disadvantage",
+      "search_name": "fanaticism",
       "points": "-15 points",
       "full_text": "You believe so strongly in a philosophy or religion that you put it ahead of everything else! You obey its behavior codes and leaders willingly and unquestioningly. You never get a self-control roll – or even a roll to realize when you’re being used. If you’re unprepared to follow blindly and “do whatever it takes” – even risk death – don’t take this disadvantage.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Frightens Animals",
       "category": "disadvantage",
-      "search_name": "frightens animals disadvantage",
+      "search_name": "frightens animals",
       "points": "-10 points",
       "full_text": "Your supernatural aura triggers fear and aggression in beasts. You can’t have Animal Empathy (p. 47) or Animal Friend (p. 47), and receive -4 on reaction rolls from animals – mundane, giant, or dire – and to the Animal Handling and Disguise (Animals) skills. This causes peaceful beasts to shy away (horses won’t let you ride them, and you can’t keep ordinary pets), while vicious ones like watchdogs and dire animals attack savagely. Anyone who witnesses these reactions, and those with Animal Empathy, will react to you at -1. Sentries with guard beasts will decide how to deal with you based on the animal’s reaction roll, not their own!",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Gluttony",
       "category": "disadvantage",
-      "search_name": "gluttony disadvantage",
+      "search_name": "gluttony",
       "points": "-5 points*",
       "full_text": "You’re overly fond of food and drink. Given the chance, you must always burden yourself with extra provisions. You should never willingly miss a meal. Make a self-control roll when presented with a tempting morsel or good wine that you should resist for some reason. Failure means you partake – regardless of the consequences.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Greed",
       "category": "disadvantage",
-      "search_name": "greed disadvantage",
+      "search_name": "greed",
       "points": "-15 points*",
       "full_text": "Even more than most delvers, you lust for wealth! Make a self-control roll whenever riches are offered – as payment for fair work, treasure, spoils of crime, or even obvious bait. Modifiers: -5 if the offer exceeds twice the cash you currently have on hand. If you have Honesty (p. 61), +5 for a shady deal or +10 for outright crime. Failure means you’ll do whatever it takes to get the payoff, however illegal or ill-advised.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Gullibility",
       "category": "disadvantage",
-      "search_name": "gullibility disadvantage",
+      "search_name": "gullibility",
       "points": "-10 points*",
       "full_text": "There’s one born every minute, and you’re it. Make a self-control roll whenever you’re confronted with a lie – or even an improbable truth. Modifiers: -6 for a lie involving something with which you have no familiarity (e.g., anything to do with magic for a barbarian), -3 for a plausible lie concerning a topic you are familiar with (e.g., anything to do with wilderness or weapons for that barbarian), or no modifier for something utterly outlandish (e.g., “Of course all wizards are vampires – every one knows that!”). Failure means you believe what you were told! You also have -3 to the Merchant skill and on any roll to resist having your credulity exploited. You can never learn the Detect Lies skill.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Ham-Fisted",
       "category": "disadvantage",
-      "search_name": "ham fisted disadvantage",
+      "search_name": "ham fisted",
       "points": "-5 points/level",
       "full_text": "You have unusually poor motor skills. Each level of this disadvantage (maximum two) gives -3 to the Fast-Draw, Knot Tying, Lockpicking, Pickpocket, and Sleight of Hand skills, and to DX-based Traps rolls. This doesn’t affect IQ-based tasks, large-scale DX-based ones, or any combat-related rolls other than Fast-Draw. This disadvantage is mutually exclusive with High Manual Dexterity (p. 39).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Hard of Hearing",
       "category": "disadvantage",
-      "search_name": "hard of hearing disadvantage",
+      "search_name": "hard of hearing",
       "points": "-10 points",
       "full_text": "You’re at -4 on Hearing rolls, and on any skill roll where it’s important to understand sounds or speech. When you are talking, this disadvantage has no effect. Hard of Hearing is mutually exclusive with Acute Hearing (p. 46).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Honesty",
       "category": "disadvantage",
-      "search_name": "honesty disadvantage",
+      "search_name": "honesty",
       "points": "-10 points*",
       "full_text": "You must obey the law and do your best to convince others to do so. This limits your options in civilized lands – particularly in town. You cannot trade on the black market, shoplift, pick pockets, debase coins, or violate a contract with a sponsor; see Scum and Villainy (Exploits, p. 14). You can fight or kill only in self-defense or a formal contest (dueling counts in Dungeon Fantasy). You cannot commit robbery, burn thatch roofed cottages, etc. If jailed but treated fairly and assured of a trial, you won’t try to escape. Make a self-control roll when faced with the “need” to do such things. Failure means you won’t, whatever the consequences. Success lets you try – but if you go through with it, make a second self-control roll afterward. Failure compels you to turn yourself into the Town Watch or King’s Men! In uncivilized wilderness or a dungeon, you’re free to slaughter monsters and bandits, loot the bodies, and pillage their treasure. You needn’t recognize the “laws” of Evil: dark lords, demons, etc. If captured by such villains, you may do whatever it takes to escape. You tend to assume that other civilized humanoids – not monsters – are as honest as you are. Make an IQ roll to realize that someone might be dishonest if you haven’t seen proof. While one meaning of “honest” is “truthful,” Honesty is not Truthfulness (p. 67). You may lie freely as long as you don’t break the law!",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Illiteracy",
       "category": "disadvantage",
-      "search_name": "illiteracy disadvantage",
+      "search_name": "illiteracy",
       "points": "-3 points",
       "full_text": "You cannot read or write Common; see Language, Please! (p. 9).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Impulsiveness",
       "category": "disadvantage",
-      "search_name": "impulsiveness disadvantage",
+      "search_name": "impulsiveness",
       "points": "-10 points*",
       "full_text": "You prefer action! When you’re alone, you’ll act first and think later. In a group, you hate to talk and debate. When your friends stop to discuss something, put in your two cents’ worth quickly – if at all – and then do something! Make a self-control roll whenever hasty action seems unwise. Failure means you must act.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Intolerance",
       "category": "disadvantage",
-      "search_name": "intolerance disadvantage",
+      "search_name": "intolerance",
       "points": "-5 or -10 points",
       "full_text": "You’re openly prejudiced against some or all people (not monsters!) who are different from you. Those affected react to you at -1 if you don’t speak or act, -3 if you just talk, or -5 if you take action. Point value depends on scope: Intolerance (Targeted): You despise one narrow group. Examples are Evil religions (clerics, holy warriors, and cultists of sinister faiths), urbanites (inhabitants of large cities – not merely villagers or townsfolk), or a specific race (e.g., elves). -5 points. Intolerance (Broad): You detest anybody who isn’t like you in one particular regard. The most common examples are all religions but your own (for clerics and holy warriors, this affects not only members of Evil faiths but also druids, devotees of foreign religions, and anybody else who doesn’t support the temple) and all intelligent races but your own (e.g., anyone but elves). -10 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Jealousy",
       "category": "disadvantage",
-      "search_name": "jealousy disadvantage",
+      "search_name": "jealousy",
       "points": "-10 points",
       "full_text": "You’re cold toward those who seem better than you in any way, and you hate it when someone else has the limelight! If a PC you see as a rival proposes a plan, you suffer the effects of Stubbornness (p. 66) automatically. You effectively have Intolerance (above) of NPC “rivals,” and suffer the reaction penalties described for that disadvantage.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Kleptomania",
       "category": "disadvantage",
-      "search_name": "kleptomania disadvantage",
+      "search_name": "kleptomania",
       "points": "-15 points",
       "full_text": "You’re compelled to steal. Make a self-control roll whenever you have a chance to steal – at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you’re low on cash or have Greed). Failure means you must try to steal it. You may keep or sell stolen goods, but you may not return or discard them.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Klutz or Total Klutz",
       "category": "disadvantage",
-      "search_name": "klutz or total klutz disadvantage",
+      "search_name": "klutz or total klutz",
       "points": "-5 or -15 points",
       "full_text": "You’re prone to gross physical blunders. You may have up to DX 13 and still choose this trait, but you’re more awkward than your DX suggests. This disadvantage comes in two levels: Klutz: The GM will make a secret DX roll for you once per day. Failure means you’ll drop, knock over, or stumble into something at an ill-timed moment. You’ll often end up paying for broken goods at shops in town, and when a “random” party member blunders into an undetected trap on an adventure, it’s usually you. -5 points. Total Klutz: As above, but in addition, failures on noncombat DX and DX-based skill rolls (e.g., most uses of Climbing or Stealth) are considered critical failures for you! -15 points",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Lame",
       "category": "disadvantage",
-      "search_name": "lame disadvantage",
+      "search_name": "lame",
       "points": "-10, -20, or -30 points",
       "full_text": "You’ve lost the use of one or both legs. Crippled Leg: You have both legs but one is damaged. You’re at -3 on anything that requires use of the legs, including all melee combat skills (but not ranged combat skills). You must reduce Basic Move to half your Basic Speed, dropping fractions; you get full points for this. -10 points. Missing Leg: You’ve lost a leg. You’re at -6 on tasks that require use of the legs. You can still kick, but the -2 for a kick adds to this -6. A peg leg lets you stand up and walk slowly. You must reduce Basic Move to 2; you get full points for this. Without your peg leg, you cannot stand, walk, or kick. -20 points. Legless: Both legs are crippled or missing. You’re at -6 on tasks that require use of the legs, and you cannot stand, walk, or kick at all. You must reduce Basic Move to 0; you get full points for this. -30 points. For simplicity’s sake, active defenses are at -1 if your penalty is -3, or -3 if it’s -6. Someone with Crippled Leg or Missing Leg can opt to fight from a sitting posture at -2 to melee attacks, -2 to defenses. Any Lame person can fight lying down at -4 to melee attacks, -3 to defenses. These penalties are instead of -3 or -6 to melee attacks and the corresponding -1 or -3 to defenses. Missing legs are harder to cure magically than crippled ones, but they can’t be struck for injury.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Laziness",
       "category": "disadvantage",
-      "search_name": "laziness disadvantage",
+      "search_name": "laziness",
       "points": "-10 points",
       "full_text": "You’re averse to labor. In town, halve cash and discounts from Getting Stuff Cheap (Exploits, pp. 13-14) unless you’re shoplifting something specific; e.g., a mere $5 of freebies if scrounging, -5% if bargain hunting, or -10% if crafting or brewing. Do the same for Scoring Extra Cash (Exploits, p. 14) – even petty crime is too much like work. Scrap (Exploits, pp. 16-17) and Selling the Tale (Exploits, p. 17) also earn you half as much; you won’t shop around. And when you roll for Finding a Sponsor (Exploits, pp. 14-15), backers supply half as much gear because you just don’t seem like a go-getter. On adventures, when the whole party stops to rest, you get half that time for anything but lazing around and recovering FP.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Lecherousness",
       "category": "disadvantage",
-      "search_name": "lecherousness disadvantage",
+      "search_name": "lecherousness",
       "points": "-15 points*",
       "full_text": "You have an unusually strong desire for romance. Make a self-control roll whenever you have more than the briefest contact with an attractive person of the right sex. Modifiers: -5 if this person is Handsome/Beautiful; -10 if Very Handsome/Very Beautiful. Failure means you act . . . inappropriately. This earns -3 to reactions from your victim and any onlookers, doubled if your interest would be unacceptable even if you weren’t a creep (e.g., when pursuing a chaste cleric). You also resist Sex Appeal – and seduction using supernatural abilities or spells – at a penalty: Self-Control Number: Resistance Penalty: 6 -4 9 12 15-3 -2 -1 This improves the odds of seducers with penalties to Sex Appeal for nasty Appearance (p. 56), like orcs – low self- control means low standards! Failed resistance has the effects in Influencing PCs? (Exploits, p. 10).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Loner",
       "category": "disadvantage",
-      "search_name": "loner disadvantage",
+      "search_name": "loner",
       "points": "-5 points*",
       "full_text": "You require a lot of “personal space.” Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. Failure means you lash out at that person as if you had a bad temper (p. 57). Loner is incompatible with Chummy or Gregarious (p. 58).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Low Pain Threshold",
       "category": "disadvantage",
-      "search_name": "low pain threshold disadvantage",
+      "search_name": "low pain threshold",
       "points": "-10 points",
       "full_text": "You’re very sensitive to pain. Double all penalties for shock (Exploits, p. 60) or any other kind of pain. You also suffer -4 on HT rolls to avoid knockdown (Exploits, p. 60), and on rolls to resist physical torture, spells that cause pain, and so on. Whenever you’re wounded for more than 1 HP, you must make a Will roll; failure means you cry out, possibly giving away your presence. Low Pain Threshold is mutually exclusive with High Pain Threshold (p. 50).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Miserliness",
       "category": "disadvantage",
-      "search_name": "miserliness disadvantage",
+      "search_name": "miserliness",
       "points": "-10 points*",
       "full_text": "You’re preoccupied with conserving your wealth. Make a self-control roll whenever you’re called on to spend money, at -5 for large expenditures (GM’s decision). Failure means you won’t spend the money. Even success compels you to try to talk the price down; see Getting Stuff Cheap (Exploits, pp. 13-14). You’ll pay a mandatory expense like a fine or toll, but your attitude earns a reaction penalty from those collecting it: Self-Control Number: Reaction Penalty: 6 -4 9 12 15-3",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Nervous Stomach",
       "category": "disadvantage",
-      "search_name": "nervous stomach disadvantage",
+      "search_name": "nervous stomach",
       "points": "-1 point",
       "full_text": "You have -3 to HT rolls to avoid illness (typically attribute penalties or vomiting) brought on by rich or spicy food, strong drink, etc.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "No Sense of Humor",
       "category": "disadvantage",
-      "search_name": "no sense of humor disadvantage",
+      "search_name": "no sense of humor",
       "points": "-10 points",
       "full_text": "You never get jokes, and think everyone is earnestly serious at all times. Likewise, you never joke, and are earnestly serious at all times. You suffer -2 to reaction rolls in all but the most solemn of situations – and the GM may extend this to Carousing rolls at the tavern, unless the crowd is equally dour.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Oblivious",
       "category": "disadvantage",
-      "search_name": "oblivious disadvantage",
+      "search_name": "oblivious",
       "points": "-5 points",
       "full_text": "You’re the classic “nerd”! You don’t fully understand others' motivations, making you awkward in situations involving social manipulation. You have -1 to the Diplomacy, Fast-Talk, Intimidation, Savoir-Faire, Sex Appeal, and Streetwise skills, and -1 to resist Influence rolls (Exploits, p. 10).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Obsession",
       "category": "disadvantage",
-      "search_name": "obsession disadvantage",
+      "search_name": "obsession",
       "points": "-5 or -10 points*",
       "full_text": "A single goal dominates your life and thinking. Make a self-control roll whenever you believe (rightly or wrongly!) a course of action would bring you even a bit closer to this. Failure compels you to pursue that path regardless of the consequences. Point value depends on how realizable your goal is: Obsession (Short-Term): An outcome you could reasonably achieve, like finding a fabled treasure, slaying a powerful monster, or learning a specific ability. This mostly leads you into ill-advised battles and dangerous quests. -5 points.* Obsession (Long-Term): An implausible goal, like becoming the King, a profession’s best or most powerful member, an undead lord . . . even a demigod. This will eventually lead to life-threatening rituals, treason, sacrilege, deals with The Devil, etc. -10 points.* Should you attain your goal, you must substitute another or buy off your Obsession; see Buying Off Disadvantages (Exploits, p. 93).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Odious Personal Habit",
       "category": "disadvantage",
-      "search_name": "odious personal habit disadvantage",
+      "search_name": "odious personal habit",
       "points": "-5 points",
       "full_text": "Many disadvantages give reaction penalties. If you can’t find one you like (or simply want to be repellent!), use this trait to define your own: annoying humming, bad hygiene, coarse manners, etc. This gives -1 to reaction rolls. You can take this twice (-10 points) for two habits – or a single truly disgusting one – that gives -2 to reactions. Only monsters are foul enough to go beyond this.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "One Eye",
       "category": "disadvantage",
-      "search_name": "one eye disadvantage",
+      "search_name": "one eye",
       "points": "-15 points",
       "full_text": "You’ve lost an eye. You suffer -1 to DX and DX-based skills in combat, and on any task involving hand-eye coordination – and -3 on ranged attacks, unless you Aim first. In the violent world of Dungeon Fantasy, this disability is so common that nobody much notices it – but if you’re vain or a pirate, feel free to wear an eye-patch",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "One Hand",
       "category": "disadvantage",
-      "search_name": "one hand disadvantage",
+      "search_name": "one hand",
       "points": "-15 points",
       "full_text": "You’ve lost a hand. Use the rules for One Arm (p. 63), with three differences: • You may make unarmed parries with a handless arm. • You can strap a shield (not a buckler or cloak) to the arm. • You can wear a hook. Buy and use this as a large knife, except it cannot be dropped. It gives +1 to Intimidation skill when waved at foes.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Overconfidence",
       "category": "disadvantage",
-      "search_name": "overconfidence disadvantage",
+      "search_name": "overconfidence",
       "points": "-5 points*",
       "full_text": "You believe you’re far more powerful or competent than you really are. The GM may ask for a self-control roll whenever you show an unreasonable degree of caution. Failure means you must go ahead as though you’re able to handle the situation – caution isn’t an option! You get +2 on reaction rolls from young or naive individuals (who believe you’re as good as you say you are), but -2 on reactions from experienced NPCs. If you’re actively boastful, that’s a separate Odious Personal Habit (p. 63).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Overweight or Fat",
       "category": "disadvantage",
-      "search_name": "overweight or fat disadvantage",
+      "search_name": "overweight or fat",
       "points": "-1 or -3 points",
       "full_text": "A higher-than-usual proportion of your weight is body fat. This penalizes rolls against Disguise (unless impersonating someone with your disadvantage) and Shadowing (your girth stands out!). Narrow openings must be wider to avoid Squeezing (Exploits, p. 21). However, you get bonuses to Swimming rolls (fat floats) – and to effective ST when assessing knockback (Exploits, p. 53). This trait comes in two levels, neither of which is compatible with Skinny (p. 66): Overweight: -1 to Disguise and Shadowing, +25% width, +1 to Swimming, and +1 ST vs. knockback. -1 point. Fat: -2 to Disguise and Shadowing, +50% width, +3 to Swimming, and +2 ST vs. knockback. Your HT cannot exceed 15. -3 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Paranoia",
       "category": "disadvantage",
-      "search_name": "paranoia disadvantage",
+      "search_name": "paranoia",
       "points": "-10 points",
       "full_text": "You believe everyone is plotting against you. You trust only your fellow delvers . . . and you keep an eye on them, too, just in case. In a group, this divides your attention: -1 to Per and Per-based skill rolls when standing watch or if any allies are behind you, but +1 to notice associates attempting to betray you! Your inability to trust causes most people to react to you at -2.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Phobia",
       "category": "disadvantage",
-      "search_name": "phobia disadvantage",
+      "search_name": "phobia",
       "points": "-5, -10, -15, or -20 points*",
       "full_text": "You have an unreasonable, unreasoning, morbid fear of certain creatures, items, or circumstances. Make a self-control roll whenever you’re exposed to the object of your Phobia. Modifiers: If it’s physically present, -1 for each intensifier the GM applies (“huge,” “numerous,” “unnatural,” etc.); -2 if it’s actively attacking or harming you. If it isn’t present and foes verbally threaten you with exposure, roll at +4. Failure counts as a Fright Check (Exploits, pp. 10-11) failed by the same margin; e.g., if your self-control number is 9 and you roll 13, you’re mentally stunned (Exploits, p. 27) for four seconds and must roll 3d+4 to see whether you’re permanently scarred. If you have any other disadvantages triggered by stress, you’re likely to have those reactions as well! Success means you’ve mastered your Phobia – for now. You’re still shaken, and have a penalty to all DX, IQ, and skill rolls while the cause of your fear persists: Self-Control Number: Penalty: 6 -4 9 12 15-3 -2 -1 For ongoing exposure, roll again every 10 minutes to see if the fear overcomes you. Point value depends on how common the object of the fear is for adventurers: Narrow: A tight category of creatures, like canines (dogs, foxes, wolves, etc.), felines (from housecats to lions and tigers), snakes, or spiders. Items or circumstances that don’t arise on most adventures, such as libraries, machinery (anything more complicated than a crossbow), or an unlucky number (traditionally 13). An infrequent attack or hazard, like mind control or drowning. -5 points.* Broad: A big group of related creatures, such as bugs (including insects and spiders) or reptiles (snakes, lizards, lizard-men, dragons, etc.). Items or circumstances common on adventures but short-lived (like loud noises) or localized enough to give a wide berth (like blood or dead bodies) most of the time. Common attacks or hazards, like fire (not torches and campfires, but fire attacks and lava) or heights (includes pits!). -10 points.* Pervasive: An entire class of monsters, like all dangerous animals, all demons, or all undead. Items or circumstances common on adventures and too pervasive or persistent to avoid entirely, such as darkness or enclosed spaces (everywhere in dungeons), the sun (everywhere outdoors), or crowds (everywhere in town). Attacks or hazards found in nearly every dungeon or battle, like magic, traps, or sharp things. -15 points.* Unavoidable: Anything delvers cannot avoid: all combat, all monsters, all weapons, etc. The GM may prohibit such Phobias! -20 points.*",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Pyromania",
       "category": "disadvantage",
-      "search_name": "pyromania disadvantage",
+      "search_name": "pyromania",
       "points": "-5 points*",
       "full_text": "You like fires – especially setting fires! Make a self-control roll whenever you have an opportunity to set a fire, attack using fire, or stand around appreciating a fire. Failure means you do exactly that, regardless of the consequences.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Selfless",
       "category": "disadvantage",
-      "search_name": "selfless disadvantage",
+      "search_name": "selfless",
       "points": "-5 points*",
       "full_text": "You’re altruistic and self-sacrificing. When any one other than a legitimate enemy is in immediate peril, make a self-control roll to put your needs – even survival! – before theirs. Failure means you intervene heroically, whatever the cost. Selfless is incompatible with Callous (p. 57).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Sense of Duty",
       "category": "disadvantage",
-      "search_name": "sense of duty disadvantage",
+      "search_name": "sense of duty",
       "points": "-5, -10, or -15 points",
       "full_text": "You feel a strong sense of commitment toward a particular class of people. There’s no self-control roll! Instead, the GM will overrule attempts to betray or abandon the chosen group – almost the only time that’s acceptable in Dungeon Fantasy. On the upside, if other disadvantages would interfere with your commitment, the GM will overrule those, too. As well, anyone who benefits from your dedication will react to you at +2. Varieties are: Sense of Duty (Adventuring Companions): You must freely share equipment with and render aid to fellow PCs, and accept majority decisions. -5 points. Sense of Duty (Coreligionists): You must respect your temple’s high priests, defend the priesthood, and never let ordinary worshippers suffer or go hungry. You needn’t be irrational about it unless you also have Fanaticism (p. 60), but you can’t reject religious quests. -10 points. Sense of Duty (Good Entities): You must assist servants of supernatural Good – from clerics, through angels, to divine avatars. You can never leave them to imprisonment or torture, and must rush to their aid in combat. -10 points. Sense of Duty (Nation): You must act in the kingdom’s best interests. You can never decline a quest that would genuinely benefit the nation. Although this isn’t Honesty (p. 61) – you’re committed to lands, not laws – you’ll obey the King’s Men and accept missions they give you, too. -10 points. Sense of Duty (Nature): You’ll never harm a plant or animal that isn’t trying to harm you. If one is in need or danger, you’ll react as if Charitable (p. 58) or Selfless (p. 65). You must oppose plans that involve setting wildfires, felling trees, etc. You always side with wilderness over civilization. -15 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Short Attention Span",
       "category": "disadvantage",
-      "search_name": "short attention span disadvantage",
+      "search_name": "short attention span",
       "points": "-10 points*",
       "full_text": "You find it difficult to concentrate on long tasks. Make a self-control roll whenever you must focus on something for more than a few minutes, or whenever a distraction is offered. The GM might give you a bonus in situations where concentration is crucial, such as when your survival is at stake. Failure means you automatically fail at the task at hand!",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Skinny",
       "category": "disadvantage",
-      "search_name": "skinny disadvantage",
+      "search_name": "skinny",
       "points": "-5 points",
       "full_text": "You’re scrawny for your ST. This gives -2 to effective ST when assessing knockback (Exploits, p. 53), to Disguise rolls (except to look like another Skinny individual), and to Shadowing rolls (your gauntness is distinctive). Your HT cannot exceed 14. However, an opening can be half as wide as for most people before you must roll for Squeezing (Exploits, p. 21). Skinny is incompatible with Overweight or Fat (p. 64).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Social Stigma",
       "category": "disadvantage",
-      "search_name": "social stigma disadvantage",
+      "search_name": "social stigma",
       "points": "-5 or -10 points",
       "full_text": "You’re a member of a group most people dislike or distrust. You might even be notorious enough that everyone recognizes your face! Among non-monsters who don’t share your Social Stigma – that is, most people – you suffer a reaction penalty or other bad effects: Social Stigma (Criminal Record): You’re a branded criminal. In town, you have -2 on all rolls to buy, sell, beg for alms, or obtain quests or backers, and on all Influence rolls (Exploits, p. 10) and reaction rolls. Even the Thieves’ Guild is reluctant to deal with anybody stupid enough to get caught! Outside town, nobody cares. -5 points. Social Stigma (Disowned): Your family, clan, or tribe has publicly disclaimed you. You have -1 on reaction rolls in or out of town. Double this if the GM evilly steers the adventure into the lands of your kinfolk! -5 points. Social Stigma (Excommunicated): The temple has petitioned the gods to brand you an outcast. Ordinary people can’t detect this, but holy powers can. Helpful clerical spells – such as healing – work at -3 on you (harmful ones aren’t affected!), and you have -3 to the rolls for prayer under Last Ditch (Exploits, pp. 90-91). You cannot be a cleric. -10 points. Social Stigma (Half-Breed): Members of both your parent races distrust you. When buying or selling goods, finding backers, or engaging in similar negotiations anywhere – even in the dungeon! – you get -1 to reaction rolls and -2 to skill rolls. You may ignore this if the other party is neither human nor whatever your other half is. -5 points. Social Stigma (Minority Group): You’re from a “barbarian” or “outlander” culture. You get -2 on all reaction rolls made by anyone except others of your minority. Ignore this on any adventure that takes you back to your homeland. -10 points. Social Stigma (Savage): You’re practically a monster. As with Half-Breed (above), you have penalties when negotiating in or out of the dungeon: -2 to reaction rolls and -4 to skill rolls. These don’t apply among others of your kind. There’s a 6 or less chance on 3d that you’ll be denied entry to town; if so, you can’t conduct business and must live as though you were on the road, eating rations and facing random encounters. -10 points. You can have just one of Disowned, Half-Breed, Minority Group, or Savage. If your racial and professional templates specify conflicting Social Stigmas – as for a half-ogre barbarian – keep the racial trait and replace the professional one with its point value in other professional disadvantages. Both Criminal Record and Excommunicated can be combined with all other Social Stigmas.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Stubbornness",
       "category": "disadvantage",
-      "search_name": "stubbornness disadvantage",
+      "search_name": "stubbornness",
       "points": "-5 points*",
       "full_text": "You always want your own way, and oppose perfectly reasonable plans. Make a self-control roll anytime someone else’s success roll would give your own roll a bonus, as in Complementary Skill Rolls (Exploits, p. 6) and “Onward to Victory!” (Exploits, p. 57). Failure means you do things your way and get no bonus. Also roll whenever Part of the Solution or Part of the Problem (Exploits, p. 6) comes up. On a failure, you refuse to participate – make your own rolls, separate from the group’s. Refusing an NPC’s aid this way causes that person to react to you at -1.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "One Arm",
       "category": "disadvantage",
-      "search_name": "one arm disadvantage",
+      "search_name": "one arm",
       "points": "-20 points",
       "full_text": "You’ve lost an arm. You cannot use two-handed weapons, wield two weapons at once (including weapon and shield), or do anything that requires two arms. You get -4 on tasks possible with one arm but normally executed with two (e.g., most Climbing and Wrestling rolls). You have no penalty on tasks that require just one arm. When in doubt, try a quick reality check if possible – but the GM’s ruling is final! If you start with One Arm, assume that you lost the left arm if right-handed, or vice versa. In play, you lose whichever arm the monster bites off . . .",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Trickster",
       "category": "disadvantage",
-      "search_name": "trickster disadvantage",
+      "search_name": "trickster",
       "points": "-15 points*",
       "full_text": "You crave the thrill of outwitting dangerous foes. Make a self-control roll daily. If you fail, you must try to trick a deadly monster, a whole group of reasonably competent opponents, or a similar perilous rival. The details are up to you – but if the GM feels the deed poses no serious risk, it doesn’t count. If you resist, you get a cumulative -1 per day to your self-control roll until you finally give in!",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Truthfulness",
       "category": "disadvantage",
-      "search_name": "truthfulness disadvantage",
+      "search_name": "truthfulness",
       "points": "-5 points*",
       "full_text": "You hate to tell a lie – or you’re just very bad at it. Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! Failure means blurting out the truth or stumbling so much that your lie is obvious. You have a permanent -5 to the Acting and Fast-Talk skills – and Truthfulness is mutually exclusive with Compulsive Lying (p. 59).",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Unfit or Very Unfit",
       "category": "disadvantage",
-      "search_name": "unfit or very unfit disadvantage",
+      "search_name": "unfit or very unfit",
       "points": "-5 or -15 points",
       "full_text": "You don’t withstand hardship as well as your HT suggests. This trait comes in two levels, neither of which is compatible with Fit or Very Fit (p. 49): Unfit: You get -1 to all HT rolls (to avoid knockdown, unconsciousness, or death, to resist disease, poison, or magic, etc.). This doesn’t reduce your HT attribute or HT-based skills. As well, you lose FP to heat, exertion, and other mundane exhaustion at twice the normal rate (this has no effect on FP spent to power spells or special abilities, or lost to attacks, disease, or poison). -5 points. Very Unfit: As above, but the penalty to HT rolls is -2. In addition, you recover FP at only half the normal rate. -15 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Unnatural Features",
       "category": "disadvantage",
-      "search_name": "unnatural features disadvantage",
+      "search_name": "unnatural features",
       "points": "-1 point/level",
       "full_text": "Your features stand out in a way that doesn’t make you unappealing (that’s negative Appearance, p. 56) or unpopular (that’s Social Stigma, p. 66). Each level of Unnatural Features (maximum five) gives you -1 to the Disguise skill and Shadowing rolls, and +1 to others’ attempts to identify or follow you, including their Observation and Shadowing rolls. Stylized features impossible for real-world humans – e.g., green hair and eyes wider than your mouth – are widespread in Dungeon Fantasy and don’t require this trait. Use Unnatural Features for supernatural strangeness like leaving damp footprints and having a small thundercloud hovering overhead!",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Vow",
       "category": "disadvantage",
-      "search_name": "vow disadvantage",
+      "search_name": "vow",
       "points": "-5, -10, or -15 points",
       "full_text": "You’ve sworn an oath to do (or not to do) something. You take this seriously – if you didn’t, it wouldn’t be a disadvantage! Point value reflects the inconvenience this causes while adventuring: Minor Vow: Something like chastity or vegetarianism, which is likely to be awkward only if the GM makes a special effort to torture you – or something that won’t often limit a capable hero (e.g., using only the weapon with which you’re a Weapon Master . . .). -5 points. Major Vow: Something that seriously curtails wealth (like owning only what you can carry), limits combat effectiveness (e.g., using no edged weapons), makes planning and coordination difficult (for instance, never sleeping indoors means backtracking through the dungeon nightly, while keeping silence at all times prohibits shouting for help), or endangers you if word gets out (say, never refusing a challenge to combat). -10 points. Great Vow: Something that’s likely to get you killed in short order: using no weapons at all, never wearing armor, challenging every perceived rival to combat, etc. -15 points.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Wealth",
       "category": "disadvantage",
-      "search_name": "wealth disadvantage",
+      "search_name": "wealth",
       "points": "-10, -15, or -25 points",
       "full_text": "You have tenuous financial connections in town. Most delvers enter play with $1,000 (Starting Money, p. 95), and sell treasure other than coins or gems at 40% of its value (Getting a Good Price, Exploits, pp. 15-16). You aren’t so fortunate. Unfavorable Wealth comes in three levels: Struggling: You start with $500 and sell at 20%. -10 points. Poor: You start with $200 and sell at 10%. -15 points. Dead Broke: You start with nothing but rags to wear, can’t spend points on Extra Money (p. 95) to get around this, and sell at 0%! -25 points. If you’re well-connected, Wealth is an advantage; see p. 54. Most adventurers have “Average” Wealth, which costs nothing.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Weirdness Magnet",
       "category": "disadvantage",
-      "search_name": "weirdness magnet disadvantage",
+      "search_name": "weirdness magnet",
       "points": "-15 points",
       "full_text": "Bizarre things happen to you with alarming frequency. Whenever the manifestation of freaky beings, disturbing artifacts, dimensional portals, or other strangeness depends on the dice, the GM has carte blanche to pester or confound you without rolling; you’re the perpetual “random” party member. The GM may also add impromptu weirdness to long journeys, stays in town, your dreams, etc., just to complicate your life. This isn’t license to kill you – occasionally, weirdness will even be beneficial – but to inconvenience you. Anyone with spellcasting ability can sense this trait! Wizards’ Guild members, temple priests, and similar NPCs will consider you a liability and react to you at -2.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Wounded",
       "category": "disadvantage",
-      "search_name": "wounded disadvantage",
+      "search_name": "wounded",
       "points": "-5 points",
       "full_text": "You have an old wound that won’t completely heal, for whatever reason. You aren’t missing any HP, but the injury is a weak point. Foes who know about it may target it deliberately, at -7 to hit. Multiply the resulting injury by 1.5 (round up). Any poison that merely gets on your wound will affect you as if carried on a weapon that broke your skin.",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     },
     {
       "name": "Xenophilia",
       "category": "disadvantage",
-      "search_name": "xenophilia disadvantage",
+      "search_name": "xenophilia",
       "points": "-10 points*",
       "full_text": "You’re fascinated and attracted by strange people and intelligent monsters, however dangerous or frightening. Make a self-control roll whenever you meet a person or thing that is obviously sapient (IQ 6+), doesn’t attack immediately, and isn’t like you. Failure means you’ll try to interact socially instead of readying weapons or fleeing – even if your friends are doing those things! This gives that being a free chance to influence you with words (Influencing PCs?, Exploits, p. 10) or verbal mind-control powers (like the bard’s Song of Command, or anything The Devil says), or to cast a spell on you. As partial compensation, you get a bonus to Fright Checks when meeting strange creatures: Self-Control Number: Fright Check Bonus: 6 +4 9 +3 12 +2 15 +1",
-      "source_file": "disadvantage.docx",
-      "notes": []
+      "source_file": "disadvantage.docx"
     }
   ]
 }
+]
