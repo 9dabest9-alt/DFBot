@@ -16,7 +16,7 @@
 16-
 17-
 18-
-19-
+19-Punctuation in Name field results in no match in results panel
 20-make commands such as list - spells, armour ect
 
 ****************************************

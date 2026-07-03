@@ -1976,7 +1976,7 @@
       "category": "melee_weapon",
       "group": "Main-Gauche",
       "skill_defaults": "DX-5, Jitte/Sai-4, Knife-4, Rapier-3, Saber-3, or Smallsword-3",
-      "name": "Large Knife",
+      
       "search_name": "large knife melee weapon",
       "attacks": [
         {

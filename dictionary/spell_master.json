@@ -4,7 +4,7 @@
   },
   "items": [
     {
-      "name": "(Animal) Control",
+      "name": "Animal Control",
       "category": "spell",
       "college": "Animal",
       "search_name": "animal control spell",
@@ -2218,7 +2218,7 @@
       "notes": []
     },
     {
-      "name": "Repel (Animal)",
+      "name": "Repel Animal",
       "category": "spell",
       "college": "Animal",
       "search_name": "repel animal spell",
@@ -2227,7 +2227,7 @@
       "notes": []
     },
     {
-      "name": "Repel Hybrids (VH)",
+      "name": "Repel Hybrids VH",
       "category": "spell",
       "college": "Animal",
       "search_name": "repel hybrids vh spell",
@@ -2326,7 +2326,7 @@
       "notes": []
     },
     {
-      "name": "Restoration (VH)",
+      "name": "Restoration VH",
       "category": "spell",
       "college": "Healing",
       "search_name": "restoration vh spell",

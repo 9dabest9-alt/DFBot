@@ -18,8 +18,6 @@ export const files = {
 
 const DICTIONARY = loadDictionary(files);
 
-console.log(files.advantages_starter);
-console.log(files.enchantments);
 
 // DOM elements
 const searchBox = document.getElementById("searchBox");
@@ -29,7 +27,7 @@ const results = document.getElementById("results");
 
 //Fuzzy Logic Matching
 const fuse = new Fuse(DICTIONARY, {
-  keys: ["name", "search_name"],
+  keys: ["search_name"],
   threshold: 0.4, // similar to fuzz.WRatio threshold
   includeScore: true,
 });
@@ -52,12 +50,13 @@ searchBox.addEventListener("input", () => {
     combined = fuzzy.map((f) => f.item);
   }
 
+  //Autocomplete terms
   combined.slice(0, 20).forEach((entry) => {
     const div = document.createElement("div");
     div.className = "autocompleteItem";
-    div.textContent = entry.name;
+    div.textContent = entry.name + "  (" + entry.category+")";
     div.onclick = () => {
-      searchBox.value = entry.search_name || entry.name;
+      searchBox.value = entry.name;
       runSearch();
     };
     autocompleteList.appendChild(div);
@@ -207,7 +206,7 @@ function handleShortcutFocusSearch(e) {
       box.focus();
       box.select();
     }
-    
+
     return true;
   }
   return false;
