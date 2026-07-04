@@ -1,12 +1,12 @@
-1-
-2-
-3-
-4-
-5-
-6-
-7-
-8-
-9-
+1-Spells
+2-weapons
+3-advantage
+4-disadvantage
+5-enchantments
+6-gear
+7-miscgear
+8-modifiers
+9-rulesExploits
 10-
 11-
 12-
@@ -14,8 +14,8 @@
 14-
 15-
 16-
-17-
-18-
+17-an undefined comes up when searching for large knife, ammunition
+18-multiple hits on search when names are the same--modify to search for the unique name
 19-Punctuation in Name field results in no match in results panel
 20-make commands such as list - spells, armour ect
 

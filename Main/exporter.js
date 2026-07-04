@@ -178,3 +178,44 @@ export async function exportFile(fileName) {
   URL.revokeObjectURL(url);
 }
 
+export function analyzeFile(json, sourceFile) {
+ 
+  
+  const fieldList = collectFieldsFromFile(json);
+
+  const output = JSON.stringify(fieldList, null, 2);
+
+  const blob = new Blob([output], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${sourceFile}_fields.json`;
+  a.click();
+
+  URL.revokeObjectURL(url);
+} 
+
+
+function collectFieldsFromFile(json) {
+  const items = json.items || [];
+  const fields = new Set();
+
+  function walk(obj) {
+    if (Array.isArray(obj)) {
+      obj.forEach(walk);
+      return;
+    }
+
+    if (obj && typeof obj === "object") {
+      Object.keys(obj).forEach((key) => {
+        fields.add(key);
+        walk(obj[key]);
+      });
+    }
+  }
+
+  items.forEach(walk);
+
+  return Array.from(fields).sort();
+}

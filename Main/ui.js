@@ -1,5 +1,5 @@
 import { loadDictionary } from "./dictionaryLoader.js";
-import {exportFile} from "./exporter.js";
+import { exportFile, analyzeFile } from "./exporter.js";
 
 // Placeholder: load your JSON files however you prefer
 // (fetch, local import, etc.)
@@ -81,6 +81,17 @@ function runSearch() {
     exportFile(fileName);
     return;
   } */
+ //Temporary for getting all the fields in a file
+ if (term.startsWith("analyze ")) {
+   const fileName = term.replace("analyze ", "").trim();
+
+   if (files[fileName]) {
+     analyzeFile(files[fileName], fileName);
+   } else {
+     console.log("Unknown file:", fileName);
+   }
+ }
+
 
   if (modifierMatches.length > 0) {
     finalResults = [...modifierMatches, ...normalMatches];
@@ -113,15 +124,14 @@ function displayResults(list) {
     const block = document.createElement("div");
     block.className = "resultBlock";
 
-    const noteSource = getNoteSource(entry);
-    const noteBlock = buildNoteBlock(entry.notes, noteSource);
+    //const noteSource = getNoteSource(entry);
+    //const noteBlock = buildNoteBlock(entry.notes, noteSource);
 
     block.innerHTML = `
       <div class="resultTitle">${entry.name}</div>
       <div class="resultCategory">${entry.category}</div>
       <div class="resultText">${entry.full_text}</div>
-      ${noteBlock}
-    `;
+      `; //${noteBlock}
 
     results.appendChild(block);
   });

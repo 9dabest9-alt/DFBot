@@ -446,8 +446,8 @@
       "full_text": ""
     },
     {
-      "category": "ranged_weapon",
-      "group": "THROWN WEAPON (AXE/MACE) (DX-4)",
+     "category": "ranged_weapon",
+     "group": "THROWN WEAPON (AXE/MACE) (DX-4)",
       "name": "Small Throwing Axe",
       "search_name": "small throwing axe ranged weapon",
       "damage": "sw+1 cut",
@@ -3713,7 +3713,7 @@
         "102"
       ],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition sling staff unshaped stone"
     }
   ]
 }
