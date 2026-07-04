@@ -138,7 +138,7 @@ function buildMiscGearText(e) {
   //if (e.category) parts.push(`Category: ${e.category}`); //Done in displayResults()
 
   if (e.section) parts.push(`Section: ${e.section}`);
-  if (e.tags) parts.push(`Tags: ${e.tags}`); //Probably want to comment this line out
+  //if (e.tags) parts.push(`Tags: ${e.tags}`); //Probably want to comment this line out
   parts.push(""); // blank line for astetics
   if (e.full_text) parts.push(`${e.full_text}`);
   //if (e.notes)....dealt with in normalize function

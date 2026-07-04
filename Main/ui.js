@@ -17,7 +17,7 @@ export const files = {
 };
 
 const DICTIONARY = loadDictionary(files);
-
+console.log(DICTIONARY); //TO easily see dictionary and structure
 
 // DOM elements
 const searchBox = document.getElementById("searchBox");
@@ -37,28 +37,28 @@ searchBox.addEventListener("input", () => {
   const term = searchBox.value.toLowerCase();
   autocompleteList.innerHTML = "";
 
-  if (!term) return;
-
+  if (!term) return;  
   
-  const modifierMatches = findModifierMatches(term);
   const normalMatches = findNormalMatches(term);
 
-  let combined = [...modifierMatches, ...normalMatches];
-
+  let combined = [...normalMatches];
   if (combined.length === 0) {
     const fuzzy = fuse.search(term).slice(0, 10);
     combined = fuzzy.map((f) => f.item);
-  }
+  } 
 
   //Autocomplete terms
   combined.slice(0, 20).forEach((entry) => {
     const div = document.createElement("div");
     div.className = "autocompleteItem";
-    div.textContent = entry.name + "  (" + entry.category+")";
+    div.textContent = `${entry.name} (${entry.category})`;
+
+    //div.textContent = entry.name + "  (" + entry.category+")";
     div.onclick = () => {
-      searchBox.value = entry.name;
+      searchBox.value = `id:${entry.id}`;
       runSearch();
     };
+
     autocompleteList.appendChild(div);
   });
 });
@@ -69,11 +69,32 @@ function runSearch() {
   const term = searchBox.value.toLowerCase();
   results.innerHTML = "";
 
-  const modifierMatches = findModifierMatches(term);
+  
   const normalMatches = findNormalMatches(term);
+  
+  //const idMatch = findIDMatch(term);
 
   let finalResults = [];
 
+  if (term.startsWith("id:")) {
+    const id = term.slice(3);
+    const hit = DICTIONARY.find((e) => e.id === id);
+
+    if (hit) {
+      // Replace gibberish ID with readable name
+      searchBox.value = hit.name;
+
+      // Display exactly one result
+      displayResults([hit]);
+    } else {
+      results.innerHTML =
+        "<div class='resultBlock'>No entry found for ID.</div>";
+    }
+
+     return;
+   }
+
+ 
   //NOTE DONT ERASE
   //Temporary for Unifying dictionary structure
   /* if (term.startsWith("export ")) {
@@ -81,8 +102,8 @@ function runSearch() {
     exportFile(fileName);
     return;
   } */
- //Temporary for getting all the fields in a file
- if (term.startsWith("analyze ")) {
+ //Temporary for getting all the fields in a json file
+ /* if (term.startsWith("analyze ")) {
    const fileName = term.replace("analyze ", "").trim();
 
    if (files[fileName]) {
@@ -91,11 +112,9 @@ function runSearch() {
      console.log("Unknown file:", fileName);
    }
  }
+ */
 
-
-  if (modifierMatches.length > 0) {
-    finalResults = [...modifierMatches, ...normalMatches];
-  } else if (normalMatches.length > 0) {
+  if (normalMatches.length > 0) {
     finalResults = normalMatches;
   } else {
     // --- FUZZY MATCH FALLBACK ---
@@ -142,26 +161,14 @@ function findNormalMatches(term) {
   return DICTIONARY.filter((e) => e.search_name.includes(lower));
 }
 
-//Modifier Search
-function findModifierMatches(term) {
+function findIDMatch(term) {
   const lower = term.toLowerCase();
-
-  return MODIFIERS.filter(
-    (m) =>
-      (m.name && m.name.toLowerCase().includes(lower)) ||
-      (m.search_name && m.search_name.toLowerCase().includes(lower)) ||
-      (m.prefix && m.prefix.toLowerCase().includes(lower)) ||
-      (m.suffix && m.suffix.toLowerCase().includes(lower)),
-  );
+  return DICTIONARY.filter((e) => e.id)
 }
 
-//Modifier Expansion
-const MODIFIERS = DICTIONARY.filter(
-  (e) =>
-    e.category === "modifier_weapon" ||
-    e.category === "modifier_shield" ||
-    e.category === "modifier_armor",
-);
+
+
+
 
 //Notes
 function buildNoteBlock(noteIds, noteSource) {
