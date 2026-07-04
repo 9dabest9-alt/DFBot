@@ -44,16 +44,31 @@ searchBox.addEventListener("input", () => {
   let combined = [...normalMatches];
   if (combined.length === 0) {
     const fuzzy = fuse.search(term).slice(0, 10);
-    combined = fuzzy.map((f) => f.item);
+    combined = fuzzy.map((f) => {
+      const item = f.item;
+      item._fuzzy = true; // mark fuzzy entries
+      return item;
+    });
+
   } 
 
   //Autocomplete terms
   combined.slice(0, 20).forEach((entry) => {
     const div = document.createElement("div");
     div.className = "autocompleteItem";
+
+    //NOTE Highlighting disabled
+    //Have highlighting functionality, but disabled as care for it, fuzzy highlighing isnt always correct so becomes useless
+    // Add category class -- used for class highlighting -- I dont care for it as is -- would need every entry of dictionary to have a category but could be changed to something else if distinction is wanted. Colors changed in .css under category colors
+    //div.classList.add(`cat-${entry.category}`);
+
+    // If this entry came from fuzzy search, highlight it.  Change colors in .css fuzzy highlighting
+    /* if (entry._fuzzy) {
+      div.classList.add("fuzzyHighlight");
+    } */
+
     div.textContent = `${entry.name} (${entry.category})`;
 
-    //div.textContent = entry.name + "  (" + entry.category+")";
     div.onclick = () => {
       searchBox.value = `id:${entry.id}`;
       runSearch();
@@ -61,40 +76,127 @@ searchBox.addEventListener("input", () => {
 
     autocompleteList.appendChild(div);
   });
+
 });
 
+function listCategory(term)  {
+  const cat = term.replace("list-", "").trim().toLowerCase();
+  const matches = DICTIONARY.filter((e) =>
+    e.category.toLowerCase().includes(cat),
+  );
+
+  results.innerHTML = "";
+
+  if (matches.length === 0) {
+    results.innerHTML = `<div class="resultBlock">No items found in category "${cat}".</div>`;
+    return;
+  }
+
+  // Output ONLY names
+  const block = document.createElement("div");
+  block.className = "resultBlock";
+
+  block.innerHTML = `
+    <div class="resultTitle">Items in category: ${cat}</div>
+    <div class="resultText">
+      ${matches.map((e) => e.name).join("<br>")}
+    </div>
+  `;
+
+  results.appendChild(block);
+
+  return;
+}
+
+function searchID(term) {
+  const id = term.slice(3);
+  const hit = DICTIONARY.find((e) => e.id === id);
+
+  if (hit) {
+    // Replace gibberish ID with readable name
+    searchBox.value = hit.name;
+
+    // Display exactly one result
+    displayResults([hit]);
+  } else {
+    results.innerHTML = "<div class='resultBlock'>No entry found for ID.</div>";
+  }
+
+  return;
+}
+
+function listCategoryTerms(term){
+  const categories = new Set(DICTIONARY.map((e) => e.category));
+
+  results.innerHTML = "";
+
+  const block = document.createElement("div");
+  block.className = "resultBlock";
+
+  block.innerHTML = `
+    <div class="resultTitle">All Category Types</div>
+    <div class="resultText">
+      ${Array.from(categories).sort().join("<br>")}
+    </div>
+  `;
+
+  results.appendChild(block);
+}
+
+function listHelp() {
+  const div = document.createElement("div");
+  div.className = "resultBlock";
+  div.innerHTML = `
+        <div class="resultTitle">Help Page:</div>
+        <div class="resultText">Type "help-"  to see this page.</div>
+        <div class="resultText">Type "list-(category)"  to see all sorted by category.</div>
+        <div class="resultText">Type "list?" to see a list of of all possible list searches.</div>
+        <div class="resultText">\n</div>
+        <div class="resultText">ShortCuts:</div>
+        <div class="resultText">CTRL + BACKSPACE   --   Erase page</div>
+        <div class="resultText">CTRL + L           --   Focus and highlight textbox.</div>
+        <div class="resultText">ENTER              --   Search</div>
+        <div class="resultText">\n</div>
+        <div class="resultText">Enter terms into textbox--If search is invoked, all matching terms are returned</div>
+        <div class="resultText">in results window.</div>
+        <div class="resultText">\n</div>
+        <div class="resultText">Suggestions appear in left panel and are clickable.  Only that which is clicked is</div>
+        <div class="resultText">returned to the results panel.</div>
+        <div class="resultText">Results panel is the large right panel.</div>
+        <div class="resultText">\n</div>
+        <div class="resultText">Send Button publishes the results panel to the Discord chat.</div>
+      `;
+  results.appendChild(div);
+}
 
 // SEARCH (placeholder)
 function runSearch() {
   const term = searchBox.value.toLowerCase();
   results.innerHTML = "";
 
-  
   const normalMatches = findNormalMatches(term);
-  
-  //const idMatch = findIDMatch(term);
 
   let finalResults = [];
 
-  if (term.startsWith("id:")) {
-    const id = term.slice(3);
-    const hit = DICTIONARY.find((e) => e.id === id);
-
-    if (hit) {
-      // Replace gibberish ID with readable name
-      searchBox.value = hit.name;
-
-      // Display exactly one result
-      displayResults([hit]);
-    } else {
-      results.innerHTML =
-        "<div class='resultBlock'>No entry found for ID.</div>";
-    }
-
-     return;
-   }
-
  
+  // SPECIAL LIST COMMANDS
+  if (term.startsWith("list-")) {
+    listCategory(term);    
+    return;
+  }
+  if (term.startsWith("id:")) {
+    searchID(term);
+    return;
+  }
+  if (term.startsWith("help-")) {
+    listHelp();
+  return;
+  }
+  if (term.startsWith("list?")) {
+    listCategoryTerms(term);
+    return;
+  }
+
   //NOTE DONT ERASE
   //Temporary for Unifying dictionary structure
   /* if (term.startsWith("export ")) {
@@ -102,8 +204,8 @@ function runSearch() {
     exportFile(fileName);
     return;
   } */
- //Temporary for getting all the fields in a json file
- /* if (term.startsWith("analyze ")) {
+  //Temporary for getting all the fields in a json file
+  /* if (term.startsWith("analyze ")) {
    const fileName = term.replace("analyze ", "").trim();
 
    if (files[fileName]) {
@@ -127,6 +229,7 @@ function runSearch() {
       div.innerHTML = `
         <div class="resultTitle">No exact match found</div>
         <div class="resultText">Did you mean: ${suggestions.join(", ")}?</div>
+        
       `;
       results.appendChild(div);
       return;
@@ -229,7 +332,9 @@ function handleShortcutFocusSearch(e) {
   return false;
 }
 
-
+//Start up on the help page
+searchBox.value = "help-";
+runSearch();
 
 searchBtn.onclick = runSearch;
 

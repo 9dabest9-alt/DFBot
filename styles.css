@@ -35,6 +35,14 @@ body {
   cursor: pointer;
 }
 
+#sendBtn {
+  padding: 8px 16px;
+  background: #444;
+  color: #eee;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
 #searchBtn:hover {
   background: #555;
 }
@@ -101,4 +109,21 @@ body {
 .resultText {
   white-space: pre-wrap;
   line-height: 1.4;
+}
+
+/* Category colors */
+.cat-weapon        { color: #c33; }
+.cat-armor         { color: #36c; }
+.cat-shield        { color: #3c6; }
+.cat-gear          { color: #c63; }
+.cat-spell         { color: #639; }
+.cat-modifier      { color: #906; }
+.cat-enchantment   { color: #660; }
+.cat-advantage     { color: #090; }
+.cat-disadvantage  { color: #900; }
+
+/* Fuzzy highlight */
+.fuzzyHighlight {
+  background-color: rgba(255, 0, 0, 0.393);
+  border-left: 4px solid #ff0;
 }
