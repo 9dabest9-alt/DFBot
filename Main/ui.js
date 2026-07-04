@@ -332,6 +332,12 @@ function handleShortcutFocusSearch(e) {
   return false;
 }
 
+function handleShortcutSearch(e) {
+  if (e.key === "Enter") {
+  runSearch();
+  }
+}
+
 //Start up on the help page
 searchBox.value = "help-";
 runSearch();
@@ -342,6 +348,7 @@ searchBtn.onclick = runSearch;
 window.addEventListener("keydown", (e) => {
   if (handleShortcutClear(e)) return;
   if (handleShortcutFocusSearch(e)) return;
+  if (handleShortcutSearch(e)) return;
   // ... your other shortcuts
 });
 
