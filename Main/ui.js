@@ -1,8 +1,11 @@
+// ui.js
+
+
 import { loadDictionary } from "./dictionaryLoader.js";
 import { exportFile, analyzeFile } from "./exporter.js";
 
-// Placeholder: load your JSON files however you prefer
-// (fetch, local import, etc.)
+// Name the files to be loaded from the dictionary folder.  These are the files that will be used to build the dictionary for searching.  
+// The keys are the names of the files, and the values are the paths to the files.
 export const files = {
   enchantments:         await fetch("./dictionary/enchantments.json")         .then((r) => r.json(),),
   gear:                 await fetch("./dictionary/gear.json")                 .then((r) => r.json()),
@@ -16,6 +19,7 @@ export const files = {
   rules_exploits:       await fetch("./dictionary/rules_exploits.json")       .then((r) => r.json(),),
 };
 
+``
 const DICTIONARY = loadDictionary(files);
 //console.log(DICTIONARY); //TO easily see dictionary and structure
 
@@ -33,7 +37,8 @@ const fuse = new Fuse(DICTIONARY, {
   includeScore: true,
 });
 
-// AUTOCOMPLETE (placeholder)
+// AUTOCOMPLETE
+// This function is called when the user types in the search box.  It finds matching entries and displays them in the autocomplete list.
 searchBox.addEventListener("input", () => {
   const term = searchBox.value.toLowerCase();
   autocompleteList.innerHTML = "";
@@ -59,7 +64,7 @@ searchBox.addEventListener("input", () => {
     div.className = "autocompleteItem";
 
     //NOTE Highlighting disabled
-    //Have highlighting functionality, but disabled as care for it, fuzzy highlighing isnt always correct so becomes useless
+    //Highlighting functionality, but disabled as i dont care for it, fuzzy highlighing isnt always correct so becomes useless
     // Add category class -- used for class highlighting -- I dont care for it as is -- would need every entry of dictionary to have a category but could be changed to something else if distinction is wanted. Colors changed in .css under category colors
     //div.classList.add(`cat-${entry.category}`);
 
@@ -80,6 +85,7 @@ searchBox.addEventListener("input", () => {
 
 });
 
+// Outputs a list of all items in a given category.  This is invoked when the user types list-<category> in the search box.
 function listCategory(term)  {
   const cat = term.replace("list-", "").trim().toLowerCase();
   const matches = DICTIONARY.filter((e) =>
@@ -109,6 +115,8 @@ function listCategory(term)  {
   return;
 }
 
+// Outputs a single entry based on its ID.  
+// This is invoked when the user clicks on an autocomplete item to ensure only 1 result is displayed.
 function searchID(term) {
   const id = term.slice(3);
   const hit = DICTIONARY.find((e) => e.id === id);
@@ -126,6 +134,7 @@ function searchID(term) {
   return;
 }
 
+// Outputs a list of all unique category types in the dictionary.  This is invoked when the user types list? in the search box.
 function listCategoryTerms(term){
   const categories = new Set(DICTIONARY.map((e) => e.category));
 
@@ -143,6 +152,8 @@ function listCategoryTerms(term){
 
   results.appendChild(block);
 }
+
+// Sets the Discord webhook URL in local storage.  This is invoked when the user types webhook-<url> in the search box.
 function setWebHook(term) {
   // SPECIAL: set webhook URL
   const url = term.replace("webhook-", "").trim();
@@ -167,7 +178,8 @@ function setWebHook(term) {
     return;
 }
 
-
+// Displays the help page with instructions on how to use the search box and its special commands.  
+// This is invoked when the user types help- in the search box.
 function listHelp() {
   const div = document.createElement("div");
   div.className = "resultBlock";
@@ -197,6 +209,8 @@ function listHelp() {
 }
 
 // SEARCH (placeholder)
+// This function is called when the user presses Enter in the search box or clicks Search All button.
+// It finds matching entries and displays them in the results panel.
 function runSearch() {
   const term = searchBox.value.toLowerCase();
   results.innerHTML = "";
@@ -270,6 +284,8 @@ function runSearch() {
   displayResults(finalResults);
 }
 
+// Displays the search results in the results panel.  Each result is displayed with its name, category, 
+// and full text(which was built in the dictionary loader rules).  
 function displayResults(list) {
   results.innerHTML = "";
 
@@ -277,92 +293,31 @@ function displayResults(list) {
     const block = document.createElement("div");
     block.className = "resultBlock";
 
-    //const noteSource = getNoteSource(entry);
-    //const noteBlock = buildNoteBlock(entry.notes, noteSource);
-
     block.innerHTML = `
       <div class="resultTitle">${entry.name}</div>
       <div class="resultCategory">${entry.category}</div>
       <div class="resultText">${entry.full_text}</div>
-      `; //${noteBlock}
+      `; 
 
     results.appendChild(block);
   });
 }
 
+// Finds all entries in the dictionary that match the search term.  This is used for both autocomplete and results panel.
 function findNormalMatches(term) {
   const lower = term.toLowerCase();
   return DICTIONARY.filter((e) => e.search_name.includes(lower));
 }
 
+// Finds an entry in the dictionary that matches the given ID.  This is used for searching by ID.
+// invoked when the user clicks on an autocomplete item to ensure only 1 result is displayed.
 function findIDMatch(term) {
   const lower = term.toLowerCase();
   return DICTIONARY.filter((e) => e.id)
 }
 
-
-
-
-
-//Notes
-function buildNoteBlock(noteIds, noteSource) {
-  if (!noteIds || noteIds.length === 0) return "";
-
-  const lines = noteIds
-    .map((id) => {
-      const text = noteSource[String(id)];
-      return text ? `[${id}] ${text}` : null;
-    })
-    .filter(Boolean);
-
-  if (lines.length === 0) return "";
-
-  return `
-    <div class="resultNotes">
-      <strong>Notes:</strong><br>
-      ${lines.join("<br><br>")}
-    </div>
-  `;
-}
-
-
-function getNoteSource(entry) {
-  
-  return entry.notes || {}; // generic gear notes
-}
-
-
-
-function handleShortcutClear(e) {
-  if (e.ctrlKey && e.key === "Backspace")  {
-    e.preventDefault();
-    const box = document.getElementById("searchBox");
-    const auto = document.getElementById("autocompleteList");
-    const results = document.getElementById("results");
-
-    if (box) box.value = "";
-    if (auto) auto.innerHTML = "";
-    if (results) results.innerHTML = "";
-
-    return true;
-  }
-  return false;
-}
-
-function handleShortcutFocusSearch(e) {
-  if (e.ctrlKey && e.key.toLowerCase() === "l") {
-    e.preventDefault();
-    const box = document.getElementById("searchBox");
-    if (box) {
-      box.focus();
-      box.select();
-    }
-
-    return true;
-  }
-  return false;
-}
-
+// Gets the text content of all result blocks in the results panel.  
+// This is used for sending the results to Discord.
 function getResultsText() {
   const blocks = document.querySelectorAll(".resultBlock");
   if (!blocks.length) return "No results to send.";
@@ -383,6 +338,7 @@ function getResultsText() {
   return output.trim();
 }
 
+// Sends the given content to the Discord webhook URL.
 async function sendToDiscord(webhookUrl, content) {
   await fetch(webhookUrl, {
     method: "POST",
@@ -390,15 +346,48 @@ async function sendToDiscord(webhookUrl, content) {
     body: JSON.stringify({ content }),
   });
 }
+// Function to handle the Ctrl + Backspace shortcut to clear the search box, 
+// autocomplete list, and results panel
+function handleShortcutClear(e) {
+  if (e.ctrlKey && e.key === "Backspace")  {
+    e.preventDefault();
+    const box = document.getElementById("searchBox");
+    const auto = document.getElementById("autocompleteList");
+    const results = document.getElementById("results");
 
+    if (box) box.value = "";
+    if (auto) auto.innerHTML = "";
+    if (results) results.innerHTML = "";
 
+    return true;
+  }
+  return false;
+}
+
+// Function to handle the Ctrl + L shortcut to focus and select the search box
+function handleShortcutFocusSearch(e) {
+  if (e.ctrlKey && e.key.toLowerCase() === "l") {
+    e.preventDefault();
+    const box = document.getElementById("searchBox");
+    if (box) {
+      box.focus();
+      box.select();
+    }
+
+    return true;
+  }
+  return false;
+}
+// Function to handle the Enter key press in the search box to trigger the search
 function handleShortcutSearch(e) {
   if (e.key === "Enter") {
   runSearch();
   }
 }
 
-//Start up on the help page
+// Windows code to handle keydown events
+
+//Start proram on the help page
 searchBox.value = "help-";
 runSearch();
 
@@ -411,7 +400,7 @@ sendBtn.onclick = async () => {
     results.innerHTML = `
       <div class="resultBlock">
         <div class="resultTitle">No Webhook Set</div>
-        <div class="resultText">Use: webhook-<your URL> to set your Discord webhook.</div>
+        <div class="resultText">Use: webhook-YOUR_WEBHOOK_URL_HERE to set your Discord webhook.</div>
       </div>`;
     return;
   }
@@ -419,8 +408,6 @@ sendBtn.onclick = async () => {
   const text = getResultsText();
   await sendToDiscord(webhookUrl, text);
 };
-
-
 
 //Shortcut buttons
 window.addEventListener("keydown", (e) => {

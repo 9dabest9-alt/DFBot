@@ -1,5 +1,25 @@
 // dictionaryLoader.js
+// This module loads and normalizes dictionary entries from various JSON files into a unified format for searching and displaying.
 
+
+
+// Main loader: accepts an object containing all JSON files
+export function loadDictionary(files) {
+  const dictionary = [];
+
+  dictionary.push(...loadFile(files.enchantments, "enchantments")); 
+  dictionary.push(...loadFile(files.gear, "gear"));
+  dictionary.push(...loadFile(files.modifiers, "modifiers")); 
+  dictionary.push(...loadFile(files.spells, "spells")); 
+  dictionary.push(...loadFile(files.weapons, "weapons"));
+  dictionary.push(...loadFile(files.disadvantages_master, "disadvantages"));
+  dictionary.push(...loadFile(files.advantages_starter, "advantages"));
+  dictionary.push(...loadFile(files.skill_starter, "skill")); 
+  dictionary.push(...loadFile(files.miscgear, "miscgear"));
+  dictionary.push(...loadFile(files.rules_exploits, "rulesExploits"));
+
+  return dictionary;
+}
 
 //Load each file
 function loadFile(json, sourceFile) {
@@ -73,12 +93,7 @@ function buildFullTextFromFile(entry, sourceFile) {
   }
 }
 
-
-
-
-
 //Build the text to be displayed for each dictionary file.
-
 function buildSkillText(e){
   const parts = [];
 
@@ -296,21 +311,3 @@ function buildGenericText(e) {
 }
 
 
-
-// Main loader: accepts an object containing all JSON files
-export function loadDictionary(files) {
-  const dictionary = [];
-
-  dictionary.push(...loadFile(files.enchantments, "enchantments")); 
-  dictionary.push(...loadFile(files.gear, "gear"));
-  dictionary.push(...loadFile(files.modifiers, "modifiers")); 
-  dictionary.push(...loadFile(files.spells, "spells")); 
-  dictionary.push(...loadFile(files.weapons, "weapons"));
-  dictionary.push(...loadFile(files.disadvantages_master, "disadvantages"));
-  dictionary.push(...loadFile(files.advantages_starter, "advantages"));
-  dictionary.push(...loadFile(files.skill_starter, "skill")); 
-  dictionary.push(...loadFile(files.miscgear, "miscgear"));
-  dictionary.push(...loadFile(files.rules_exploits, "rulesExploits"));
-
-  return dictionary;
-}

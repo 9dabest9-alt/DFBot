@@ -1,8 +1,12 @@
 //exporter.js
+// This file is responsible for exporting the data from the UI into a JSON file.
+// It normalizes the data, combines notes, and ensures that all entries have a consistent structure.
+//  For the purpose of rebuilding the dictionary files to all have the same structure and be more easily searchable.
 
 //NOTE:  This exporter is not perfect, use with caution, have a backup file.
 
 import { files } from "./ui.js";
+
 
 function makeSearchName(entry) {
   const fields = [
@@ -26,7 +30,7 @@ function makeSearchName(entry) {
     .trim();
 }
 
-
+// Normalize an entry to ensure it has all necessary fields and a consistent structure
 function normalizeEntry(entry, category) {
   // Clone original entry so we keep ALL properties
   const normalized = { ...entry };
@@ -53,6 +57,11 @@ function normalizeEntry(entry, category) {
   return normalized;
 }
 
+// Remap notes for shield entries by adding 100 to their note numbers
+// This is to avoid conflicts with armor notes, which are in the range of 0-99
+// For example, if an armor note is 5, a shield note that was originally 5 will become 105
+// This way, we can have both armor and shield notes in the same unified notes object without conflicts
+// Just rename "shield to whatever field you want to remap, and change the +100 to whatever you want to shift by"
 function remapNotes(entry) {
   if (!entry.notes) return entry;
 
@@ -67,6 +76,9 @@ function remapNotes(entry) {
   return entry;
 }
 
+// Flatten the file structure to extract all entries, regardless of their nesting
+// This is useful for files that have a complex structure with nested arrays and objects
+// First step to unify file formats
 function flattenFileStructure(fileObj) {
   const entries = [];
 
@@ -85,6 +97,9 @@ function flattenFileStructure(fileObj) {
   return entries;
 }
 
+
+// Recursively extract entries from the file object, regardless of their nesting
+// Used to double check that we dont miss any entries in the file when we build the loader rules
 function extractEntries(node, out) {
   if (Array.isArray(node)) {
     node.forEach((n) => extractEntries(n, out));
@@ -113,7 +128,10 @@ function extractEntries(node, out) {
   }
 }
 
-//NOTE -- edit entries for files with notes
+// Combine armor and shield notes into a single unified object
+// This is useful for exporting, as it allows us to have a single notes object that contains all notes, regardless of their original category
+// Armor notes are kept as-is, while shield notes are shifted by +100 to avoid conflicts
+//NOTE -- edit entries for files with notes 
 function combineNotes(fileObj) {
   const unified = {};
 
@@ -136,7 +154,9 @@ function combineNotes(fileObj) {
   return unified;
 }
 
-
+// Export the file as a JSON file, with normalized entries and combined notes
+// This function is called when the user enables the export block in runSearch() 
+// and types export-<filename> in the search bar
 export async function exportFile(fileName) {
   const fileObj = files[fileName];
   if (!fileObj) {
@@ -178,9 +198,10 @@ export async function exportFile(fileName) {
   URL.revokeObjectURL(url);
 }
 
-export function analyzeFile(json, sourceFile) {
- 
-  
+// Analyze the file to collect all unique field names across all entries
+// This function is called when the user enables the export block in runSearch()
+// and types analyze-<filename> in the search bar
+export function analyzeFile(json, sourceFile) {  
   const fieldList = collectFieldsFromFile(json);
 
   const output = JSON.stringify(fieldList, null, 2);
@@ -196,7 +217,7 @@ export function analyzeFile(json, sourceFile) {
   URL.revokeObjectURL(url);
 } 
 
-
+// Collect all unique field names from the JSON file
 function collectFieldsFromFile(json) {
   const items = json.items || [];
   const fields = new Set();
