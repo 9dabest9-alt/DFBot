@@ -1,4 +1,4 @@
-1-
+1-send button should change color when no webhook url detected.
 2-
 3-
 4-
@@ -13,17 +13,30 @@
 13-
 14-
 15-
-16-ammunition category has alot of undefined
-17-an undefined comes up when searching for large knife, ammunition
-18-multiple hits on search when names are the same--modify to search for the unique name
-19-Punctuation in Name field results in no match in results panel
-20-make commands such as list - spells, armour ect
+16-
+17-
+18-
+19-
+20-Need to actually test webhook functionality, not yet tested.
 
 ****************************************
 //Shortcuts 
 ctrl + backspace -- clears screen
 ctrl + L -- focuses textbox and selects all
+Enter --- runs search
 **********************************************
+
+
+//Possible Discord Upgrades
+Embed formatting
+Send only selected result
+Send as a file attachment
+Send multiple entries as a table
+
+a settings panel UI
+webhook testing button
+multiple webhook profiles
+
 
 
 ⭐ What this enables next (the fun part)

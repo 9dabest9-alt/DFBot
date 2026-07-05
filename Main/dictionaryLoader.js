@@ -270,7 +270,7 @@ function buildWeaponText(e) {
   if (e.st) parts.push(`ST: ${e.st}`);
   if (e.bulk) parts.push(`Bulk: ${e.bulk}`);
   if (e.skill_defaults) parts.push(`Skill Defaults: ${e.skill_defaults}`);
-  if (e.projectile) parts.push(`Projectile: ${e.projectile}`);
+  //if (e.projectile) parts.push(`Projectile: ${e.projectile}`);  //Renamed projectile to name, thats how other items are formatted
 
   if (e.attacks && Array.isArray(e.attacks)) {
     parts.push(`Attacks:`);

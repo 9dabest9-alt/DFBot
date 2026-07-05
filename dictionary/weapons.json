@@ -3611,7 +3611,7 @@
     {
       "category": "ammunition",
       "weapon": "Blowpipe",
-      "projectile": "Dart",
+      "name": "Dart",
       "cost": "$0.10",
       "weight": "0.05",
       "per_pound": "20 ($2)",
@@ -3619,45 +3619,45 @@
         "101"
       ],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition dart blowpipe"
     },
     {
       "category": "ammunition",
       "weapon": "Bow (any)",
-      "projectile": "Arrow",
+      "name": "Arrow",
       "cost": "$2",
       "weight": "0.1",
       "per_pound": "10 ($20)",
       "notes": [],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition bow arrow"
     },
     {
       "category": "ammunition",
       "weapon": "Crossbow (any)",
-      "projectile": "Bolt",
+      "name": "Bolt",
       "cost": "$2",
       "weight": "0.06",
       "per_pound": "16 ($32)",
       "notes": [],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition crossbow bolt"
     },
     {
       "category": "ammunition",
       "weapon": "Heavy Sling",
-      "projectile": "Shaped Rock",
+      "name": "Shaped Rock",
       "cost": "$1",
       "weight": "1",
       "per_pound": "1 ($1)",
       "notes": [],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition heavy sling shaped rock"
     },
     {
       "category": "ammunition",
       "weapon": "Heavy Sling",
-      "projectile": "Unshaped Rock",
+      "name": "Unshaped Rock",
       "cost": "$0",
       "weight": "1",
       "per_pound": "1 ($0)",
@@ -3665,23 +3665,23 @@
         "102"
       ],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition heavy sling unshaped rock"
     },
     {
       "category": "ammunition",
       "weapon": "Prodd",
-      "projectile": "Lead Pellet",
+      "name": "Lead Pellet",
       "cost": "$0.10",
       "weight": "0.06",
       "per_pound": "16 ($1.60)",
       "notes": [],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition prodd lead pellet"
     },
     {
       "category": "ammunition",
       "weapon": "Sling or Staff Sling",
-      "projectile": "Lead Bullet",
+      "name": "Lead Bullet",
       "cost": "$0.10",
       "weight": "0.06",
       "per_pound": "16 ($1.60)",
@@ -3689,23 +3689,23 @@
         "103"
       ],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition sling staff lead bullet"
     },
     {
       "category": "ammunition",
       "weapon": "Sling or Staff Sling",
-      "projectile": "Shaped Stone",
+      "name": "Shaped Stone",
       "cost": "$0.05",
       "weight": "0.05",
       "per_pound": "20 ($1)",
       "notes": [],
       "full_text": "",
-      "search_name": "ammunition"
+      "search_name": "ammunition sling staff shaped stone"
     },
     {
       "category": "ammunition",
       "weapon": "Sling or Staff Sling",
-      "projectile": "Unshaped Stone",
+      "name": "Unshaped Stone",
       "cost": "$0",
       "weight": "0.05",
       "per_pound": "20 ($0)",

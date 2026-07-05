@@ -17,7 +17,7 @@ export const files = {
 };
 
 const DICTIONARY = loadDictionary(files);
-console.log(DICTIONARY); //TO easily see dictionary and structure
+//console.log(DICTIONARY); //TO easily see dictionary and structure
 
 // DOM elements
 const searchBox = document.getElementById("searchBox");
@@ -142,6 +142,30 @@ function listCategoryTerms(term){
 
   results.appendChild(block);
 }
+function setWebHook(term) {
+  // SPECIAL: set webhook URL
+  const url = term.replace("webhook-", "").trim();
+
+  if (!url.startsWith("https://discord.com/api/webhooks/")) {
+    results.innerHTML = `
+    <div class="resultBlock">
+      <div class="resultTitle">Invalid Webhook</div>
+      <div class="resultText">Webhook must start with https://discord.com/api/webhooks/</div>
+    </div>`;
+    return;
+  }
+
+  localStorage.setItem("discordWebhook", url);
+
+  results.innerHTML = `
+  <div class="resultBlock">
+    <div class="resultTitle">Webhook Saved</div>
+    <div class="resultText">Your Discord webhook has been stored securely on this device.</div>
+  </div>`;
+
+    return;
+}
+
 
 function listHelp() {
   const div = document.createElement("div");
@@ -154,8 +178,8 @@ function listHelp() {
         <div class="resultText">\n</div>
         <div class="resultText">ShortCuts:</div>
         <div class="resultText">CTRL + BACKSPACE   --   Erase page</div>
-        <div class="resultText">CTRL + L           --   Focus and highlight textbox.</div>
-        <div class="resultText">ENTER              --   Search</div>
+        <div class="resultText">CTRL + L                       --   Focus and highlight textbox.</div>
+        <div class="resultText">ENTER                          --   Search</div>
         <div class="resultText">\n</div>
         <div class="resultText">Enter terms into textbox--If search is invoked, all matching terms are returned</div>
         <div class="resultText">in results window.</div>
@@ -165,6 +189,8 @@ function listHelp() {
         <div class="resultText">Results panel is the large right panel.</div>
         <div class="resultText">\n</div>
         <div class="resultText">Send Button publishes the results panel to the Discord chat.</div>
+        <div class="resultText">webhook-YOUR_WEBHOOK_URL_HERE     -- Sets up the Webhook, must be done at least once.</div>
+                
       `;
   results.appendChild(div);
 }
@@ -194,6 +220,10 @@ function runSearch() {
   }
   if (term.startsWith("list?")) {
     listCategoryTerms(term);
+    return;
+  }
+  if (term.startsWith("webhook-")) {
+    setWebHook(term);
     return;
   }
 
@@ -332,6 +362,35 @@ function handleShortcutFocusSearch(e) {
   return false;
 }
 
+function getResultsText() {
+  const blocks = document.querySelectorAll(".resultBlock");
+  if (!blocks.length) return "No results to send.";
+
+  let output = "";
+
+  blocks.forEach((block) => {
+    const title = block.querySelector(".resultTitle")?.textContent || "";
+    const category = block.querySelector(".resultCategory")?.textContent || "";
+    const text = block.querySelector(".resultText")?.textContent || "";
+
+    output += `**${title}**\n`;
+    if (category) output += `*${category}*\n`;
+    if (text) output += `${text}\n`;
+    output += `\n`; // spacing between entries
+  });
+
+  return output.trim();
+}
+
+async function sendToDiscord(webhookUrl, content) {
+  await fetch(webhookUrl, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ content }),
+  });
+}
+
+
 function handleShortcutSearch(e) {
   if (e.key === "Enter") {
   runSearch();
@@ -343,6 +402,24 @@ searchBox.value = "help-";
 runSearch();
 
 searchBtn.onclick = runSearch;
+
+sendBtn.onclick = async () => {
+  const webhookUrl = localStorage.getItem("discordWebhook");
+
+  if (!webhookUrl) {
+    results.innerHTML = `
+      <div class="resultBlock">
+        <div class="resultTitle">No Webhook Set</div>
+        <div class="resultText">Use: webhook-<your URL> to set your Discord webhook.</div>
+      </div>`;
+    return;
+  }
+
+  const text = getResultsText();
+  await sendToDiscord(webhookUrl, text);
+};
+
+
 
 //Shortcut buttons
 window.addEventListener("keydown", (e) => {
