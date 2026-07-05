@@ -19,6 +19,7 @@ export const files = {
 const DICTIONARY = loadDictionary(files);
 //console.log(DICTIONARY); //TO easily see dictionary and structure
 
+
 // DOM elements
 const searchBox = document.getElementById("searchBox");
 const searchBtn = document.getElementById("searchBtn");
