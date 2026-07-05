@@ -1,0 +1,1197 @@
+{
+  "notes": {
+    "_comment": "No Notes"
+  },
+  "items": [
+    {
+      "name": "Acrobatics",
+      "category": "skill",
+      "search_name": "acrobatics skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "DX-6",
+      "full_text": "This is the ability to tumble, take falls, and perform gymnastics. It’s essential if you want to use athletics to circumvent obstacles; see Dungeon Parkour (Exploits, pp. 20-21). As Falling (Exploits, pp. 67-68) notes, a successful skill roll reduces the effective height of a fall by five yards. And the GM may substitute an Acrobatics roll for a DX roll in any other situation where a flip, handstand, or similar stunt would help. In battle, Acrobatics lets you defend with a flashy Acrobatic Dodge (Exploits, p. 48), avoid being knocked over by knockback (Exploits, p. 53), and perform the slick combat moves under Speed Is Armor! (Exploits, p. 58). Perfect Balance (p. 52) gives a permanent +1 to Acrobatics.",
+      "notes": []
+    },
+    {
+      "name": "Acting",
+      "category": "skill",
+      "search_name": "acting skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5, Performance-2, or Public Speaking-5",
+      "full_text": "This is the art of counterfeiting emotions and pretending to be someone you are not. To fool someone, win a Quick Contest against their IQ. Examples include playing dead in combat (Exploits, p. 57) and impersonation. Impersonating someone specific – e.g., the King rather than a generic guard – requires Disguise (p. 75), and the roll is against the lower of the two skills. Modifiers: Permanent bonus equal to Born Entertainer (p. 47) level; permanent -5 for Truthfulness (p. 67). +1 for Honest Face (p. 50) when acting innocent. For impersonation, an extra -5 if you aren’t well acquainted with your subject; -5 if those you wish to fool are acquaintances of the subject (-10 for close acquaintances).",
+      "notes": []
+    },
+    {
+      "name": "Alchemy",
+      "category": "skill",
+      "search_name": "alchemy skill",
+      "attribute": "IQ",
+      "difficulty": "Very Hard",
+      "defaults": "None",
+      "full_text": "This is the study of materials from a magical perspective. Successful skill rolls let you analyze magic potions and certain magic items; identify chemicals and alloys, both ordinary and extraordinary; and spot and neutralize dungeon dangers involving acids, incendiaries, and potions. Analysis and identification require a backpack alchemy lab (p. 114). Details for Alchemy tasks appear in Exploits – usually, the GM will roll for you in secret! Most potion brewing is done by NPCs. If you have time in town, though, a successful roll will let you do some of the work yourself, scoring a 20% discount. See Getting Stuff Cheap (Exploits, pp. 13-14).",
+      "notes": []
+    },
+    {
+      "name": "Animal Handling",
+      "category": "skill",
+      "search_name": "animal handling skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the ability to work with one specific category of animals; e.g., Canines (dogs, wolves, etc.), Equines (horses and donkeys), Felines (cats, great and small), or Snakes. Most specialties default either way at -4, but the GM may go with -3 or -2 for especially close specialties. Extremely different ones (e.g., Snakes and Cats) don’t default to each other – use IQ-5. A successful roll will let you distract an animal within your specialty (Call of the Wild, Monsters, p. 6), or give one command to your trained beast. Winning a Quick Contest against the better of Will or IQ will draw such a creature away from an ally (Taunt and Bluster, Exploits, p. 58). Modifiers: Permanent bonus equal to Animal Friend (p. 47) level; permanent -4 for Frightens Animals (p. 60). -5 if a wild animal is a man-eater, or a trained one isn’t familiar with you; -5 for a giant or dire animal. This skill also lets you predict the behavior of animals within your specialty, giving a combat advantage. At level 15, animals’ attack and defense rolls are at -1 against you. At skill 20 or more, make this -2.",
+      "notes": []
+    },
+    {
+      "name": "Armory",
+      "category": "skill",
+      "search_name": "armory skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the ability to tinker with a specific class of combat gear. A successful roll will identify all mundane properties of any item within your specialty. Though crafting from scratch is too slow for adventurers, a successful roll in town will let you work from parts or used equipment, for 20% off the price of ordinary, nonmagical gear; see Getting Stuff Cheap (Exploits, pp. 13-14). Specialties and their additional uses are: Body Armor: Armor but not shields. Roll against skill to adjust armor fit; see Fixer-Uppers (Exploits, p. 15). Melee Weapons: Melee weapons, thrown weapons, and shields. A skill roll lets you correct minor damage, like the -1 to skill for a sword bent by Bashing (Exploits, p. 22). Missile Weapons: Bows, crossbows, slings, etc. A skill roll can disable a trap that shoots projectiles, if it’s accessible. Widget-Worker (p. 44) gives a permanent bonus equal to its level. Specialties default to one another at -4.",
+      "notes": []
+    },
+    {
+      "name": "Boating",
+      "category": "skill",
+      "search_name": "boating skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5 or IQ-5",
+      "full_text": "This is the ability to handle small watercraft. A successful skill roll reduces overall travel time when traveling by canoe, kayak, raft, rowboat, etc.; see Getting There Quickly (Exploits, p. 17). Roll once per trip. The GM may swap wandering monsters met during a boat trip for bad weather, rough water, or navigational hazards that require additional Boating rolls at -1 to -5. On even the shortest of jaunts (e.g., down the Tunnel of Hate in a dungeon), someone must roll to get under way or to dock. Anyone embarking or disembarking in combat has to roll, too. In all such stressful situations, failure means someone takes a swim, while critical failure capsizes the vessel!",
+      "notes": []
+    },
+    {
+      "name": "Body Sense",
+      "category": "skill",
+      "search_name": "body sense skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "DX-6 or Acrobatics-3",
+      "full_text": "This skill reflects experience with supernatural “instant movement”: falling through weird portals, being teleported, and so on. Roll on arrival – and if you lack Body Sense, you’ll be rolling at default. Success lets you act normally on your next turn. Failure means you’re disoriented and must do nothing for one turn. On a critical failure, you fall down, physically stunned! Modifiers: Permanent +3 for Absolute Direction (p. 46). -2 if you changed facing; -5 if you went from vertical to horizontal, or vice versa (this is a matter of orientation, not posture).",
+      "notes": []
+    },
+    {
+      "name": "Bolas",
+      "category": "skill",
+      "search_name": "bolas skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is the ability to throw the bolas: two or more weights connected by cords. Many special rules apply to this thrown weapon – see Bolas (Exploits, p. 44).",
+      "notes": []
+    },
+    {
+      "name": "Camouflage",
+      "category": "skill",
+      "search_name": "camouflage skill",
+      "attribute": "IQ",
+      "difficulty": "Easy",
+      "defaults": "IQ-4 or Survival-2",
+      "full_text": "This is the art of using natural materials to conceal yourself, your position, or your equipment outdoors. To see through your camouflage, an observer must win a Quick Contest of Vision or Observation (p. 84) – with the modifiers under Vision (Exploits, p. 9) – against your Camouflage skill. Camping and Posting Watches (Exploits, p. 18) describes an important application. Camouflage doesn’t improve Stealth (pp. 89-90) – but if you’re camouflaged, anyone who beats your Stealth to hear you must still overcome your Camouflage skill to see you. Modifiers: Permanent bonuses equal to Forest Guardian (p. 44) and Outdoorsman (p. 51) levels. A penalty equal to Size Modifier when camouflaging objects larger than SM 0 (e.g., -4 for an SM +4 hut).",
+      "notes": []
+    },
+    {
+      "name": "Carousing",
+      "category": "skill",
+      "search_name": "carousing skill",
+      "attribute": "HT",
+      "difficulty": "Easy",
+      "defaults": "HT-4",
+      "full_text": "This is the skill of socializing and partying! In town, frequenting taverns and making a successful Carousing roll can glean rumors of quests. Roll weekly; see Finding a Quest (Exploits, p. 14). As well, at a tavern or party, Carousing permits a complementary skill roll (Exploits, p. 6) that gives +1 or +2 to reaction rolls if it succeeds. Alternatively, you can use it directly to make an Influence roll (Exploits, p. 10) on fellow partiers. Modifiers: +1 for $25, +2 for $125, or +3 for $500 blown partying; -2 for No Sense of Humor (p. 63) in most cases.",
+      "notes": []
+    },
+    {
+      "name": "Cartography",
+      "category": "skill",
+      "search_name": "cartography skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Navigation-4",
+      "full_text": "This is expertise at creating maps. A successful roll helps avoid errors when Mapping (Exploits, p. 18). With a week’s work, it can even create a map fancy enough to sell; see Selling the Tale (Exploits, p. 17). Delvers don’t usually have to roll to interpret maps – but if a map is old, incomplete, deliberately deceptive, or created by especially weird beings (insect-men, Elder Things, etc.), the GM may require Cartography rolls to follow it or realize its flaws.",
+      "notes": []
+    },
+    {
+      "name": "Climbing",
+      "category": "skill",
+      "search_name": "climbing skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5",
+      "full_text": "This is the ability to climb mountains, ropes, walls, and anything else more difficult than a ladder; see Climbing (Exploits, p. 20). The GM may require ST-based rolls for stunts like pull-ups (Exploits, p. 21). Modifiers: Permanent +3 for Flexibility or +5 for Double-Jointed (p. 49); permanent +1 for Perfect Balance (p. 52). Encumbrance penalties (p. 12).",
+      "notes": []
+    },
+    {
+      "name": "Cloak",
+      "category": "skill",
+      "search_name": "cloak skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5, Net-4, or Shield (any)-4",
+      "full_text": "This is the skill of wielding a cloak or cape as a weapon. Offensively, you can use it for a Feint maneuver or to grapple. See Beyond the Block (Exploits, p. 48). Defensively, it works much like a shield. It provides the Defense Bonus on the Shield Table (p. 107). It also permits a Block defense equal to 3 + half skill, rounded down; see Blocking (Exploits, p. 48). To use a garment this way, you must take it off and hold it in your hand. This requires a number of Ready maneuvers equal to its Defense Bonus. However, either hand will do – there’s no “off” hand when using a cloak.",
+      "notes": []
+    },
+    {
+      "name": "Connoisseur",
+      "category": "skill",
+      "search_name": "connoisseur skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 and others",
+      "full_text": "This is a knowledge of valuables that goes beyond what’s usual for greedy delvers! Specialties are: Art: A successful roll lets you recognize a painting, sculpture, sheet of music, etc. that’s important because of its creator or period of origin. You can then try Forgery (p. 77) to spot a fake, or Merchant (pp. 82-83) for appraisal. Luxuries: A successful roll lets you tell good cloth, perfume, wine, etc. from cheap. As the difference is one of price, this skill can evaluate such goods, too. Also defaults to Savoir-Faire-3. Weapons: A successful roll identifies the quality, composition, and other mundane properties of any weapon or armor. Born War-Leader (p. 47) gives a permanent bonus equal to its level. Also defaults to unpenalized Armory for that type of gear – but Connoisseur covers every type.",
+      "notes": []
+    },
+    {
+      "name": "Counterfeiting",
+      "category": "skill",
+      "search_name": "counterfeiting skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6 or Forgery-2",
+      "full_text": "This risky skill lets you get rich quick by debasing coins: shaving off precious metals to sell, or adding impurities to increase weight. See Debasing Coin (Exploits, p. 14) for rules. When someone pays you with debased coins, the GM will make a secret Per-based Counterfeiting roll to see if you spot it. Your familiarity with such matters also lets you roll to recast precious metal items as ingots, if needed (say, to disguise their origins).",
+      "notes": []
+    },
+    {
+      "name": "Current Affairs",
+      "category": "skill",
+      "search_name": "current affairs skill",
+      "attribute": "IQ",
+      "difficulty": "Easy",
+      "defaults": "IQ-4 or Research-4",
+      "full_text": "This is general knowledge of news and hearsay, gained by paying attention to criers and bards in town, and talking with fellow travelers on the road. A successful skill roll can find rumors of quests. Roll weekly, as noted in Finding a Quest (Exploits, p. 14). The GM may permit rolls to locate people with specific commercial interests, too. An example is “anyone interested in buying scrap”; see Scrap (Exploits, p. 16). Current Affairs deals in overt happenings in civilized lands. Get Streetwise (p. 90) for underworld gossip. For arcane secrets, news of the Undead Empire, etc., learn a suitable Hidden Lore (p. 78) specialty.",
+      "notes": []
+    },
+    {
+      "name": "Dancing",
+      "category": "skill",
+      "search_name": "dancing skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5",
+      "full_text": "This is the ability to dance well enough to get paid for it. It’s mostly used to earn a bit of money in town; see Scoring Extra Cash (Exploits, p. 14). Such a Dancing roll can do double duty as a complementary skill roll (Exploits, p. 6) for an associate working the audience using Pickpocket (p. 85). You can also use Dancing as a complementary skill to your own Carousing (pp. 73-74) and Sex Appeal (p. 88) skills. Born Entertainer (p. 47) gives a permanent +1 per level to Dancing.",
+      "notes": []
+    },
+    {
+      "name": "Detect Lies",
+      "category": "skill",
+      "search_name": "detect lies skill",
+      "attribute": "Per",
+      "difficulty": "Hard",
+      "defaults": "Perception-6",
+      "full_text": "This is the ability to tell when someone is lying to you. When you ask to use this skill, the GM will roll a secret Quick Contest: your Detect Lies skill vs. your subject’s IQ (or Acting or Fast-Talk skill). Victory means the GM will tell you whether that person is lying. If you tie or lose, the GM may lie to you about whether you were lied to, or just say, “You can’t tell.” This skill reads emotions and body language. It’s worthless against all constructs and Elder Things, plus any demon, elemental, faerie, undead, or similar supernatural being with the Unfazeable trait. Modifiers: Permanent +3 for Empathy (p. 48). +4 if the subject is Easy to Read (p. 60).",
+      "notes": []
+    },
+    {
+      "name": "Diagnosis",
+      "category": "skill",
+      "search_name": "diagnosis skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6, First Aid-8, or Veterinary-5",
+      "full_text": "This is the ability to deduce what’s wrong with the sick and injured. It’s used mainly to identify disease; a successful roll avoids -5 to the Cure Disease spell. It can also reveal what’s going on when healing doesn’t work, distinguish a trance or suspended animation from death, and so on. No Diagnosis roll is needed for obvious things, like open wounds and missing limbs! Diagnosis works only on living beings. Modifiers: Permanent bonus equal to Healer (p. 50) level. Rare or weird conditions may give penalties of any size!",
+      "notes": []
+    },
+    {
+      "name": "Diplomacy",
+      "category": "skill",
+      "search_name": "diplomacy skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6",
+      "full_text": "This is the skill of negotiating, compromising, and getting along with others. Around monsters, it’s used for Negotiation (Monsters, p. 5). When dealing with people in town, met on the road, etc., Diplomacy is also useful for Influence rolls (Exploits, p. 10) – and unlike most skills, it will never give you a worse result than if you had tried an ordinary reaction roll, so it’s usually safe. Modifiers: Permanent +2 for Voice (p. 54); permanent -1 for Oblivious (p. 63). If you know Diplomacy at level 20 or better, you get +2 on all reaction rolls where you have a chance to converse!",
+      "notes": []
+    },
+    {
+      "name": "Disguise",
+      "category": "skill",
+      "search_name": "disguise skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the skill of altering someone’s appearance using clothing and makeup. It isn’t needed to don a simple disguise (e.g., a helmet or stolen livery), but such disguises fool only the inattentive! A good disguise requires this skill and 30 minutes of preparation per person. Don’t roll until the disguise has to trick someone – then roll a Quick Contest of Disguise vs. the Perception or Observation skill (p. 84) of each person it must deceive. When combining Acting (p. 72) with Disguise for impersonation, roll against the lower of the two skills. Modifiers: Penalty equal to the Unnatural Features (p. 67) level of the person being disguised. -1 to -5 to disguise the subject as someone very different (GM’s decision); race-crossing gives -2 between civilized species, -5 for humanoid monsters. Overweight and Fat (p. 64), and Skinny (p. 66), give penalties, except when disguised as someone who looks like that. Differences in Size Modifier – or between humanoids and non-humanoids – make Disguise impossible. Deceiving beasts is its own specialty: Disguise (Animals): This is the skill of wearing animal skins, smearing your body with musk or dung, etc. See Trickery (Monsters, pp. 5-6) for smart animals with IQ 6+, or “Good (Three-Headed) Doggie!” (Monsters, p. 6) for the ordinary IQ 1-5 kind. Use the following modifiers instead of those above. Modifiers: Permanent bonuses equal to Animal Friend (p. 47) and Outdoorsman (p. 51) levels; permanent -4 for Frightens Animals (p. 60). -5 to fool giant or dire animals rather than natural ones.",
+      "notes": []
+    },
+    {
+      "name": "Escape",
+      "category": "skill",
+      "search_name": "escape skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "DX-6",
+      "full_text": "This is the ability to contort your way out of a tight situation. To slip free of restraints (ropes, shackles, etc.) takes one minute for the first attempt, 10 minutes per subsequent attempt. The GM may apply penalties for particularly secure bonds, or require you to win a Quick Contest against your captor’s Knot-Tying (pp. 79-80). Critical failure inflicts 1d HP of injury. Negotiating a narrow opening requires an uncontested Escape roll with encumbrance penalties (p. 12). See Squeezing (Exploits, p. 21) for details. Flexibility or Double-Jointed (p. 49) gives a permanent +3 or +5 to Escape.",
+      "notes": []
+    },
+    {
+      "name": "Fast-Draw",
+      "category": "skill",
+      "search_name": "fast draw skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "None",
+      "full_text": "This skill lets you quickly draw a particular kind of gear from a belt, sheath, or hiding place. A successful roll readies the item as a free action – you can use it on the same turn without a Ready maneuver! Failure forces you to use your turn for a Ready maneuver to draw it normally. Critical failure means you drop it. Specialties are: Arrow: Lets you ready a single arrow, bolt, or dart instantly, reducing the time needed to reload a bow, crossbow, or blow pipe by one turn. For this specialty, failure means you drop the projectile. Critical failure scatters the contents of the whole quiver everywhere! Forest Guardian (p. 44) gives a permanent bonus equal to its level. Knife: Blades used with Knife or Main-Gauche skill.",
+      "notes": []
+    },
+    {
+      "name": "Fast-Talk",
+      "category": "skill",
+      "search_name": "fast talk skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Acting-5",
+      "full_text": "This is the skill of talking others into doing things against their better judgment. On adventures, its definitive application is Trickery (Monsters, pp. 5-6). In town and during your travels, it’s useful in any situation that calls for a reaction roll – you may make an Influence roll (Exploits, p. 10) against Fast-Talk instead. Modifiers: Permanent +2 for Voice (p. 54); permanent -1 for Oblivious (p. 63) and -5 for Truthfulness (p. 67). At the GM’s discretion, your approach and your story’s plausibility may further modify the roll. If you have Fast-Talk at level 20 or better, you get +2 on all reaction rolls where you’re allowed to talk!",
+      "notes": []
+    },
+    {
+      "name": "Filch",
+      "category": "skill",
+      "search_name": "filch skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5, Pickpocket-4, or Sleight of Hand-4",
+      "full_text": "This skill lets you steal objects sitting in plain sight without being spotted. In town, it’s commonly used for Shoplifting (Exploits, p. 14). Filch covers only the theft; leaving town with stolen goods requires a roll against Smuggling (p. 89). Modifiers: Valuables get better security: -1 if value is at least $100, and another -1 per doubling (-2 at $200, -3 at $400, and so on); an extra -3 for rare or magical goods. In some situations (GM decides), your confederates can try complementary skill rolls (Exploits, p. 6) against flamboyant skills as a diversion; maximum bonus is +3. In the dungeon, use Filch – not Sleight of Hand (p. 89), which covers tiny items – to quickly swap two objects (like a sandbag for a gold statue) to foil a trap.",
+      "notes": []
+    },
+    {
+      "name": "First Aid",
+      "category": "skill",
+      "search_name": "first aid skill",
+      "attribute": "IQ",
+      "difficulty": "Easy",
+      "defaults": "IQ-4 or Veterinary-4",
+      "full_text": "This is training at treating injuries in the field; see Patching Up (Exploits, p. 63) and Medic! (Exploits, p. 63) for rules. If you know Esoteric Medicine, First Aid is essentially “backup” for times when you lack that skill’s tools. First Aid works only on living humanoids. Use Veterinary (p. 94) for beasts. Modifiers: Permanent bonus equal to Healer (p. 50) level. +1 for a first aid kit (p. 111).",
+      "notes": []
+    },
+    {
+      "name": "Fishing",
+      "category": "skill",
+      "search_name": "fishing skill",
+      "attribute": "Per",
+      "difficulty": "Easy",
+      "defaults": "Perception-4",
+      "full_text": "This is the ability to catch fish with a hook and line or a net. When traveling, it’s used for Foraging (Exploits, p. 18) to reduce ration dependency. On voyages by boat or ship, Fishing is the only skill allowed for this – no Naturalist or Survival! In the dungeon, the GM may call for a DX-based roll any time it’s necessary to cast a hooked or weighted line to fetch or pull something, like a distant treasure or lever. Outdoorsman (p. 51) gives a permanent +1 per level to Fishing.",
+      "notes": []
+    },
+    {
+      "name": "Forced Entry",
+      "category": "skill",
+      "search_name": "forced entry skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "None",
+      "full_text": "You don’t need this skill to break stuff, though! This skill enhances your efficiency at demolishing chests, portals, and other objects. It aids the bashing, forcing, and bending tasks described in Muscle (Exploits, pp. 21-23). When striking an inanimate object with any tool or melee attack (armed or unarmed), add +1 per die to basic thrust or swing damage if you have this skill at DX+1, +2 per die if you know it at DX+2 or better. Add a similar bonus (+1 or +2) to ST rolls for forced entry. Hitting inanimate targets is usually automatic. When it isn’t, use the higher of Forced Entry or your melee skill to hit. Pickaxe Penchant (p. 44) and Widget-Worker (p. 44) each give a permanent +1 per level to Forced Entry.",
+      "notes": []
+    },
+    {
+      "name": "Forgery",
+      "category": "skill",
+      "search_name": "forgery skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6 or Counterfeiting-2",
+      "full_text": "This is the study of fakes: artworks, historical artifacts, maps, and so on. Roll vs. skill – at a penalty for a good forgery – to spot a phony. For anything unique, lack of past experience means you must look for tiny telltales; the roll is Per-based (adjusted for Acute Senses, Sensitive Touch, etc.) and the GM will apply at least -5. You can also use Forgery to modify a generic item to resemble a specific one, usually to satisfy a quest-giver. You must win a Quick Contest of Forgery against the recipient’s skill (Connoisseur, Forgery, etc.). Your roll is DX-based, with the following modifiers. Modifiers: +1 per level of High Manual Dexterity (p. 39) or -3 per level of Ham-Fisted (p. 61); -5 if trying to fake something genuinely unique.",
+      "notes": []
+    },
+    {
+      "name": "Gambling",
+      "category": "skill",
+      "search_name": "gambling skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is skill at playing games of chance. Its main use is to get rich quick – or try to – in town. See Scoring Extra Cash (Exploits, p. 14) for rules. Cheating uses something like Sleight of Hand (p. 89) or spells, not Gambling – but this skill can spot a cheater. To do so, win a Quick Contest of Vision or Per-based Gambling, whichever is higher, vs. the skill your opponent is using to cheat. Finally, Gambling can replace Detect Lies (p. 75) in the specific situation where you suspect someone is bluffing about their odds, numbers, or capabilities – at +4 if they’re Easy to Read (p. 60).",
+      "notes": []
+    },
+    {
+      "name": "Garrote",
+      "category": "skill",
+      "search_name": "garrote skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "DX-4",
+      "full_text": "This is the ability to strangle a victim with a cord or wire. See Garrotes (Exploits, p. 39) for rules. You can use Garrote only to attack from behind, never to parry or on an aware victim.",
+      "notes": []
+    },
+    {
+      "name": "Gesture",
+      "category": "skill",
+      "search_name": "gesture skill",
+      "attribute": "IQ",
+      "difficulty": "Easy",
+      "defaults": "IQ-4",
+      "full_text": "This is the ability to communicate simple concepts with hand signals. This is useful both for silent Signaling (Exploits, p. 20) among a group of delvers and for Negotiation (Monsters, p. 5) with creatures that don’t speak your language.",
+      "notes": []
+    },
+    {
+      "name": "Hazardous Materials",
+      "category": "skill",
+      "search_name": "hazardous materials skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is knowledge of tricks for handling materials that are unsafe not because they’re corrosive or toxic (use Poisons, pp. 85-86), but because they produce effects similar to hostile spells. Roll against skill to dispose of a magic potion used as a trap, as Dangerous Stuff (Exploits, p. 23) explains, or to extract supernaturally active stuff from monster corpses, as described in Dead Monster Bits (Exploits, p. 24). The GM may require DX-based rolls to transport things that are dangerous to touch, look at, or carry; e.g., unholy water, Medusa’s severed head, or a cursed relic. Success lets you exploit a loophole to do so cleverly and safely. Failure curses, blights, or dooms you.",
+      "notes": []
+    },
+    {
+      "name": "Heraldry",
+      "category": "skill",
+      "search_name": "heraldry skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Savoir-Faire-3",
+      "full_text": "This is the skill of recognizing coats of arms, crests, flags, and so on. It’s valuable in two common delving situations: fighting and looting. In a potential combat situation, success at Heraldry will identify an organized enemy by their banners, livery, shields, or standards. This may advise you of favorite tactics, dangerous champions, even weaknesses; see Recognition (Monsters, p. 4). When looting, success will let you recognize maker’s marks, arms of storied owners, symbols of countries of origin, and the like. This can help identify items, as explained in Antiques and Objets d’Art (Exploits, p. 74). Modifiers: +1 to +5 for a well-known design; -1 to -5 for an obscure or retired one.",
+      "notes": []
+    },
+    {
+      "name": "Hidden Lore",
+      "category": "skill",
+      "search_name": "hidden lore skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is knowledge that’s lost or deliberately kept secret. Each kind of lore is its own skill, utterly unknown to delvers without points in it. After the game begins, it might be impossible to add these skills without access to a suitably ancient manuscript or master (GM’s decision). For specialties concerning supernatural beings, a successful roll generally reveals a few powers or flaws; see What Are We Dealing With? (Monsters, pp. 4-5). It may also warn when you’re about to enter a place created by such entities. Most such specialties correspond to standard monster classes – Demons, Divine Servitors, Elder Things, Elementals, Faeries, Spirits, or Undead – but one does not: Nature Spirits: Supernatural beings of any class dwelling in and tied to Nature; e.g., spirit animals, “wild” elementals (fire in volcanoes, water in lakes, etc.), nymphs, fauns, and spirits of place (entities embodying forests, rivers, and so on). Other specialties are: Lost Civilizations: Knowledge of nations or races that perished eons ago – usually after dabbling in Bad Juju. A successful roll lets you recognize the ruins or relics of such a civilization. Magic Items: Knowledge of legendary, typically named and unique, items of power. A successful roll lets you recognize such an artifact and recall some of its capabilities. Magical Writings: Knowledge of texts weirder than mere spellbooks or scrolls. A successful roll will hint at the lore in such a work and warn of its dangers.",
+      "notes": []
+    },
+    {
+      "name": "Hiking",
+      "category": "skill",
+      "search_name": "hiking skill",
+      "attribute": "HT",
+      "difficulty": "Average",
+      "defaults": "HT-5",
+      "full_text": "This is training at long-distance walking, marching, and snowshoeing. It covers foot care, balancing your load, pacing, etc. A successful skill roll reduces total travel time on foot; see Getting There Quickly (Exploits, p. 17). Roll once per trip. To avoid spending hours gaming out a trek, the GM may swap some of the wandering monsters for DX or HT rolls to avoid twisted ankles and similar annoyances. You may substitute a Hiking roll based on the relevant attribute, if better.",
+      "notes": []
+    },
+    {
+      "name": "Holdout",
+      "category": "skill",
+      "search_name": "holdout skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Sleight of Hand-3",
+      "full_text": "This is the skill of concealing items on yourself. In the dungeon, it’s used to surprise enemies in combat as described in Hidden Weapons (Exploits, p. 58). In town, a Holdout roll lets you carry items where they’re prohibited. If guards are actively searching people, you must win a Quick Contest of Holdout vs. their Search skill (p. 88). Otherwise, you’re caught! Modifiers: For non-weapons, go by weight: +3 if negligible (“neg.”); +2 at up to 0.1 lb.; +1 at up to 0.2 lb.; 0 at up to 0.5 lb.; -1 per pound if heavier. Ranged weapons use Bulk (e.g., 0 for a shuriken, -2 for a grenade potion). For melee weapons, add weight in lbs. (treat “neg.” as 0) to longest reach in yards (treat “C” as 0) if rigid, shortest reach if flexible (garrote, whip, etc.); round up and apply a penalty of that size. You can’t hide rigid objects longer than your height!",
+      "notes": []
+    },
+    {
+      "name": "Innate Attack",
+      "category": "skill",
+      "search_name": "innate attack skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "DX-4",
+      "full_text": "This skill is used to hit your target with a magic jet, Missile spell, or other supernatural attack projected from the body. It has four specialties, which default to one another at -2. Two are common among spellcasters: Beam: Any jet or ray emitted from the hands. Requires at least one unrestrained hand, which needn’t be empty. Projectile: Any projectile or pseudo-solid bolt (like a Missile spell) emitted from the hands. Requires at least one unrestrained hand, which needn’t be empty. The remaining specialties are more common among monsters: Breath: Any attack exhaled or spat from the mouth. You cannot be gagged and you must be facing your target. Gaze: Any attack emitted from the eyes. You cannot be blindfolded and you must be facing your target. You use this skill to direct a spell, not to cast it; therefore, notes on restraints refer only to your ability to attack enemies. If you can cast while restrained, no Innate Attack roll is needed to attack your restraints! To improve your odds with spells that require a touch, learn an unarmed combat skill – or a melee weapon skill for wielding a wizard’s staff or wand (p. 118).",
+      "notes": []
+    },
+    {
+      "name": "Interrogation",
+      "category": "skill",
+      "search_name": "interrogation skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Intimidation-3",
+      "full_text": "This is the ability to question someone who cannot simply flee to avoid answering. You must win a Quick Contest of Interrogation vs. the prisoner’s Will for each question. See Interrogations (Exploits, p. 10) for complete rules. Interrogation includes torture; that isn’t its own skill. In the not-so-enlightened world of Dungeon Fantasy, interrogations normally “get medieval” (in every sense!). That’s why there are no penalties against monsters – though iron Will is often an issue. Callous (p. 57) gives a permanent +1 to Interrogation.",
+      "notes": []
+    },
+    {
+      "name": "Intimidation",
+      "category": "skill",
+      "search_name": "intimidation skill",
+      "attribute": "Will",
+      "difficulty": "Average",
+      "defaults": "Will-5 or Acting-3",
+      "full_text": "This is the skill of hostile persuasion. On adventures, it’s used to drive off foes; see Taunt and Bluster (Exploits, p. 58). Around town, you can substitute an Influence roll (Exploits, p. 10) against Intimidation for any reaction roll. Both applications are Quick Contests – and if you win and roll a critical success, or your target loses and rolls a critical failure, your victim must make a Fright Check in addition to the other results! Modifiers: Permanent +1 for Callous (p. 57); permanent -1 for Oblivious (p. 63). Size matters – add your Size Modifier and subtract the subject’s. +1 for Penetrating Voice (p. 52) and +2 for success at Kiai (p. 32), if you’re willing to sacrifice any chance of stealth. Subtract the subject’s Fearlessness (p. 49) from skill and add it to their Will; if they’re Unfazeable (p. 53), Intimidation won’t work. -3 if your goal is to request aid. Group Intimidation: You may attempt to intimidate a group of up to 25, at -1 to skill per five members (or fraction thereof). Multiple intimidators can combine forces against proportionally larger groups; e.g., three adventurers could try to intimidate 75 orcs! Base the skill penalty on the size of the target group divided by the number of intimidators (round up). Resolve the outcome with a single Quick Contest: the highest effective Intimidation skill from among the intimidators vs. the highest modified Will in the target group.",
+      "notes": []
+    },
+    {
+      "name": "Jumping",
+      "category": "skill",
+      "search_name": "jumping skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "None",
+      "full_text": "You don’t need this skill to jump, however! This is a trained jumping ability. Whenever you roll for a difficult jump or to hop over the trigger of a trap, use the better of Jumping or DX. Also use the higher of Jumping/2 or Basic Move/4 as your basic horizontal jumping distance. For more on such stunts, see Jumping (Exploits, p. 20) and Running Climb (Exploits, p. 21).",
+      "notes": []
+    },
+    {
+      "name": "Knot-Tying",
+      "category": "skill",
+      "search_name": "knot tying skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "DX-4, Climbing-4, or Seamanship-4",
+      "full_text": "This is the ability to tie all kinds of knots quickly and efficiently. Delvers often use it to bind captives; see Prisoners (Exploits, p. 25). Subjects with the Escape skill (pp. 75-76) must win a Quick Contest against your Knot-Tying to get free. A Knot-Tying roll can prepare a rope for use with Lasso (p. 80). Except on a critical success, the resulting lariat is an improvised weapon (Exploits, p. 37): -1 to skill. Finally, the GM may let Knot-Tying replace other skills for tasks involving fastening or unfastening ropes; e.g., to secure lines to hoist allies who don’t have Climbing (p. 74), or to rig trigger lines and trip-ropes without needing Traps (p. 92). Modifiers: Permanent +1 per level of High Manual Dexterity (p. 39) or -3 per level of Ham-Fisted (p. 61).",
+      "notes": []
+    },
+    {
+      "name": "Lasso",
+      "category": "skill",
+      "search_name": "lasso skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is the skill of throwing the lariat: a long rope or thong with a sliding noose at one end, useful for entangling enemies, snaring treasures, and even Swinging (Exploits, p. 21). For detailed rules, see Lariats (Exploits, p. 44).",
+      "notes": []
+    },
+    {
+      "name": "Leadership",
+      "category": "skill",
+      "search_name": "leadership skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the ability to coordinate a group. When working with PCs, its only real use is to rally them against fear and mind control; see “Onward to Victory!” (Exploits, p. 57). If you’re the rightful leader of NPCs – anything from hired thugs to knights assigned to you by the King – you can use Leadership for Influence rolls (Exploits, p. 10) as well. These can replace not only reaction rolls but also the Loyalty checks described in Hirelings (Exploits, p. 90). Modifiers: Permanent bonuses equal to Born War Leader (p. 47) and Charisma (p. 48) levels. When substituting an Influence roll for a Loyalty roll: -10 for Loyalty of 6 or less, -5 at 7-9, 0 at 10-12, +5 at 13-15, and +10 at 16-18. If Loyalty is 19 or higher, you win automatically!",
+      "notes": []
+    },
+    {
+      "name": "Lifting",
+      "category": "skill",
+      "search_name": "lifting skill",
+      "attribute": "HT",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is training at Extra Effort (Exploits, p. 20) to increase Basic Lift for stunts like Lifting and Shifting (Exploits, p. 22). Extra effort normally requires a Will or Will-based skill roll – but you may make a standard HT-based Lifting roll, if that would be better. Thus, Lifting works best for heroes who put matter (HT) over mind (Will). Lifting assists momentary feats of strength – roll once per extra-effort lift. It has no effect on encumbrance or carrying capacity.",
+      "notes": []
+    },
+    {
+      "name": "Lip Reading",
+      "category": "skill",
+      "search_name": "lip reading skill",
+      "attribute": "Per",
+      "difficulty": "Average",
+      "defaults": "Perception-10",
+      "full_text": "This is the ability to see what others are saying. You must be within seven yards, or have a means of bringing your viewpoint this close. Success lets you understand what’s being said if you know the language. Critical failure means you’re seen – or if concealed or invisible, that you make noise trying to get a better look. Lip Reading works only on a creature that has a mouth that moves when it speaks! Modifiers: All modifiers under Vision (Exploits, p. 9).",
+      "notes": []
+    },
+    {
+      "name": "Navigation",
+      "category": "skill",
+      "search_name": "navigation skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5, Cartography-4, or Seamanship-5",
+      "full_text": "This is the ability to find your position by observing landmarks, stars, ocean currents, etc., and by using equipment. Roll once per journey. Success means you follow a course that reduces travel time; see Getting There Quickly (Exploits, p. 17). In trackless desert, dense jungle, thick mists, and similar surroundings – or around dangers such as the Sinking Swamp – the GM may require daily or hourly rolls to avoid getting lost or in trouble. A Per-based roll can detect supernatural distortions of distance and direction. Modifiers: Permanent +3 for Absolute Direction (p. 46); permanent bonus equal to Outdoorsman (p. 51) level. Equipment matters: -5 for none, -2 for a sketchy map, -1 for a sundial (p. 111), 0 for a compass (p. 112) or good map, +1 for an excellent map.",
+      "notes": []
+    },
+    {
+      "name": "Net",
+      "category": "skill",
+      "search_name": "net skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "Cloak-5",
+      "full_text": "This skill covers using a net as both a thrown weapon and melee weapon. For detailed rules, see Nets (Exploits, p. 45).",
+      "notes": []
+    },
+    {
+      "name": "Observation",
+      "category": "skill",
+      "search_name": "observation skill",
+      "attribute": "Per",
+      "difficulty": "Average",
+      "defaults": "Perception-5 or Shadowing-5",
+      "full_text": "This is the talent of spotting the interesting and the dangerous from afar. Roll against skill when Scouting Ahead (Exploits, pp. 19-20) to gather tactical information about patrols, sentry positions, etc. Also use the higher of Observation or Perception (including Vision or Hearing) to notice hidden doors, when standing watch, and in Quick Contests against Camouflage, Disguise, Shadowing, and Stealth. The GM will often roll for you in secret. If you succeed (win, in a Contest) the GM will reveal important details, and you won’t be surprised in a combat situation. Critical failure means being seen – or heard, if concealed or invisible. Modifiers: Modifiers to Sense rolls apply normally; see Vision (Exploits, p. 9) and Hearing (Exploits, p. 9).",
+      "notes": []
+    },
+    {
+      "name": "Occultism",
+      "category": "skill",
+      "search_name": "occultism skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the study of curses, hauntings, and similar creepiness. A successful skill roll will identify demonic altars, haunted houses, sinister symbols, and the warning signs of possession. A second roll might let you recall details about what you’ve encountered – but to expel Evil, you’ll need Exorcism (p. 22). See Curses 101 (Exploits, pp. 23-24). Knowledge of baleful entities is the realm of Hidden Lore (p. 78). However, the GM may permit Occultism rolls for Recognition (Monsters, p. 4) when attacked by cursed objects (like evil dolls and flying knives) or possession victims. Occultism provides no special information on magic. Use Alchemy (p. 72) or Herb Lore (p. 25) for potions, Religious Ritual (p. 86) or Theology (p. 91) for theurgy, or Thaumatology (p. 91) for wizardry.",
+      "notes": []
+    },
+    {
+      "name": "Panhandling",
+      "category": "skill",
+      "search_name": "panhandling skill",
+      "attribute": "IQ",
+      "difficulty": "Easy",
+      "defaults": "IQ-4, Fast-Talk-2, or Public Speaking-3",
+      "full_text": "This is the art of effective begging. It’s mainly used in town to finagle money from passersby; see Scoring Extra Cash (Exploits, p. 14). Someone who isn’t laden with armor, a pack, or shiny valuables – or obviously armed with anything other than a stick – can use Panhandling for Trickery (Monsters, pp 5-6) that involves posing as penniless, a mendicant monk, or a vagrant. However, the target of the ruse may use the higher of Streetwise (p. 90) or IQ in the Quick Contest to avoid being fooled. Charisma (p. 48) gives a permanent bonus equal to its level.",
+      "notes": []
+    },
+    {
+      "name": "Research",
+      "category": "skill",
+      "search_name": "research skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Writing-3. Prerequisite: No Illiteracy",
+      "full_text": "This is the ability to sift through texts and maps for information. Before leaving town on a quest, a successful skill roll may reveal useful details about the upcoming mission. On returning with treasure, a roll can establish an artifact’s historical significance or a map’s provenance. To use Research, you must have access to a library. This usually means the collection of the temple or Wizards’ Guild in town. If you find a vast trove of writings in the field, though, Research rolls can pick out maps, spellbooks, magical scrolls, and other goodies. The GM makes all Research rolls in secret, revealing nothing on a failure but lying on a critical failure!",
+      "notes": []
+    },
+    {
+      "name": "Riding",
+      "category": "skill",
+      "search_name": "riding skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5 or Animal Handling (same)-3",
+      "full_text": "This is the ability to ride a particular kind of mount. A successful skill roll reduces total travel time when journeying this way; see Getting There Quickly (Exploits, p. 17). As Travel (Exploits, p. 64) explains, if you encounter trouble en route, a successful HT-based roll lets you avoid travel fatigue. Mounted combat is beyond the scope of Dungeon Fantasy, but here’s a quick-and-dirty rule: You and your mount move on your turn at your mount’s Move; your effective combat skills cannot exceed Riding; mounted melee attacks have -1 to hit, +1 damage; and you must roll vs. Riding for each jump or other stunt. Delvers usually learn Riding (Horse) – but choose Riding (Camel), Riding (Dolphin), Riding (Dragon), or whatever if you prefer! Specialties for land creatures default to one another at -3; the same holds among aquatic or aerial beasts. Defaults between these three categories are at -6. Animal Friend (p. 47) gives a permanent bonus equal to its level.",
+      "notes": []
+    },
+    {
+      "name": "Running",
+      "category": "skill",
+      "search_name": "running skill",
+      "attribute": "HT",
+      "difficulty": "Average",
+      "defaults": "HT-5",
+      "full_text": "This represents training at sprints and long-distance running. When Running Away! (Exploits, p. 22), roll against the higher of HT or Running to avert fatigue, and the better of DX or DX-based Running to avoid obstacles. Use the higher of Will or Will-based Running for Extra Effort (Exploits, p. 20) to increase running speed. For these purposes, Running becomes beneficial at “Attribute+1” level and above, which gives an effective +1 or more to the roll. If you have any points in Running, however, a running start allows you to use it for a complementary skill roll (Exploits, p. 6) to assist Acrobatics, Climbing, Escape, Forced Entry, Jumping, or any similar skill when rolling to go over or through an obstacle.",
+      "notes": []
+    },
+    {
+      "name": "Fencing Weapons",
+      "category": "skill",
+      "search_name": "fencing weapons skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "all skills in this category default to one another at -3",
+      "full_text": "A fencing weapon is any light, one-handed weapon optimized for parrying. When you parry with a fencing weapon, you enjoy an improved retreating bonus and suffer half the usual penalty for parrying more than once with the same hand. See What Am I Parrying With? (Exploits, p. 49). On the downside, you must stay relatively mobile to capitalize on fencing weapons’ speed and maneuverability, so all attacks and parries take encumbrance penalties (p. 12); e.g., Heavy encumbrance gives -3 to hit and to parry. As well, fencing weapons aren’t substantial enough to parry flails or kusaris. In addition to the specific defaults listed below, all skills in this category default to one another at -3. Main-Gauche (DX/Average): Covers many Knife and Jitte/Sai weapons. When you wield a suitable weapon with this skill, you may ignore the penalty for using the “off” hand on defense (attacks still have -4) and the -1 for parrying with a knife. Defaults: DX-5, Jitte/Sai-4, or Knife-4. Rapier (DX/Average): Any long (over one yard), light, primarily thrusting sword. Defaults: DX-5 or Broadsword-4. Saber (DX/Average): Any light cut-and-thrust sword. (Not the heavy cavalry saber, which uses Broadsword.) Defaults: DX-5, Broadsword-4, or Shortsword-4. Smallsword (DX/Average): Any short (up to one yard), light thrusting sword. Also covers one-handed staffs and wands. Defaults: DX-5 or Shortsword-4.",
+      "notes": []
+    },
+    {
+      "name": "Flails",
+      "category": "skill",
+      "search_name": "flails skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "A flail is any flexible, unbalanced weapon with its mass concentrated in the head. Such a weapon cannot parry if you’ve already attacked with it on your turn. Flails tend to wrap around an opponent’s shield or weapon, giving enemies -2 to block and -4 to parry. Fencing weapons and knives cannot parry them! Unarmed fighters can parry them, but at -4 in addition to any penalty for parrying unarmed. Flail (DX/Hard): Any one-handed flail. Defaults: DX-6, Axe/Mace-4, or Two-Handed Flail-3. Two-Handed Flail (DX/Hard): Any two-handed flail. Defaults: DX-6, Flail-3, Kusari-4, or Two-Handed Axe/Mace-4.",
+      "notes": []
+    },
+    {
+      "name": "Impact Weapons",
+      "category": "skill",
+      "search_name": "impact weapons skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "An impact weapon is any rigid, unbalanced weapon with its mass concentrated in the head. Such a weapon cannot parry if you’ve already attacked with it on your turn. These skills get a permanent bonus equal to your level of Pickaxe Penchant (p. 44). Axe/Mace (DX/Average): Any one-handed impact weapon. Defaults: DX-5, Flail-4, or Two-Handed Axe/Mace-3. Two-Handed Axe/Mace (DX/Average): Any two-handed impact weapon. Nearly all such weapons become unready after a swing. Defaults: DX-5, Axe/Mace-3, Polearm-4, or Two-Handed Flail-4.",
+      "notes": []
+    },
+    {
+      "name": "Pole Weapons",
+      "category": "skill",
+      "search_name": "pole weapons skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "Pole weapons are long, usually wooden shafts, often adorned with striking heads. All require two hands. Polearm (DX/Average): Any long, unbalanced pole weapon with a heavy striking head. Most polearms become unready after a swing, but not after a thrust or parry, and cannot parry if you’ve already attacked with them on your turn. Defaults: DX-5, Spear-4, Staff-4, or Two-Handed Axe/Mace-4. Spear (DX/Average): Any long, balanced pole weapon with a thrusting point. Defaults: DX-5, Polearm-4, or Staff-2. Staff (DX/Average): Any long, balanced pole without a striking head – including the wizard’s staff. This skill makes good use of the staff’s extensive parrying surface when defending, giving +2 to your Parry score. Defaults: DX-5, Polearm-4, or Spear-2.",
+      "notes": []
+    },
+    {
+      "name": "Swords",
+      "category": "skill",
+      "search_name": "swords skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "A sword is any rigid, hilted blade. All swords are balanced, and can attack and parry without becoming unready. Broadsword (DX/Average): Any balanced, two- to four-foot blade wielded in one hand. Also covers sticks and clubs of similar size and balance to such blades, as well as bastard swords, katanas, and longswords used one-handed. Defaults: DX-5, Rapier-4, Saber-4, Shortsword-2, or Two-Handed Sword-4. Jitte/Sai (DX/Average): Any tined, one-handed sword designed to catch weapons. Jitte/Sai weapons are built for disarming, and give +2 in the Quick Contest to disarm an opponent; see Attacking Weapons (Exploits, p. 37). If you attempt to disarm on the turn immediately after you parry a weapon, you needn’t roll to hit that weapon first – just state that you’re attempting to disarm and move directly to the Quick Contest! This still counts as an attack. Defaults: DX-5, Main-Gauche-4, or Shortsword-3. Knife (DX/Easy): Any rigid, hilted blade less than one foot long. A knife has a very small parrying surface, giving -1 to your Parry score, and cannot parry flails or kusaris. Defaults: DX-4, Main-Gauche-3, or Shortsword-3. Shortsword (DX/Average): Any balanced, one-handed blade one to two feet in length. Also covers sticks and clubs of comparable size and balance. Defaults: DX-5, Broadsword-2, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, or Tonfa-3. Two-Handed Sword (DX/Average): Any balanced, two-handed blade over four feet in length. Also covers quarterstaffs wielded like swords, as well as bastard swords, katanas, and longswords used two-handed. Defaults: DX-5 or Broadsword-4.",
+      "notes": []
+    },
+    {
+      "name": "Missile Weapon Skills",
+      "category": "skill",
+      "search_name": "missile weapon skills skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "Missile weapons shoot ammunition: arrows, bolts, darts, pellets, etc. While Heroic Archer (p. 35) lets scouts use bows to attack every turn, most delvers must spend time reloading missile weapons between shots – and as such weapons take range penalties, you’ll rarely get to use full skill when you do attack. Be prepared for these limitations! See Ranged Attacks (Exploits, pp. 41-45) for further details. Blowpipe (DX/Hard): This is the ability to use a hollow tube to shoot small, usually poisoned, darts. Default: DX-6. Bow (DX/Average): This is the ability to use the longbow, short bow, or any similar bow to shoot arrows. Forest Guardian (p. 44) and Halfling Marksmanship (p. 45) give a permanent +1 per level. Default: DX-5. Crossbow (DX/Easy): This is the ability to use all types of crossbows, including the pistol crossbow and prodd (which fires pellets or stones). Default: DX-4. Sling (DX/Hard): This is the ability to use the sling or staff sling to lob stones or bullets. Halfling Marksmanship (p. 45) gives a permanent bonus equal to its level. Default: DX-6. Spear Thrower (DX/Average): This is the ability to use a long, flat stick with a notch or a loop at one end to hurl a dart or javelin. It takes one turn to position the spear in the thrower after both are in hand and ready. Defaults: DX-5 or Thrown Weapon (Spear)-4.",
+      "notes": []
+    },
+    {
+      "name": "Musical Composition",
+      "category": "skill",
+      "search_name": "musical composition skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "No general default. Musical Instrument-2 to compose for that instrument, or Poetry-2 to compose for Singing",
+      "full_text": "This is the art of composing music – usually to earn money. When Selling the Tale (Exploits, p. 17), a successful skill roll will immortalize your exploits in a ballad. When Scoring Extra Cash (Exploits, p. 14), make a complementary skill roll (Exploits, p. 6) for Dancing, Musical Instrument, Performance, Poetry, or Singing. Musical Composition also includes abstract music theory. A successful roll might uncover information concealed in music, or realize that peculiar symbols are musical notation (perhaps for a password or spell!). Playing music requires Musical Instrument (below) – and supernatural applications need Bardic Talent, which gives a permanent +1 per level to Musical Composition.",
+      "notes": []
+    },
+    {
+      "name": "Musical Instrument",
+      "category": "skill",
+      "search_name": "musical instrument skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "Varies",
+      "full_text": "This is the ability to play a musical instrument. For non bards, its main use is busking for money; see Scoring Extra Cash (Exploits, p. 14). For bards, it allows the use of Bard Song abilities (p. 18) and sets the skill level they use to resist being dispelled. Each instrument has its own skill: Musical Instrument (Drums), Musical Instrument (Flute), Musical Instrument (Harp), Musical Instrument (Horn), Musical Instrument (Lute), etc. See Musical Instruments (p. 112) for examples. Instruments within categories like “harp or zither,” “stringed,” or “woodwind” default to each other at -3; otherwise, there’s no default. Bardic Talent gives a permanent +1 per level to Musical Instrument.",
+      "notes": []
+    },
+    {
+      "name": "Performance",
+      "category": "skill",
+      "search_name": "performance skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5, Acting-2, or Public Speaking-2",
+      "full_text": "This is the skill of stage acting, which differs from Acting (p. 72) in that you’re trying to entertain, not deceive. Its main use is to earn money in town; see Scoring Extra Cash (Exploits, p. 14). The Performance roll for this can also count as a complementary skill roll (Exploits, p. 6) for an associate working the audience with Pickpocket (p. 85). A successful Performance roll will also let you enunciate a difficult incantation or passphrase precisely (“Klaatu barada nikto!”). Modifiers: Permanent bonus equal to Born Entertainer (p. 47) level; permanent +2 for Voice (p. 54).",
+      "notes": []
+    },
+    {
+      "name": "Pharmacy",
+      "category": "skill",
+      "search_name": "pharmacy skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6, Herb Lore-5, or Naturalist-5. Prerequisite: Naturalist",
+      "full_text": "This is the craft of herbal medicine. Brewing an antidote to Poison (Exploits, pp. 69-70) takes an hour, while treating Disease (Exploits, pp. 66-67) takes a day. You cannot attempt either until you’ve successfully identified your patient’s problem using Poisons (pp. 85-86) or Diagnosis (p. 75), respectively. Although herbal medicine is remarkably effective in fantasy, Pharmacy isn’t magic – anyone can learn it. Only druids can produce magical preparations from plants, however. Use Esoteric Medicine (Druidic) (p. 25) for cures or Herb Lore (p. 25) for potions. Modifiers: Permanent bonuses equal to Green Thumb (p. 50) and Healer (p. 50) levels. Stubborn diseases and poison can give penalties of any size!",
+      "notes": []
+    },
+    {
+      "name": "Physiology",
+      "category": "skill",
+      "search_name": "physiology skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6 or Surgery-5",
+      "full_text": "This is the study of monsters’ bodies. When fighting a creature within your specialty, a successful skill roll lets you recall any areas with lower DR, and enables you to target any body parts that have wounding effects equivalent to a humanoid's skull or vitals. See Hit Location and Injury (Exploits, pp. 53-54) and Exploiting Weaknesses (Monsters, pp. 4-5). Specialties for living beings – Animals (natural, giant, and dire), Faeries (nymphs, pixies, etc.), Hybrids (unnatural “crosses” between beasts), and Plants (animated trees and fungi) – are most useful in combat, but Constructs, Demons, Elementals, and Undead can inform you of physical targets such as a heart that still beats after death or an amulet without which an entity would perish.",
+      "notes": []
+    },
+    {
+      "name": "Lockpicking",
+      "category": "skill",
+      "search_name": "lockpicking skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5",
+      "full_text": "This is the ability to open a lock without its key. Each attempt requires one minute. If you succeed, reduce the time you needed to pick that lock by five seconds per point of success. Lockpicking is mostly about everyday latches and tumblers. Peculiar mechanisms might demand IQ-based rolls or take far longer to open. Trapped locks use the lower of Lockpicking or Traps (p. 92). Magical seals are completely beyond Lockpicking! Modifiers: Permanent bonuses equal to High Manual Dexterity (p. 39) and Widget-Worker (p. 44) levels; permanent -3 per level of Ham-Fisted (p. 61). -5 if using only a knife; bonuses for superior lockpicks (p. 113). -5 if working in total darkness. Cheap or fancy locks can give bonuses or penalties of any size.",
+      "notes": []
+    },
+    {
+      "name": "Meditation",
+      "category": "skill",
+      "search_name": "meditation skill",
+      "attribute": "Will",
+      "difficulty": "Hard",
+      "defaults": "Will-6 or Autohypnosis-4",
+      "full_text": "This is the ability to calmly focus your thoughts on your situation. A successful roll can turn your mind’s eye inward for inspiration relevant to your circumstances (meaning a vague hint from the GM), or outward to petition the gods for direct assistance. See Last Ditch (Exploits, pp. 90-91) for details.",
+      "notes": []
+    },
+    {
+      "name": "Whips",
+      "category": "skill",
+      "search_name": "whips skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "A whip is a flexible weapon made from a length of chain or leather. Such weapons tend to wind around their target, making them excellent for disarming; see Attacking Weapons (Exploits, p. 37). However, their lack of rigidity makes them poor parrying weapons (-2 to your Parry score), and you cannot parry if you’ve already attacked with them on your turn. Kusari (DX/Hard): A weighted chain, wielded two-handed. Like flails, kusaris wrap around shields and weapons, giving enemies -2 to block and -4 to parry. See Kusaris (Exploits, p. 39) for other special rules. Defaults: DX-6, Two-Handed Flail-4, or Whip-3. Whip (DX/Average): Any ordinary whip. See Whips (Exploits, p. 39) for special rules. Defaults: DX-5 or Kusari-3.",
+      "notes": []
+    },
+    {
+      "name": "Other Weapons",
+      "category": "skill",
+      "search_name": "other weapons skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "Tonfa (DX/Average): A tonfa is a club with a protruding handle on one side. It can function as a baton, but you can also grasp it by the handle and hold it against the forearm. This grip lets you strike and parry with unarmed striking skills instead of Tonfa skill; strikes are punches at +1 to damage, while parries are considered armed. Roll vs. Tonfa skill to change grips; success makes the grip change a free action, failure means you must spend the entire turn changing grips, and critical failure means you throw away your weapon! Defaults: DX-5 or Shortsword-3.",
+      "notes": []
+    },
+    {
+      "name": "Merchant",
+      "category": "skill",
+      "search_name": "merchant skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the skill of buying, selling, and trading. Use it for Bargain Hunting (Exploits, p. 13) to buy low, Haggling (Exploits, p. 16) to sell high. As well, a successful roll will appraise valuables – gems, jewelry, strange alloys, art, etc. – so you know what you’re dealing with. Merchant covers services as well as goods. In particular, it’s useful when hiring help; see Hirelings (Exploits, p. 90). Modifiers: Permanent -3 for Gullibility (p. 61). -1 to -4 for Compulsive Spending (p. 59) when rolling to get a lower price. If you know Merchant at any level, you get +1 on reaction rolls when buying or selling. At level 20 or better, you get +2.",
+      "notes": []
+    },
+    {
+      "name": "Mimicry",
+      "category": "skill",
+      "search_name": "mimicry skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6 and others",
+      "full_text": "This is the ability to imitate voices. The Voice advantage gives a permanent +2. Specialties include Animal Sounds, Bird Calls, and Speech. Animal Sounds are useful for stealth signals and distracting beasts. Bird Calls are similar but specific to birds. Speech allows imitation of voices; you must win a Quick Contest vs. IQ to fool those familiar with the subject.",
+      "notes": []
+    },
+    {
+      "name": "Pickpocket",
+      "category": "skill",
+      "search_name": "pickpocket skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "DX-6, Filch-5, or Sleight of Hand-4",
+      "full_text": "This is the ability to steal a purse, knife, or similar small item from someone’s person. When preying on common townsfolk, roll daily; see Scoring Extra Cash (Exploits, p. 14). For a higher-value target, use Quick Contests against Perception or Streetwise and possibly Observation. You must win to avoid being caught. Modifiers: +1 per level of High Manual Dexterity or -3 per level of Ham-Fisted. +10 if victim is asleep; penalties for harder-to-reach items.",
+      "notes": []
+    },
+    {
+      "name": "Poetry",
+      "category": "skill",
+      "search_name": "poetry skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Writing-5",
+      "full_text": "This is the ability to compose poetry in any language you know. In town, it can be used to perform or sell stories. In the dungeon, it may reveal clues hidden in inscriptions or texts.",
+      "notes": []
+    },
+    {
+      "name": "Poisons",
+      "category": "skill",
+      "search_name": "poisons skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6, Alchemy-5, or Pharmacy-3",
+      "full_text": "This is practical knowledge of poisons. It allows brewing poisons, extracting venom, applying poison efficiently, detecting poison, and identifying poison effects for treatment.",
+      "notes": []
+    },
+    {
+      "name": "Propaganda",
+      "category": "skill",
+      "search_name": "propaganda skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Merchant-5",
+      "full_text": "This is the art of using criers, posters, and rumors to promote or discredit. It can be used to find quests, sell goods, or recruit hirelings.",
+      "notes": []
+    },
+    {
+      "name": "Prospecting",
+      "category": "skill",
+      "search_name": "prospecting skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is knowledge of applied geology. It allows identifying minerals, finding water, and detecting geological dangers.",
+      "notes": []
+    },
+    {
+      "name": "Psychology",
+      "category": "skill",
+      "search_name": "psychology skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6",
+      "full_text": "This is the study of monsters’ minds to manipulate them. A successful roll may reveal exploitable mental weaknesses.",
+      "notes": []
+    },
+    {
+      "name": "Public Speaking",
+      "category": "skill",
+      "search_name": "public speaking skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5, Acting-5, or Performance-2",
+      "full_text": "This is talent with spoken word. Used for storytelling, persuasion, and influencing powerful beings.",
+      "notes": []
+    },
+    {
+      "name": "Religious Ritual",
+      "category": "skill",
+      "search_name": "religious ritual skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "Theology-4",
+      "full_text": "This is the ability to perform religious rites, bless locations, lead prayer, and interact with divine forces.",
+      "notes": []
+    },
+    {
+      "name": "Naturalist",
+      "category": "skill",
+      "search_name": "naturalist skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6",
+      "full_text": "This is practical wilderness lore. A successful skill roll will let you find something to eat outdoors, identify valuable animal parts, or recall the capabilities of strange beasts; see Foraging (Exploits, p. 18), Dead Monster Bits (Exploits, p. 24), or Recognition (Monsters, p. 4), respectively. When in doubt about natural dangers, the GM will roll against Naturalists to see what you know; e.g., to realize that a cave is a dangerous animal’s lair. This roll may be Per-based for tasks such as telling whether distant haze is the weather, smoke from a forest fire, or dust from a stampede. Green Thumb (p. 50) and Outdoorsman (p. 51) each give a permanent +1 per level to Naturalist.",
+      "notes": []
+    },
+    {
+      "name": "Savoir-Faire",
+      "category": "skill",
+      "search_name": "savoir faire skill",
+      "attribute": "IQ",
+      "difficulty": "Easy",
+      "defaults": "IQ-4",
+      "full_text": "This is the skill of appropriate behavior in high society. Delvers typically use it for Finding a Sponsor (Exploits, pp. 14-15). However, you can exploit it for an Influence roll (Exploits, p. 10) whenever you interact with someone affluent and well-bred. If suitably dressed, you can use Savoir-Faire like Acting to pose as someone important. Modifiers: Permanent bonus equal to Born War-Leader level; penalties for Clueless and Oblivious; reaction penalties from Social Stigma.",
+      "notes": []
+    },
+    {
+      "name": "Scrounging",
+      "category": "skill",
+      "search_name": "scrounging skill",
+      "attribute": "Per",
+      "difficulty": "Easy",
+      "defaults": "Perception-4",
+      "full_text": "This is the knack of finding or salvaging useful items. It can provide free gear, recover scrap, or retrieve spent ammunition. The GM may require a roll to locate items quickly. Modifiers: Permanent bonus equal to Widget-Worker level; rarity modifiers may apply.",
+      "notes": []
+    },
+    {
+      "name": "Seamanship",
+      "category": "skill",
+      "search_name": "seamanship skill",
+      "attribute": "IQ",
+      "difficulty": "Easy",
+      "defaults": "IQ-4",
+      "full_text": "This is the ability to steer large vessels. A successful roll reduces travel time. Failures can result in delays or damage; critical failures may cause disaster.",
+      "notes": []
+    },
+    {
+      "name": "Search",
+      "category": "skill",
+      "search_name": "search skill",
+      "attribute": "Per",
+      "difficulty": "Average",
+      "defaults": "Perception-5",
+      "full_text": "This is the ability to search a person or body. The GM rolls in secret. Used to find hidden items via Quick Contests vs Holdout.",
+      "notes": []
+    },
+    {
+      "name": "Sex Appeal",
+      "category": "skill",
+      "search_name": "sex appeal skill",
+      "attribute": "HT",
+      "difficulty": "Average",
+      "defaults": "HT-3",
+      "full_text": "This is the ability to impress those attracted to you. Used for Influence rolls or trickery. Modifiers include Appearance and Voice.",
+      "notes": []
+    },
+    {
+      "name": "Shadowing",
+      "category": "skill",
+      "search_name": "shadowing skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5, Observation-5, or Stealth-4",
+      "full_text": "This is the ability to follow someone without being noticed. Requires Quick Contests vs Vision or Observation.",
+      "notes": []
+    },
+    {
+      "name": "Skiing",
+      "category": "skill",
+      "search_name": "skiing skill",
+      "attribute": "HT",
+      "difficulty": "Hard",
+      "defaults": "HT-6",
+      "full_text": "This skill works like Hiking when traveling and Running when racing. DX-based Skiing applies to sliding.",
+      "notes": []
+    },
+    {
+      "name": "Shield",
+      "category": "skill",
+      "search_name": "shield skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "DX-4",
+      "full_text": "This is the ability to use a shield. Block = 3 + half skill. Shields provide defense bonuses and can be used offensively.",
+      "notes": []
+    },
+    {
+      "name": "Singing",
+      "category": "skill",
+      "search_name": "singing skill",
+      "attribute": "HT",
+      "difficulty": "Easy",
+      "defaults": "HT-4",
+      "full_text": "This is the ability to sing. Used for earning money, taunting, or bardic spellcasting.",
+      "notes": []
+    },
+    {
+      "name": "Sleight of Hand",
+      "category": "skill",
+      "search_name": "sleight of hand skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "Filch-5",
+      "full_text": "This is the ability to conceal small objects. Used for cheating, poisoning, or hiding items.",
+      "notes": []
+    },
+    {
+      "name": "Smuggling",
+      "category": "skill",
+      "search_name": "smuggling skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the ability to hide contraband. Requires Quick Contests vs Search.",
+      "notes": []
+    },
+    {
+      "name": "Speed-Reading",
+      "category": "skill",
+      "search_name": "speed reading skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is the ability to read quickly. Reduces time for reading and research.",
+      "notes": []
+    },
+    {
+      "name": "Strategy",
+      "category": "skill",
+      "search_name": "strategy skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6 or Tactics-6",
+      "full_text": "This is planning military actions and predicting enemy goals.",
+      "notes": []
+    },
+    {
+      "name": "Stealth",
+      "category": "skill",
+      "search_name": "stealth skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "DX-5 or IQ-5",
+      "full_text": "This is the ability to move silently and hide. Used for scouting and ambush.",
+      "notes": []
+    },
+    {
+      "name": "Streetwise",
+      "category": "skill",
+      "search_name": "streetwise skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the skill of dealing with criminals and rough environments.",
+      "notes": []
+    },
+    {
+      "name": "Surgery",
+      "category": "skill",
+      "search_name": "surgery skill",
+      "attribute": "IQ",
+      "difficulty": "Very Hard",
+      "defaults": "First Aid-12, Physiology-8, or Veterinary-5",
+      "full_text": "This is skill at cutting open bodies safely.",
+      "notes": []
+    },
+    {
+      "name": "Survival",
+      "category": "skill",
+      "search_name": "survival skill",
+      "attribute": "Per",
+      "difficulty": "Average",
+      "defaults": "Perception-5 or Naturalist-3",
+      "full_text": "This is the ability to survive in specific environments.",
+      "notes": []
+    },
+    {
+      "name": "Swimming",
+      "category": "skill",
+      "search_name": "swimming skill",
+      "attribute": "HT",
+      "difficulty": "Easy",
+      "defaults": "HT-4",
+      "full_text": "This is the skill of swimming and staying afloat.",
+      "notes": []
+    },
+    {
+      "name": "Tactics",
+      "category": "skill",
+      "search_name": "tactics skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6 or Strategy-6",
+      "full_text": "This is the ability to outmaneuver enemies in small-scale combat.",
+      "notes": []
+    },
+    {
+      "name": "Teaching",
+      "category": "skill",
+      "search_name": "teaching skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the ability to teach others skills.",
+      "notes": []
+    },
+    {
+      "name": "Thaumatology",
+      "category": "skill",
+      "search_name": "thaumatology skill",
+      "attribute": "IQ",
+      "difficulty": "Very Hard",
+      "defaults": "IQ-7",
+      "full_text": "This is the study of magical theory.",
+      "notes": []
+    },
+    {
+      "name": "Theology",
+      "category": "skill",
+      "search_name": "theology skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "IQ-6 or Religious Ritual-4",
+      "full_text": "This is the study of gods and religion.",
+      "notes": []
+    },
+    {
+      "name": "Throwing",
+      "category": "skill",
+      "search_name": "throwing skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is the ability to throw objects accurately.",
+      "notes": []
+    },
+    {
+      "name": "Thrown Weapon",
+      "category": "skill",
+      "search_name": "thrown weapon skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "DX-4",
+      "full_text": "This is the ability to throw weapons.",
+      "notes": []
+    },
+    {
+      "name": "Tracking",
+      "category": "skill",
+      "search_name": "tracking skill",
+      "attribute": "Per",
+      "difficulty": "Average",
+      "defaults": "Perception-5 or Naturalist-5",
+      "full_text": "This is the ability to follow tracks.",
+      "notes": []
+    },
+    {
+      "name": "Traps",
+      "category": "skill",
+      "search_name": "traps skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5 or Lockpicking-3",
+      "full_text": "This is the skill of detecting and disarming traps.",
+      "notes": []
+    },
+    {
+      "name": "Veterinary",
+      "category": "skill",
+      "search_name": "veterinary skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "Animal Handling (any)-6, Esoteric Medicine-5, or Surgery-5",
+      "full_text": "This is the ability to care for sick or wounded animals. When treating beasts, use this skill in place of Esoteric Medicine (pp. 22, 25, 32) or First Aid (p. 76). Modifiers: Permanent bonuses equal to Animal Friend (p. 47) and Healer (p. 50) levels. Any Esoteric Medicine or First Aid modifier(s) Exploits specifies for the task.",
+      "notes": []
+    },
+    {
+      "name": "Weather Sense",
+      "category": "skill",
+      "search_name": "weather sense skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the knack of predicting the weather. Roll once per journey. Success means you are prepared for or circumvent bad weather, reducing total travel time; see Getting There Quickly (Exploits, p. 17). To reduce the time spent gaming out a long expedition, the GM may swap wandering monsters for weather-related woes: lightning strikes, tornados, windblown wildfires, and so on. A Per-based roll can warn you of such dangers in time to find shelter – or to get a Dodge roll against a bolt from the blue! Outdoorsman (p. 51) gives a permanent bonus equal to its level.",
+      "notes": []
+    },
+    {
+      "name": "Writing",
+      "category": "skill",
+      "search_name": "writing skill",
+      "attribute": "IQ",
+      "difficulty": "Average",
+      "defaults": "IQ-5",
+      "full_text": "This is the ability to write well. Roll vs. skill to pen a proposal to bookish backers before a quest (Finding a Sponsor, Exploits, pp. 14-15) or an article to sell to such people afterward (Selling the Tale, Exploits, p. 17). If your character has been chronicling the adventure as it unfolds (requires both hands for pen and paper, except in combat), and you – the player – forget an important detail, you may consult your journal. This takes negligible time but isn’t possible when fleeing, fighting, climbing, etc. The GM will make a secret Writing roll, with success working like Eidetic Memory (p. 48), failure providing no useful information, and critical failure meaning a mistake that steers you wrong!",
+      "notes": []
+    },
+    {
+      "name": "Unarmed Grappling Skills",
+      "category": "skill",
+      "search_name": "unarmed grappling skills skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "This isn’t one skill but a collection of skills for manhandling enemies in close combat (reach “C”). Roll against any of them to grab a foe, or to make or resist a takedown. For rules, see Grappling (Exploits, pp. 40-41) and Grappling Moves (Exploits, p. 41). Grappling skills also help you defend against melee attacks and thrown weapons. Your Parry score is 3 + half skill, rounded down. See Parrying (Exploits, pp. 48-49). Though grappling skills have no default, you don’t need them to wrestle. Anyone can grab a foe using DX and follow up with common grappling moves, or make open-handed parries at 3 + half DX, rounded down. These skills let you do more – and do it better! To use these skills, any hand with which you wish to grapple or parry must be empty. See Hurting Yourself (Exploits, p. 40) for the drawbacks of fighting unarmed.",
+      "notes": []
+    },
+    {
+      "name": "Judo",
+      "category": "skill",
+      "search_name": "judo skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "None",
+      "full_text": "This is training at grappling and throwing foes. Judo parries are one-handed for the purpose of Number of Parries (Exploits, p. 48), so you may parry separately with either hand. You receive +3 instead of +1 if you retreat while parrying, and have no penalty to parry weapons barehanded; see What Am I Parrying With? (Exploits, pp. 48-49). On your turn immediately after a successful Judo parry, you may attempt to throw your attacker if that foe is within one hex and has no more than twice your ST. This is an attack; roll vs. Judo to hit. (With All-Out Attack, you cannot attempt two throws, but all other options remain open.) Your enemy may use any active defense, including parrying your hand with a weapon! If the defense fails, you throw your opponent. A thrown foe falls in any two nearby hexes of your choosing on the battle map. One of these has to be your enemy’s starting hex, your hex, or a hex adjacent to one of those hexes. Your victim must roll against HT; failure means physical stun! If you throw your opponent into someone, that person must roll against the higher of ST+3 or DX+3 to avoid being knocked down. Use the higher of Judo or DX for any DX roll made in close combat, except to draw a weapon or drop a shield, and for DX rolls to avoid being knocked down by knockback (Exploits, p. 53). If you grapple someone using Judo and that foe fails to break free, you may attempt a throw on your next turn exactly as if you had parried an attack. Judo relies heavily on footwork, so all Judo rolls and Judo parries take encumbrance penalties (p. 12); e.g., Heavy encumbrance gives -3 to hit and to parry.",
+      "notes": []
+    },
+    {
+      "name": "Sumo Wrestling",
+      "category": "skill",
+      "search_name": "sumo wrestling skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is training at grappling and knocking over foes. Roll against the higher of DX or Sumo Wrestling to hit with a grapple, slam, or shove. If you know this skill at DX+1 level, add +1 to ST whenever you grapple, try to break free, or make or resist a takedown attempt, and +1 per die to your damage with slams or shoves. These bonuses increase to +2 for Sumo Wrestling at DX+2 or better. Sumo Wrestling parries are two-handed for the purpose of Number of Parries (Exploits, p. 48), and are at -3 vs. weapons other than thrusting attacks.",
+      "notes": []
+    },
+    {
+      "name": "Wrestling",
+      "category": "skill",
+      "search_name": "wrestling skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is training at grappling and pinning foes. Roll against the higher of DX or Wrestling to hit with a grapple. If you know Wrestling at DX+1 level, add +1 to ST whenever you grapple, try to break free, or make or resist a strangle, takedown, or pin attempt. Add +2 to ST for Wrestling at DX+2 or better. Wrestling parries are two-handed for the purpose of Number of Parries (Exploits, p. 48), and are at -3 vs. weapons other than thrusting attacks.",
+      "notes": []
+    },
+    {
+      "name": "Unarmed Striking Skills",
+      "category": "skill",
+      "search_name": "unarmed striking skills skill",
+      "attribute": "varies",
+      "difficulty": "varies",
+      "defaults": "see full_text",
+      "full_text": "This isn’t one skill but a collection of skills for pummeling enemies without using weapons. All allow punching using either hand – there’s no penalty to punch with the “off” hand. See Striking (Exploits, pp. 38-39) for other options. These skills also help you defend against melee attacks and thrown weapons. Your Parry score is 3 + half skill, rounded down; see Parrying (Exploits, pp. 48-49). Parries are one-handed for the purpose of Number of Parries (Exploits, p. 48), allowing you to parry separately with either hand. Striking skills have no default, but you don’t need them to clobber foes. Anyone can punch, shove, bite, or slam into someone at DX, kick at DX-2, or make unarmed parries at 3 + half DX, rounded down. These skills let you beat up enemies even better! To use these skills, any hand with which you wish to strike or parry must be empty or holding at most a fist-load (e.g., brass knuckles) or tonfa – though naturally, Brawling lets you cheat here. See Hurting Yourself (Exploits, p. 40) for the drawbacks of fighting unarmed.",
+      "notes": []
+    },
+    {
+      "name": "Boxing",
+      "category": "skill",
+      "search_name": "boxing skill",
+      "attribute": "DX",
+      "difficulty": "Average",
+      "defaults": "None",
+      "full_text": "This is training specifically at punching. Roll against the higher of Boxing or DX to land a punch (and no other kind of attack). If you know Boxing at DX+1 level, add +1 per die to basic thrust damage when you calculate punching damage. Add +2 per die if you know Boxing at DX+2 or better! Boxing parries receive +3 instead of +1 if you retreat; see What Am I Parrying With? (Exploits, pp. 48-49). However, they’re at -3 vs. weapons other than thrusting attacks.",
+      "notes": []
+    },
+    {
+      "name": "Brawling",
+      "category": "skill",
+      "search_name": "brawling skill",
+      "attribute": "DX",
+      "difficulty": "Easy",
+      "defaults": "None",
+      "full_text": "This is the “art” of crude-but-effective unarmed mayhem. Roll against the higher of Brawling or DX to hit with a punch, bite, slam, trample, or natural weapon (e.g., horn). You can also kick at -2 to skill. If you know Brawling at DX+2 level or better, add +1 per die to basic thrust damage when you calculate damage with any of these attacks! Brawling lets you wield a blackjack, large tankard, etc. without impeding striking or parrying ability. When equipped this way, you’re considered armed when attacking but unarmed when parrying. Treat blows with such objects as punches that inflict thrust damage (just like brass knuckles). Brawling parries are at -3 vs. weapons other than thrusting attacks.",
+      "notes": []
+    },
+    {
+      "name": "Karate",
+      "category": "skill",
+      "search_name": "karate skill",
+      "attribute": "DX",
+      "difficulty": "Hard",
+      "defaults": "None",
+      "full_text": "This is the art of sophisticated unarmed mayhem. Roll against the higher of Karate or DX to hit with a punch; roll at -2 to attack with a kick. If you prefer, you may specify a “punch” with an elbow (uses an arm, not a hand) or a “kick” with a shin or knee (uses a leg, not a foot). Karate doesn’t cover bites, slams, blackjacks, etc., but you can benefit from brass knuckles, heavy gauntlets, or a tonfa. If you know Karate at DX level, add +1 per die to basic thrust damage with Karate attacks. Add +2 per die if you know Karate at DX+1 or better! When you parry with Karate, you get +3 instead of +1 if you retreat, and suffer no penalty against weapons; see What Am I Parrying With? (Exploits, pp. 48-49). However, Karate relies heavily on footwork, so all Karate attacks and parries take encumbrance penalties (p. 12); e.g., Heavy encumbrance gives -3 to hit and to parry.",
+      "notes": []
+    },
+    {
+      "name": "Urban Survival",
+      "category": "skill",
+      "search_name": "urban survival skill",
+      "attribute": "Per",
+      "difficulty": "Average",
+      "defaults": "Perception-5",
+      "full_text": "This talent covers the physical part of staying alive in town. Between adventures, a successful skill roll will let you scrounge from gutters (Scoring Extra Cash, Exploits, p. 14), live on the street (Starving, Exploits, p. 14), or locate a specific type of business without asking anyone. On adventures in town, roll vs. Urban Survival to find building or sewer entrances or exits, or routes onto rooftops – though using these often requires other skills (Climbing, Forced Entry, etc.). When facing metropolitan menaces such as unsound buildings, sewer perils (e.g., flooding or rats), runaway wagons, or flying chamber-pot contents, the GM may roll secretly and give you advance warning on a success. To survive socially in town, learn Streetwise (p. 90).",
+      "notes": []
+    },
+    {
+      "name": "Ventriloquism",
+      "category": "skill",
+      "search_name": "ventriloquism skill",
+      "attribute": "IQ",
+      "difficulty": "Hard",
+      "defaults": "None",
+      "full_text": "This is the trick of “throwing” your voice a short distance. It’s used for such Trickery (Monsters, pp. 5-6) as convincing one (more-or-less . . .) intelligent monster that another said something about its mother. You must win a Quick Contest vs. IQ to fool someone. Ventriloquism is also a useful distraction! You may use it for a complementary skill roll (Exploits, p. 6) when you try Filch (p. 76) or Pickpocket (p. 85).",
+      "notes": []
+    }
+  ]
+}
