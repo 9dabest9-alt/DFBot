@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DF Dictionary Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div id="topbar">
+    <button id="searchBtn">Search All</button>
+    <input id="searchBox" type="text" placeholder="Search terms…">
+    <button id="sendBtn">Send</button>
+    <span id="status"></span>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div id="appContainer">
+
+    <!-- LEFT: AUTOCOMPLETE PANEL -->
+    <div id="autocompletePanel">
+      <div id="autocompleteList"></div>
+    </div>
+
+    <!-- RIGHT: RESULTS PANEL -->
+    <div id="resultsPanel">
+      <div id="results"></div>
+    </div>
+
+  </div>
+
+  <script type="module" src="main/dictionaryLoader.js"></script>
+  <script type="module" src="main/ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+
+
+</body>
+</html>

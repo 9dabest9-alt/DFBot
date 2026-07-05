@@ -1,0 +1,223 @@
+1-send button should change color when no webhook url detected.
+2-
+3-
+4-
+5-
+6-
+7-
+8-
+9-
+10-
+11-
+12-
+13-
+14-
+15-
+16-
+17-
+18-
+19-
+20-Need to actually test webhook functionality, not yet tested.
+
+****************************************
+//Shortcuts 
+ctrl + backspace -- clears screen
+ctrl + L -- focuses textbox and selects all
+Enter --- runs search
+**********************************************
+
+
+//Possible Discord Upgrades
+Embed formatting
+Send only selected result
+Send as a file attachment
+Send multiple entries as a table
+
+a settings panel UI
+webhook testing button
+multiple webhook profiles
+
+
+
+⭐ What this enables next (the fun part)
+Now that the dictionary is unified, you can add:
+
+🔶 Category‑specific formatting
+Gear, armor, shields, weapons, spells, skills, modifiers, enchantments — each can have its own display block.
+
+🔶 Multi‑field search pools
+Search across:
+
+name
+
+prefix
+
+suffix
+
+effects
+
+tags
+
+section
+
+base_item
+
+full_text
+
+Just like the Python bot, but cleaner.
+
+🔶 Automatic note lookup
+Already working — now it’s reliable across all categories.
+
+🔶 Symbol lookup
+Modifiers can be found by symbol or number.
+
+🔶 Category filters
+Dropdown or buttons to filter:
+
+gear
+
+armor
+
+shields
+
+weapons
+
+spells
+
+skills
+
+advantages
+
+disadvantages
+
+miscgear
+
+rules
+
+🔶 Autocomplete per category
+Autocomplete can now be smarter:
+
+“gear: hel” → helm, helmet, helve
+
+“spell: fir” → fireball, fire jet, fireproof
+
+🔶 Modifier expansion
+Now that everything is normalized, modifier expansion becomes trivial.
+
+🔶 Spell index / disadvantage index
+You can add these later if you want Python‑bot parity.
+
+⭐ Your next smart move
+Now that the dictionary is unified and loading cleanly, the next step is to upgrade the search engine to take advantage of the normalized data.
+
+You can choose one direction:
+
+Add category formatting
+
+Add multi‑field search pools
+
+Add category filters
+
+Add symbol lookup
+
+//Further Development
+⭐ My recommended plan (best version of the bot)
+Here’s the path that gives you:
+
+full Python‑bot functionality
+
+better UI
+
+cleaner code
+
+easier maintenance
+
+no weird Discord limitations
+
+Step 1 — Normalize dictionary files
+You already suggested this, and you’re right.
+
+Add search_name to:
+
+modifiers
+
+gear
+
+weapons
+
+enchantments
+
+miscgear
+
+rules
+
+spells
+
+skills
+
+advantages
+
+disadvantages
+
+This makes the loader trivial.
+
+Step 2 — Add category filters
+A simple dropdown:
+
+All
+
+Spells
+
+Skills
+
+Gear
+
+Weapons
+
+Modifiers
+
+Advantages
+
+Disadvantages
+
+Rules
+
+Misc Gear
+
+This matches Python bot commands but is better UX.
+
+Step 3 — Add note lookup
+Gear, armor, shields, weapons, ammunition all have notes.
+
+Step 4 — Add symbol lookup
+Modifiers have symbols like:
+
+Code
+^
+*
++
+Python bot supports this.
+
+Step 5 — Add category‑specific formatting
+This is a huge readability upgrade.
+
+Step 6 — Add multi‑field search pools
+Python bot searches multiple fields at once.
+We can replicate this cleanly.
+
+
+
+
+//✔ Ready for expansion
+You can add:
+
+category filters
+
+collapsible result blocks
+
+icons
+
+color coding
+
+keyboard navigation
