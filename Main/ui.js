@@ -19,7 +19,7 @@ export const files = {
   rules_exploits:       await fetch("./dictionary/rules_exploits.json")       .then((r) => r.json(),),
 };
 
-``
+
 const DICTIONARY = loadDictionary(files);
 //console.log(DICTIONARY); //TO easily see dictionary and structure
 

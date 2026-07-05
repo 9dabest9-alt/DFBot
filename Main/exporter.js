@@ -7,7 +7,7 @@
 
 import { files } from "./ui.js";
 
-
+// Removes special characters and converts the entry to a lowercase string for easier searching
 function makeSearchName(entry) {
   const fields = [
     entry.name,
